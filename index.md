@@ -1,5 +1,5 @@
-Here you can say lots of fun things about your site.
+Tech head, VMUG Leader, vExpert, VMware, Azure and AWS Architect 
 
-Maybe say a some things about yourself.
+A native Englishman living in Barcelona, I love learning and listening to smart people. 
 
-Or maybe what you plan to blog about.
+This blog is dedicated to passing along some thoughts on cloud, VMware, architecture, infrastructure costs and strategy, personal and professional development.
