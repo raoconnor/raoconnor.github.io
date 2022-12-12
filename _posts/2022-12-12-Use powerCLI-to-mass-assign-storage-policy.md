@@ -16,6 +16,7 @@ After this we will assign to virtual machines tags ( this is optional) and  the 
 ![This is an image](https://raoconnor.github.io/docs/assets/images/sbpm-1.png)
 
 
+
 ## 1. Create the categories and tags required
 
 From the Tags and Custom Attributes section in the vSphere Client, create first the category. 
@@ -25,6 +26,7 @@ From the Tags and Custom Attributes section in the vSphere Client, create first 
 Then create tags that belong to that category
 
 ![This is an image](https://raoconnor.github.io/docs/assets/images/sbpm-2.png)
+
 
 
 
@@ -40,7 +42,9 @@ Create a Tag based placement rule for each tag type
 Assign the tags to each datastore, the rule will be automatically applied to the datastore
 
 
+
 ## Add Tags and Storage Policies to Datastores
+
 List Tags of a certain category
 
 > Get-Tag | Where { $_.Category -like "StorageAffinity"} | Select Name, Category
@@ -123,7 +127,10 @@ If you want to look at all vms in the Datacenter then reload the $vms variable w
  
 Be sure to add the VM Storage Policies Compliance column in the web client, so you can see if vms are compliant
 
+## Addionally 
+
 I’ve created a couple of powercli scripts that can be used to filter vms by tag and then see the policy and compliance level, or to simple check policy and compliance on all vms.
   
 [Get-VmTagAndSbpmInfo](https://github.com/raoconnor/Get-VmTagAndSbpmInfo)
+  
 [Get-VmSbpm](https://github.com/raoconnor/Get-VmSbpm)
