@@ -47,7 +47,9 @@ Assign the tags to each datastore, the rule will be automatically applied to the
 
 List Tags of a certain category
 
-` Get-Tag | Where { $_.Category -like "StorageAffinity"} | Select Name, Category`
+```
+Get-Tag | Where { $_.Category -like "StorageAffinity"} | Select Name, Category
+```
 
 Add tags to groups of datastores
 
