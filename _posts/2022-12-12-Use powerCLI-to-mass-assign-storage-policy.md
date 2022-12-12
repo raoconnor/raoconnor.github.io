@@ -72,7 +72,7 @@ Import the list of vms to apply the SBPM using one of the following methods
 There are a number of methods of getting your vms into a the $vms variable
 
 List vms with Name
-> $vms = Get-VM | Where {$_.Name -like "*web*"}
+` $vms = Get-VM | Where {$_.Name -like "*web*"} `
 
 or
 
@@ -112,8 +112,10 @@ Add storage policy to multiple vms
 
 for a single vm it would be this
 
-> Get-vm <vm> | Set-SpbmEntityConfiguration -StoragePolicy <storage policy>
-> Get-vm <vm> | Get-SpbmEntityConfiguration
+```
+Get-vm <vm> | Set-SpbmEntityConfiguration -StoragePolicy <storage policy>
+Get-vm <vm> | Get-SpbmEntityConfiguration
+```
 
 for multiple vms ( that you have loaded into $vm – see above )
 
