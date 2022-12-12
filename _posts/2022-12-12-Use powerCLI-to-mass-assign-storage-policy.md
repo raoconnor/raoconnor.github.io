@@ -125,4 +125,5 @@ Be sure to add the VM Storage Policies Compliance column in the web client, so y
 
 I’ve created a couple of powercli scripts that can be used to filter vms by tag and then see the policy and compliance level, or to simple check policy and compliance on all vms.
   
-  
+[Get-VmTagAndSbpmInfo](https://github.com/raoconnor/Get-VmTagAndSbpmInfo)
+[Get-VmSbpm](https://github.com/raoconnor/Get-VmSbpm)
