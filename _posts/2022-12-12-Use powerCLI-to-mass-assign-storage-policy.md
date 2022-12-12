@@ -161,3 +161,6 @@ I’ve created a couple of powercli scripts that can be used to filter vms by ta
 [Get-VmTagAndSbpmInfo](https://github.com/raoconnor/Get-VmTagAndSbpmInfo)
   
 [Get-VmSbpm](https://github.com/raoconnor/Get-VmSbpm)
+
+
+
