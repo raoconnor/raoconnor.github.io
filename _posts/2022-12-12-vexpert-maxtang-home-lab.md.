@@ -1,3 +1,5 @@
+## vExpert Maxtang Home Lab
+
 Many of the vExpert received a Maxtang nuc at VMware Explore, here is my experience in setting up the Maxtang
 
  
@@ -19,3 +21,9 @@ I tried recreated the image, but could fix the issue.
 
  
 5. Finally I gave up and installed Ubuntu and VMware Workstation as that allows me to use the in-bult two network ports and simulate complex environments  
+
+ ```tsql
+ SELECT *
+ FROM sys.tables
+ WHERE [name] = 'SomeTable'
+ ```
