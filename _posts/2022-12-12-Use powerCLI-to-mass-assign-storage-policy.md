@@ -1,5 +1,5 @@
 
-## Use PowerCLI to mass assign tags and storage based policy management
+# Use PowerCLI to mass assign tags and storage based policy management
 
 Storage Based Policy Management (SBPM) has been around for a while, when working with storage tiers, metro clusters, or vSAN, it’s either fundamental or best practice.
 
@@ -16,11 +16,11 @@ After this we will assign to virtual machines tags ( this is optional) and  the 
 ![This is an image](https://raoconnor.github.io/docs/assets/images/sbpm-1.png)
 
 
-# 1. Create the categories and tags required
+## 1. Create the categories and tags required
 
 From the Tags and Custom Attributes section in the vSphere Client, create first the category. Then create tags that belong to that category
 
-# 2. Create the storage policy and rules
+## 2. Create the storage policy and rules
 
 With storage polices a tag based rule will automatically apply a policy based on a tag, just think of this a descriptive meta data.
 
@@ -30,7 +30,7 @@ Create a Tag based placement rule for each tag type
 Assign the tags to each datastore, the rule will be automatically applied to the datastore
 
 
-# Add Tags and Storage Policies to Datastores
+## Add Tags and Storage Policies to Datastores
 List Tags of a certain category
 
 > Get-Tag | Where { $_.Category -like "StorageAffinity"} | Select Name, Category
@@ -52,7 +52,7 @@ then add the tag, the rule created earlier will then apply the policy
 > $Tag = Get-Tag STORAGE-AFFINITY-SITE-1
 > foreach ($datstore in $datastores { New-TagAssignment -Tag $Tag -Entity $datastore}
 
-# Add Tags and Storage Policies to virtual machines
+## Add Tags and Storage Policies to virtual machines
 Import the list of vms to apply the SBPM using one of the following methods
 
 There are a number of methods of getting your vms into a the $vms variable
