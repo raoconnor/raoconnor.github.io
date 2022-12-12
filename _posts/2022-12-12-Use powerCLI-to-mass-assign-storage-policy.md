@@ -18,7 +18,15 @@ After this we will assign to virtual machines tags ( this is optional) and  the 
 
 ## 1. Create the categories and tags required
 
-From the Tags and Custom Attributes section in the vSphere Client, create first the category. Then create tags that belong to that category
+From the Tags and Custom Attributes section in the vSphere Client, create first the category. 
+
+![This is an image](https://raoconnor.github.io/docs/assets/images/sbpm-2a.png)
+
+Then create tags that belong to that category
+
+![This is an image](https://raoconnor.github.io/docs/assets/images/sbpm-2.png)
+
+
 
 ## 2. Create the storage policy and rules
 
@@ -26,6 +34,8 @@ With storage polices a tag based rule will automatically apply a policy based on
 
 From VM Storage Policies create a new VM storage policy
 Create a Tag based placement rule for each tag type
+
+![This is an image](https://raoconnor.github.io/docs/assets/images/sbpm-3.png)
 
 Assign the tags to each datastore, the rule will be automatically applied to the datastore
 
