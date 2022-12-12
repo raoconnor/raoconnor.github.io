@@ -55,11 +55,15 @@ Now this depends how you have named the datastores, but just use the above snipi
 
 for example
 
-` $datastores = Get-datastore | Where {$_.Name -like "*SSD*"}`
+```
+$datastores = Get-datastore | Where {$_.Name -like "*SSD*"}
+```
 
 or, as I am a fan of organising the different LUN types into folders
 
-` $datastores = Get-Folder <folder name> | Get-datastore`
+```
+$datastores = Get-Folder <folder name> | Get-datastore
+```
 
 then add the tag, the rule created earlier will then apply the policy
 
@@ -74,12 +78,16 @@ Import the list of vms to apply the SBPM using one of the following methods
 There are a number of methods of getting your vms into a the $vms variable
 
 List vms with Name
-` $vms = Get-VM | Where {$_.Name -like "*web*"}`
+```
+$vms = Get-VM | Where {$_.Name -like "*web*"}
+``` 
 
 or
 
 Select vms in Folder
-` $vms = Get-Folder <folder name> | Get-vm`
+```
+$vms = Get-Folder <folder name> | Get-vm
+```
 
 or
 
@@ -93,12 +101,16 @@ $foldervms = Get-View -SearchRoot $folder.MoRef -ViewType "VirtualMachine" | Sel
 or
 
 Select vms from text file (change the path to match yours)
-` $vms = Get-Content C:\PowerCLI\Input\vmlist.txt | foreach {Get-VM $_}`
+```
+$vms = Get-Content C:\PowerCLI\Input\vmlist.txt | foreach {Get-VM $_}
+```
 
 or
 
 Select vms in a datastore
-` foreach ($vm in $vms){ Get-vm $vm | Select Name, @{N="Datastore";E={Get-Datastore -VM $_}}}`
+```
+foreach ($vm in $vms){ Get-vm $vm | Select Name, @{N="Datastore";E={Get-Datastore -VM $_}}}
+```
 
 # Add Tags to multiple vms
 Keep in mind that the vms tags just help in identification and the storage policy is applied directly
@@ -110,7 +122,9 @@ foreach ($vm in $vms) { New-TagAssignment -Tag $Tag -Entity $vm}
 ```
 
 Check they are applied
-` foreach ($vm in $vms) { Get-TagAssignment -Entity $vm | Select Entity, Tag}`
+```
+foreach ($vm in $vms) { Get-TagAssignment -Entity $vm | Select Entity, Tag}
+```
 
  
 Add storage policy to multiple vms
@@ -131,7 +145,9 @@ foreach ($vm in $vms) {Get-vm $vm | Get-SpbmEntityConfiguration}
 
 If you want to look at all vms in the Datacenter then reload the $vms variable with all the vms (ie: $vms  = Get-vm) then run the Get-SpbmEntityConfiguration line again.
 
-` foreach ($vm in $vms) {Get-vm $vm | Set-SpbmEntityConfiguration -StoragePolicy <SBPM-POLICY>}`
+```
+foreach ($vm in $vms) {Get-vm $vm | Set-SpbmEntityConfiguration -StoragePolicy <SBPM-POLICY>}
+```
 
  
 Be sure to add the VM Storage Policies Compliance column in the web client, so you can see if vms are compliant
