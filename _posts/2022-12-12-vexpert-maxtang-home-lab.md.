@@ -22,8 +22,3 @@ I tried recreated the image, but could fix the issue.
  
 5. Finally I gave up and installed Ubuntu and VMware Workstation as that allows me to use the in-bult two network ports and simulate complex environments  
 
- ```tsql
- SELECT *
- FROM sys.tables
- WHERE [name] = 'SomeTable'
- ```
