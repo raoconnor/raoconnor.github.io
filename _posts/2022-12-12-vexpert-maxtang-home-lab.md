@@ -26,3 +26,7 @@ As the built-in NICs are not recognized, I was having to use USB nics, I tried u
  
 ### 5. Finally 
 I gave up and installed Ubuntu and VMware Workstation as that allows me to use the in-bult two network ports and simulate complex environments
+
+Big thanks to VMware and Cohesity as this gave an excuse to rebuild my homelab environment, I’ve already tried our vSAN and installed ESXi 8, next on the list is NSX-T, and TKG, so I'm currently trying to understand how to simulate some complex multisite network senarios.
+
+In summary I read recently that you don’t really know something well until you break it, which is what home labs are all about, getting from objective to up and running and understanding what breaks in between.
