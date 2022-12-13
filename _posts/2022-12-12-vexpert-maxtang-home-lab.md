@@ -1,7 +1,7 @@
 ## vExpert Maxtang Home Lab
 
 
-Many of the vExpert received a Maxtang nuc at VMware Explore, here is my experience in setting up the Maxtang
+Many in the vExpert community received a Maxtang nuc at VMware Explore, here is my experience in setting up the Maxtang
 
  
 ### 1. Get the right SSD
