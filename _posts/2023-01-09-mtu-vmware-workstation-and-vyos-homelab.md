@@ -12,10 +12,10 @@ Even after setting the virtual network cards in your host OS to use jumbo frames
 
 Jumbo frames doesn't work 
 
-´´´
+```
 vmkping -d -s 8972 x.x.x.x
 vmkping -I vmkX x.x.x.x -d -s 8972
-´´´
+```
 
 [Testing VMkernel network connectivity with the vmkping command](https://kb.vmware.com/s/article/1003728)
 
