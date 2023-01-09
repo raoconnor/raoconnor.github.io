@@ -7,12 +7,14 @@ For those wanting to play with NSX-T in your homelab, you will be aware that a M
 If you are runnng the lab in VMware workstation, and using VYOS as the router, you may run into the same issue as me.
 
 Even after setting the virtual network cards in your host OS to use jumbo frames, (This is the OS, Windows 10/11 or Linux where you have installed workstation, not a vm but your desktop OS)
+
 https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/16.0/com.vmware.player.win.using.doc/GUID-EAF6324F-CD1E-4609-8525-0135F09F0D13.html
 
 Jumbo frames doesn't work 
 
 vmkping -d -s 8972 x.x.x.x
 vmkping -I vmkX x.x.x.x -d -s 8972
+
 https://kb.vmware.com/s/article/1003728
 
 
