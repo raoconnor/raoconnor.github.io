@@ -10,7 +10,7 @@ In my case I had a Intel NUC8BEB with a i5-8259U CPU which gives me up to 3.80 G
 
 I use the NUC as my home PC, it has windows 11 installed and after having some issue with installing ESXi 7 on the Maxtang of decided to go down the VMware workstation route for both systems. 
 
-This was the plan [Home lab network design v1] (https://raoconnor.github.io/docs/assets/images/homelab-nw1.png)
+![Home lab network design v1](https://raoconnor.github.io/docs/assets/images/homelab-nw1.png)
 
 ###### Issues with v1
 And while I got it to work, I had a lot of intermittent network errors, especially routing over the backbone between the two boxes with workstation virtual networks, changes to the network required vms to be rebooted, pfsense firewalls and routing was taking a lot of my time
