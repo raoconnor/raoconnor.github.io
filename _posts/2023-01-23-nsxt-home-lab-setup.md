@@ -10,3 +10,4 @@ I use the NUC as my home PC, it has windows 11 installed and after having some i
 
 ![This was the plan] (https://raoconnor.github.io/docs/assets/images/homelab-nw1.png)
 
+And while I got it to work, I had a lot of intermittent network errors, especially routing over the backbone between the two boxes with workstation virtual networks
