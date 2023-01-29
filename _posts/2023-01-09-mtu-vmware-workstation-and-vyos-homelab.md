@@ -21,6 +21,8 @@ vmkping -I vmkX x.x.x.x -d -s 8972
 
 
 It seems the issue is the VYOS virtual router, and so far no one has a solution (this applies to running VYOS inside workstation not ESXi)
-I switched the router to pfsense any everything worked ok
 
-Just be aware that pfsense has built in firewall rules and you need to understand those and remove/create rules for complex routing etc.
+First I switched the virtual router to pfsense, which allowed me to do jumbo frames, vlan etc.
+However pfsense is a complex animal it has a built in firewall and setting up routing can be complex. 
+Finally I purchased a small phycial router, (TP-Link ER605) and used that along with a small switch a had at home, the router itself doensn't support jumbo frames but I use the switch to connect hosts that need to use jumbo frames and keep those on the same network.
+
