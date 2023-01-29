@@ -2,7 +2,7 @@
 
 Setting up a homelab to run NSX-T is probably not the best place to start if you are just rebuilding a homelab after a couple of years of hiatus in the cloud.
 
-### Basic requirements
+#### Basic requirements
 dns, shared storage, vCenter, ESX cluster of two or three hosts, lots of RAM (12 GB for the VCSA, 16 GB for a single NSX-T Manager, and 4GB each for the two edge nodes) and sufficient CPU.
 
 ### Hardware
