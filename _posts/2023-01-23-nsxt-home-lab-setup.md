@@ -18,10 +18,33 @@ I use the NUC as my home PC, it has windows 11 installed and after having some i
 And while I got it to work, I had a lot of intermittent network errors, especially routing over the backbone between the two boxes with workstation virtual networks, changes to the network required vms to be rebooted, pfsense firewalls and routing was taking a lot of my time.
 
 ### Revised network with physical router and switch
-I replaced the two pfsense virtual routers/firewalls with a physial router and switch, the router can do single vlans, but so far I vlan trunking doesn't work, I suppect the downstream workstation virtual network (I can use pfsense for a host only vlan trunk if needed). 
+I replaced the two pfsense virtual routers/firewalls with a physial router and switch, the router can do single vlans, but so far I vlan trunking doesn't work, I suspect the downstream workstation virtual network (I can use pfsense for a host only vlan trunk if needed). 
 
 ![Home lab network design v2](https://raoconnor.github.io/docs/assets/images/lab-nw2.png)
 
+Jumbo frames are limited to the switch, the router doesn't have that capacity.
+***As a learning point***, use a small footprint linux (photon OS in my case) to check the networks/ vlans and jumbo frames at each step, photon requires some work on setting up a static ip and installing iputils and ping 
 
+### More CPU please
+As you can see I was running vcsa and nsxt manager on the NUC and the edge cluster on the Maxtang, and needed more than the 6.40GHz of CPU those two processors provided, maybe directly on ESXi this would be enough
+
+```
+NUC 
+nested host1    4 vcpus, 24 GB ram
+nested host2    4 vcpus, 24 GB ram
+dns vm          2 vcpus, 4 GB ram
+nfs vm          2 vcpus, 4 GB ram
+vcsa (host1)    2 vcpus, 12 GB ram   
+msx mgr (host2) 2 vcpus, 12 GB ram   
+
+Maxtang
+nested host2   4 vcpus, 16 GB ram
+nested host2   4 vcpus, 16 GB ram
+edge1 (host6)  2 vcpus, 4 GB ram  
+edge2 (host7)  2 vcpus, 4 GB ram  
+
+Note: edge cluster nodes need 16GB Mem to run the transport zone
+```
+### Conclusion 
 
 
