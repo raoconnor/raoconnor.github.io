@@ -20,7 +20,7 @@ And while I got it to work, I had a lot of intermittent network errors, especial
 ### Revised network with physical router and switch
 I replaced the two pfsense virtual routers/firewalls with a physial router and switch, the router can do single vlans, but so far I vlan trunking doesn't work, I suppect the downstream workstation virtual network (I can use pfsense for a host only vlan trunk if needed). 
 
-![Home lab network design v2](https://raoconnor.github.io/docs/assets/images/homelab-nw1.png)
+![Home lab network design v2](https://raoconnor.github.io/docs/assets/images/lab-nw2.png)
 
 
 
