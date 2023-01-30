@@ -30,23 +30,23 @@ Jumbo frames are limited to the switch, the router doesn't have that capacity.
 #### More CPU please
 As you can see I was running vcsa and nsxt manager on the NUC and the edge cluster on the Maxtang, and needed more than the 6.40GHz of CPU those two processors provided, maybe directly on ESXi this would be enough
 
-```
-NUC 
-- [ ] dns vm          2 vcpus, 4 GB ram
-- [ ] nfs vm          2 vcpus, 4 GB ram
-- [ ] nested host1    4 vcpus, 24 GB ram
-- [ ] nested host2    4 vcpus, 24 GB ram
 
-- [ ] vcsa (host1)    2 vcpus, 12 GB ram   
-- [ ] msx mgr (host2) 4 vcpus, 16 GB ram   
+NUC 
+- [x] dns vm          2 vcpus, 4 GB ram
+- [x] nfs vm          2 vcpus, 4 GB ram
+- [x] nested host1    4 vcpus, 24 GB ram
+- [x] nested host2    4 vcpus, 24 GB ram
+
+- [x] vcsa (host1)    2 vcpus, 12 GB ram   
+- [x] msx mgr (host2) 4 vcpus, 16 GB ram   
 
 Maxtang
-nested host6   4 vcpus, 16 GB ram
-nested host7   4 vcpus, 16 GB ram
+- [x] nested host6   4 vcpus, 16 GB ram
+- [x] nested host7   4 vcpus, 16 GB ram
 
-edge1 (host6)  2 vcpus, 4 GB ram  
-edge2 (host7)  2 vcpus, 4 GB ram  
-```
+- [x] edge1 (host6)  2 vcpus, 4 GB ram  
+- [x] edge2 (host7)  2 vcpus, 4 GB ram  
+
 
 #### Conclusion 
 I was only able to get as far as setting up transport zones, segments and trying to deploy the edge nodes. Still it was a good experience and I enjoyed getting my hands on NSX again.
