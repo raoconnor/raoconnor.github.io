@@ -5,7 +5,7 @@ Setting up a homelab to run NSX-T is probably not the best place to start if you
 #### Basic requirements
 DNS, shared storage, vCenter, hosts to run VCSA, NSX-T Manager, and the transport zones, each host needs at least 4 CPUs each, 12 GB of memory for the VCSA, another 16 GB for a single NSX-T Manager, and 16GB each for the two edge nodes to run the Transport Zones
 
-***(note) I tried deploying the VCSA directly from workstation and for some wierd reason it fails on stage two)***
+*(note) I tried deploying the VCSA directly from workstation and for some wierd reason it fails on stage two)*
 
 #### Hardware
 In my case I had a Intel NUC8BEB with a i5-8259U CPU which gives me up to 3.80 Ghz and 64 GB of RAM and a Maxtang NX6412 with a Celeron J6412 which provides 2.60GHZ and 32GB of RAM. 
