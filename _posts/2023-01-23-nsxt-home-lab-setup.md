@@ -32,12 +32,12 @@ As you can see I was running vcsa and nsxt manager on the NUC and the edge clust
 
 ```
 NUC 
-nested host1    4 vcpus, 24 GB ram
-nested host2    4 vcpus, 24 GB ram
-dns vm          2 vcpus, 4 GB ram
-nfs vm          2 vcpus, 4 GB ram
-vcsa (host1)    2 vcpus, 12 GB ram   
-msx mgr (host2) 2 vcpus, 12 GB ram   
+- dns vm          2 vcpus, 4 GB ram
+- nfs vm          2 vcpus, 4 GB ram
+- nested host1    4 vcpus, 24 GB ram
+- nested host2    4 vcpus, 24 GB ram
+  - vcsa (host1)    2 vcpus, 12 GB ram   
+  - msx mgr (host2) 2 vcpus, 12 GB ram   
 
 Maxtang
 nested host2   4 vcpus, 16 GB ram
