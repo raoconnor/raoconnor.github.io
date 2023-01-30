@@ -46,9 +46,7 @@ edge1 (host6)  2 vcpus, 4 GB ram
 edge2 (host7)  2 vcpus, 4 GB ram  
 ```
 
-*Note: edge cluster nodes need 16GB Mem to run the transport zone*
 
 #### Conclusion 
-I was only able to get as far as setting up transport zones, segments and trying to deploy the edge nodes. Still I was a good experience and I enjoyed getting my hands on NSX again as it’s been a while and products change.
-
+I was only able to get as far as setting up transport zones, segments and trying to deploy the edge nodes. Still it was a good experience and I enjoyed getting my hands on NSX again.
 
