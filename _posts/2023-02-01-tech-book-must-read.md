@@ -1,11 +1,10 @@
-# Tech books you must reads
+# Tech books must reads
 
 There are few things that match listening to the narrative of smart people
 Here is a list of books I've read, thanks to recommendations from various sources that must read
 
 ## The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win
 Gene Kim, Kevin Behr, George Spafford 
-
 
 
 ## The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations
