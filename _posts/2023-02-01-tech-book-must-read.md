@@ -1,7 +1,7 @@
 # Tech books must reads
 
 
-***There are few things that match listening to the narrative of smart people
+***There are few things that match listening to the narrative of smart people.
 Here is a list of books that made a huge difference to how I think***
 
 ![must reads](https://raoconnor.github.io/docs/assets/images/books.png)
