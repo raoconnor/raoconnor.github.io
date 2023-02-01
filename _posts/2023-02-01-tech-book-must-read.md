@@ -1,4 +1,4 @@
-# Tech books must reads
+# Tech book must reads
 
 
 ***There are few things that match listening to the narrative of smart people.
