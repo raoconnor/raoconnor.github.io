@@ -15,6 +15,9 @@ Gene Kim, Kevin Behr, George Spafford
 Niall Richard Murphy, Betsy Beyer, Chris Jones 
 
 
+
+
+
 ## The Power of Habit 
 Charles Duhigg
 
@@ -24,6 +27,7 @@ Atul Gawande
 
 ## How the World Really Works
 Vaclav Smil
+raoconnor.github.io/docs/assets/images/"How the World Really Works.png" 
 
 ## So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love
 Cal Newport
