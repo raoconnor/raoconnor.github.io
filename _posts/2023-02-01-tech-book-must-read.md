@@ -34,9 +34,10 @@ Niall Richard Murphy, Betsy Beyer, Chris Jones
 ####  The Power of Habit 
 Charles Duhigg
 
-*If you have read the three books already mentioned you already realize that people of one of the big problems in technology, escilaly refusal to change the way they have allways doen something. Hence this is a must read for IT managers and leaders who wnat to drive transformation. This isn`t a technology book, but it does cover the role habits play in organizations, social movements, and individuals.* 
+*If you have read the three books already mentioned you already realize that people are one of the big problems in technology, especially refusal to change the way they have always done something. Hence this is a must read for IT managers and leaders who want to drive transformation. This isn`t a technology book, but it does cover the role habits play in organizations, social movements, and individuals.* 
 
-*Between the neuroscience are great anecdotes, that make it one of the best and most enjoiable books I've read.* 
+*Between the neuroscience are great anecdotes that make it one of the best and most enjoyable books I've read.*
+
 
 --- 
 
