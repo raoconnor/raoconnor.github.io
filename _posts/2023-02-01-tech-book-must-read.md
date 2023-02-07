@@ -2,7 +2,7 @@
 
 
 ***There are few things that match listening to the narrative of smart people.
-Here is a list of books that made a huge difference to how I think***
+Here is a list of books that made a huge difference to how I think.***
 
 ![must reads](https://raoconnor.github.io/docs/assets/images/books.png)
 
@@ -50,6 +50,8 @@ Humans are frequently the cause behind outages, when environments are complex an
 
 ####  How the World Really Works
 *Vaclav Smil*
+
+Less tech and more about understanding energy use, industry, emissions, carbon, Bill Gates said the first three chapters should be required reading for anyone who wants to have an informed opinion on climate change, and I agree with him.
 
 --- 
 
