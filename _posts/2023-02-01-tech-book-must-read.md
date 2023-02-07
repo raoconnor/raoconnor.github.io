@@ -51,7 +51,8 @@ Humans are frequently the cause behind outages, when environments are complex an
 ####  How the World Really Works
 *Vaclav Smil*
 
-Less tech and more about understanding energy dependancy of industries such as food production, manufacturing and transportation. Bill Gates said the first three chapters should be required reading for anyone who wants to have an informed opinion on climate change, and I agree with him.
+Less tech and more about understanding energy dependancy of industries such as food production, manufacturing and transportation. Bill Gates said the first three chapters should be required reading for anyone who wants to have an informed opinion on climate change. 
+
 
 --- 
 
