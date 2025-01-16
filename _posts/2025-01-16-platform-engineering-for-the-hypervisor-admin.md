@@ -4,8 +4,8 @@
  ### 1. What is Platform Engineering and Why Should I Care?
 At its core, platform engineering is about abstracting away the complexities of infrastructure and providing a standardized foundation for delivery. It's more than automation or infrastructure as code; platform engineering acts as the glue that binds various IT management and operational processes together.
 
- ### 2. How Platform Engineering Helps Simplify IT Operations
-- Centralized Integration Layer:
+### 2. How Platform Engineering Helps Simplify IT Operations
+#### - Centralized Integration Layer:
 Platform engineering often involves creating a centralized layer that connects tools and systems. This layer can serve as a bridge between ITSM (IT Service Management), CMDB (Configuration Management Database), monitoring tools, and capacity management systems.
 
 #### - IT Asset Management:
@@ -14,9 +14,9 @@ Enterprises with hundreds or even thousands of servers need a consistent data mo
 #### - Automated Workflows:
 Platform engineering can implement automated workflows that tie these systems together. For example:
 
-###### - When an incident is detected in the monitoring system, it can automatically create a ticket in the ITSM tool.
-###### - Changes made through the ITSM process can automatically update the CMDB.
-###### - Capacity management decisions can be informed by real-time performance data from monitoring tools.
+ - When an incident is detected in the monitoring system, it can automatically create a ticket in the ITSM tool.
+ - Changes made through the ITSM process can automatically update the CMDB.
+ - Capacity management decisions can be informed by real-time performance data from monitoring tools.
 
 #### - Single Source of Truth:
 By integrating these systems, platform engineering helps establish a single source of truth for IT operations. This reduces discrepancies and improves decision-making across the organization.
