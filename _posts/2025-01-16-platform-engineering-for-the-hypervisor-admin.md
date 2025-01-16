@@ -1,35 +1,31 @@
 ## The role of VMware Cloud Foundation in Platform Engineering
 
-
-
-
  
 ### 1. What is Platform Engineering and why should I care
 At its core, platform engineering is about abstracting away the complexities of infrastructure and providing a standardized, foundation for delivery. Its more than automation, or infrastucture as code, platform engineering acts as the glue that binds these various IT management and operational processes together.
 
 
-
-
 ### 2. How Platform Engineering Helps Simplify IT Operations
 
-#### Centralized Integration Layer:
+#### - Centralized Integration Layer:
 Platform engineering often involves creating a centralized layer that connects tools and systems. This layer can serve as a bridge between ITSM (IT Service Management), CMDB (Configuration Management Database), monitoring tools, and capacity management systems.
 
-#### IT Assest Management:
+#### - IT Assest Management:
 Enterprises with hundreds or even thousands of servers, need a consistent data model to ensures that information about IT assets, configurations, and services is standardized. Being able to understand system obsolencence, capacity and growth requirement across an IT landscape that may span varous sites, countries and teams is often difficult. Platform Engineers centralizes the responsablity to a core team making it easier to correlate data, enhancing the overall effectiveness of IT operations.
-
 
 #### Automated Workflows:
 Platform engineering can implement automated workflows that tie these systems together. For example:
-When an incident is detected in the monitoring system, it can automatically create a ticket in the ITSM tool.
-Changes made through the ITSM process can automatically update the CMDB.
-Capacity management decisions can be informed by real-time performance data from monitoring tools.
+- When an incident is detected in the monitoring system, it can automatically create a ticket in the ITSM tool.
+- Changes made through the ITSM process can automatically update the CMDB.
+- Capacity management decisions can be informed by real-time performance data from monitoring tools.
 
 #### Single Source of Truth:
 By integrating these systems, platform engineering helps establish a single source of truth for IT operations. This reduces discrepancies and improves decision-making across the organization.
+Those three items above in Automated Workflows are really important following a hypervisor failure where dozens of systems are impacted, in a major outage when managers want reports every hour, platform engineering ensures that information in the ticketing tool or CMDB is not missing, incorrect or out of date.
 
 #### Enhanced Visibility:
 Through dashboards and reporting tools, platform engineering can provide a holistic view of IT operations, pulling data from all these integrated systems into one place.
+Its said you cannot manage what you cannot measure, dashboards and reporting tools are huges wins for IT managers and FinOps practioners. 
 
 #### Streamlined Processes:
 By connecting these systems, platform engineering can help streamline processes. For instance, incident resolution can be faster when responders have immediate access to configuration data and performance metrics.
