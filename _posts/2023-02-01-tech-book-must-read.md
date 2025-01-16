@@ -51,7 +51,7 @@ Humans are frequently the cause behind outages, when environments are complex an
 ####  How the World Really Works
 *Vaclav Smil*
 
-Less tech and more about understanding energy dependancy of industries such as food production, manufacturing and transportation. Bill Gates said the first three chapters should be required reading for anyone who wants to have an informed opinion on climate change. 
+Less tech and more about understanding energy dependancy of industries such as food production, manufacturing and transportation. Bill Gates said the first three chapters should be required reading for anyone who wants to have an informed opinion on climate change, the  
 
 
 --- 
@@ -59,8 +59,11 @@ Less tech and more about understanding energy dependancy of industries such as f
 ####  So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love
 *Cal Newport*
 
+The author argues that developing rare and valuable skills is the key to gain control over your work life, career capital comes by become excellent at something that others are willing to pay for.  The book develops the argument with a mix of scientific research and real-life examples, illustrating how successful individuals have achieved their status not by chasing passion, but by honing their craft and becoming indispensable in their fields, it delves into the importance of deliberate practice, the 10,000-hour rule, and the need for a craftsman mindset,  prioritizing skill development over immediate gratification.
+
 --- 
 
 ####  Smarter Faster Better: The Secrets of Being Productive
 *Charles Duhigg*
- 
+
+ Duhigg uses great storytelling, along with scientific research, real-world examples, to illustrate the key concepts that drive productivity: emphasizing that productivity isn't about working harder or longer, but about making smarter choices and adopting effective habits
