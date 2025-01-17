@@ -15,7 +15,7 @@ There have been reports that the introduction of Li-ion batteries into data cent
 
 Uncontained fires, such as those affecting South Korea's SK Group or OVHcloud in Strasbourg, are reminders that data center fires do happen and can have catastrophic consequences.
 
-###Data center Redudancy
+## Data center Redudancy
 
 Data center providers will explain that all equipment is redundant, but there are different standards of redundancy.
 
@@ -25,7 +25,7 @@ To add to the complexity, individual components may have higher or lower toleran
 
 This configuration follows recognized design standards of one additional component for every four required to support full capacity. While N+1 introduces some redundancy, it still presents a risk in the event of multiple simultaneous failures.
 
-### So what do we do?
+## So what do we do?
 
 In the past, part of my job was the design and setup of VMware metro clusters across twin data centers. This configuration was common in government, financial institutions, and the automotive industry. Active-active data centers protect against site-wide errors such as power or cooling failures, or fire.
 
