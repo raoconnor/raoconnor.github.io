@@ -21,8 +21,9 @@ Data center providers will explain that all equipment is redundant, but there ar
 
 ![Table - N Redudancy](https://raoconnor.github.io/docs/assets/images/table-n-redudancy.png)
 
-To add to the complexity, individual components may have higher or lower tolerance to failure. For example, power supply may be configured as 2N with fully redundant or duplicate components. If one of the power circuits were to fail, the other circuit has the capacity available for the needed amperage. However, other components may have N+1 redundancy, which provides a minimal level of resiliency by adding a single additional component to the N architecture. For instance, if multiple cooling systems are needed to manage the site running at full load, when one system is offline, a single additional system is available to take over its load.
+To add to the complexity, individual components may have higher or lower tolerance to failure. For example, power supply may be configured as 2N with fully redundant or duplicate components. If one of the power circuits were to fail, the other circuit has the capacity available for the needed amperage. 
 
+However, other components may have N+1 redundancy, which provides a minimal level of resiliency by adding a single additional component to the N architecture. For instance, if multiple cooling systems are needed to manage the site running at full load, when one system is offline, a single additional system is available to take over its load.
 This configuration follows recognized design standards of one additional component for every four required to support full capacity. While N+1 introduces some redundancy, it still presents a risk in the event of multiple simultaneous failures.
 
 ## So what do we do?
