@@ -38,4 +38,4 @@ In my opinion, a data center outage of more than a few hours per year is unlikel
 
 Then, and this is very important, where do we spend the money: on high availability or disaster recovery? Given that budgets are limited, this is a risk assessment that should happen before you put your money on the table.
 
-Though keep in mind the words of Andrew Grove former Inter CEO, Only the paranoid survive. 
+Though keep in mind the words of Andrew Grove former Inter CEO, "Only the paranoid survive". 
