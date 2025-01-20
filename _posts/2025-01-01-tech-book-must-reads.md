@@ -29,6 +29,13 @@ Why read this: The follow on to 'The Phoenix Project', it elaborates on the ‘t
 
 --- 
 
+####  Principles: Life and Work
+*Ray Dalio*
+
+Why read this: Beside teh methodology, there is huge insight into the way we think about what we want from our worklife
+
+--- 
+
 ####  The Power of Habit 
 *Charles Duhigg*
 
