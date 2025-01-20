@@ -8,6 +8,13 @@ Here is a list of books that made a huge difference to how I think.***
 
 --- 
 
+####  Site Reliability Engineering: How Google Runs Production Systems
+*Niall Richard Murphy, Betsy Beyer, Chris Jones* 
+
+This should be taught as a 101 for anyone entering the industry, how can anyone think they cannot learn from how Google build and operate their own systems. The only problem with reading this book is you are going to be frustrated the rest of your working life with those who don’t take an engineering mindset to running production systems at scale.
+
+---  
+
 #### The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win
 *Gene Kim, Kevin Behr, George Spafford* 
 
@@ -21,13 +28,6 @@ There is one passage that hat blew my mind, it discusses wait times and come up 
 *Gene Kim, Kevin Behr, George Spafford*
 
 The follow on to 'The Phoenix Project', it elaborates on the ‘three ways': **Flow, Feedback and Continuous Improvement**, and explains how lean Manufacturing principles apply to the technology value stream. There is so much in this book, I’m shocked so many who work in the industry have not read it.*
-
---- 
-
-####  Site Reliability Engineering: How Google Runs Production Systems
-*Niall Richard Murphy, Betsy Beyer, Chris Jones* 
-
-This should be taught as a 101 for anyone entering the industry, how can anyone think they cannot learn from how Google build and operate their own systems. The only problem with reading this book is you are going to be frustrated the rest of your working life with those who don’t take an engineering mindset to running production systems at scale.
 
 --- 
 
