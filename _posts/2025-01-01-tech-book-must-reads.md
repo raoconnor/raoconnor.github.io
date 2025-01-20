@@ -68,12 +68,16 @@ The author argues that developing rare and valuable skills is the key to gain co
 
  Duhigg uses great storytelling, along with scientific research, real-world examples, to illustrate the key concepts that drive productivity: emphasizing that productivity isn't about working harder or longer, but about making smarter choices and adopting effective habits
 
- ####  The Chimp Paradox
+--- 
+
+####  The Chimp Paradox
 *Steve Peters*
 
 Because it doesn't matter how much you know about technology, if you don't understand and control yourself and can't work with others (even difficult people), you won't have a great time at work.
 
- ####  How Big Things Get Done
+--- 
+
+####  How Big Things Get Done
 *Bent Flybjerg & Dan Gardner*
 
 Hugely helpful, could be titled how not to make a mess of large projects, 
