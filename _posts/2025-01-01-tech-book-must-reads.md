@@ -58,7 +58,7 @@ Between the neuroscience are great anecdotes that make it one of the best and mo
 
 --- 
 
-####  So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love
+####  So Good They Can't Ignore You
 *Cal Newport*
 
 **Why read this:** Developing rare and valuable skills is the key to gaining control over your work life. Career capital comes by becoming excellent at something that others are willing to pay for. A mix of scientific research and real-life examples, illustrating how successful individuals have achieved their status by honing their craft and becoming indispensable in their fields, it delves into the importance of deliberate practice, the 10,000-hour rule, and the need for a craftsman mindset, prioritizing skill development over immediate gratification.
