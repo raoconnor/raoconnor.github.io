@@ -25,6 +25,7 @@
 *Gene Kim, Kevin Behr, George Spafford*
 
 **Why read this:** The follow-on to 'The Phoenix Project', it elaborates on the ‘three ways': **Flow, Feedback and Continuous Improvement**, and explains how lean manufacturing principles apply to the technology value stream. There is so much in this book, I’m shocked so many who work in the industry have not read it.
+
 --- 
 
 ####  Principles: Life and Work
@@ -40,6 +41,7 @@
 **Why read this:** If you have read the three books already mentioned, you already realize that humans are one of the biggest problems in technology, especially when we avoid change. This isn’t a technology book, but it does cover the role habits play in organizations, social movements, and individuals.
 
 Between the neuroscience are great anecdotes that make it one of the best and most enjoyable books I've read.
+
 --- 
 
 ####  The Checklist Manifesto: How To Get Things Right
