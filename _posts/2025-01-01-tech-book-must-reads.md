@@ -28,26 +28,24 @@
 
 --- 
 
-####  Principles: Life and Work
-*Ray Dalio*
+####  Cloud FinOps
+*JR Storment & Mike Fuller*
 
-**Why read this:** Besides the methodology, there is huge insight into the way we think about what we want from our work life.
-
---- 
-
-####  The Power of Habit 
-*Charles Duhigg*
-
-**Why read this:** If you have read the three books already mentioned, you already realize that humans are one of the biggest problems in technology, especially when we avoid change. This isn’t a technology book, but it does cover the role habits play in organizations, social movements, and individuals.
-
-Between the neuroscience are great anecdotes that make it one of the best and most enjoyable books I've read.
+**Why read this:**  This sets out the roadmap for adopting and maturing FinOps discipline, is required reading for FinOps Certification, more importantly it exposes some why cloud costs are must higher than typically than forcast.
 
 --- 
 
-####  The Checklist Manifesto: How To Get Things Right
-*Atul Gawande*
+####  The ROI Story
+*Steven Kaplan*
 
-**Why read this:** Because humans are a leading cause of outages, especially when environments are complex and many steps are needed to do something. This book convinced me of what I already suspected. It's not just about writing down the steps of a process, but thinking it through and developing a collaborative culture that makes individual specialists put ego aside and work together.
+**Why read this:** This is for anyone involved in understanding the cost of IT infrastructure. It may be best read before Cloud FinOps as they complement each other.
+
+--- 
+
+####  So Good They Can't Ignore You
+*Cal Newport*
+
+**Why read this:** Probably one of the most important books to read when at a career crossroads,  A mix of scientific research and real-life examples, illustrating how successful individuals have achieved their status by honing their craft and becoming indispensable in their fields, it delves into the importance of deliberate practice, the 10,000-hour rule, and the need for a craftsman mindset, prioritizing skill development over immediate gratification.
 
 --- 
 
@@ -58,10 +56,32 @@ Between the neuroscience are great anecdotes that make it one of the best and mo
 
 --- 
 
-####  So Good They Can't Ignore You
-*Cal Newport*
+####  Principles: Life and Work
+*Ray Dalio*
 
-**Why read this:** Developing rare and valuable skills is the key to gaining control over your work life. Career capital comes by becoming excellent at something that others are willing to pay for. A mix of scientific research and real-life examples, illustrating how successful individuals have achieved their status by honing their craft and becoming indispensable in their fields, it delves into the importance of deliberate practice, the 10,000-hour rule, and the need for a craftsman mindset, prioritizing skill development over immediate gratification.
+**Why read this:** Invaluable insights into decision-making and success,  practical frameworks for both personal and professional growth, making it a must-read for anyone looking to navigate challenges with clarity and purpose, there is huge insight into the way we think about what we want from our work life.
+
+--- 
+
+####  Outliers
+*Malcolm Gladwell*
+
+**Why read this:** Explores the hidden factors behind success. This is the book that introduces the "10,000-Hour Rule," how achieving expertise in any skill largely depends on practicing the correct way for approximately 10,000 hours.  That practice, combined with opportunities and timing, play a crucial role in being successsfull.
+
+--- 
+
+####  Blink
+*Malcolm Gladwell*
+
+**Why read this:** The book provides fascinating insights into the science of decision-making and the subconscious processes that shape our choices, how our brains, through years of practice and exposure, develop an intuitive sense, and the potential pitfalls of snap judgments.  
+
+--- 
+
+####  The Power of Habit 
+*Charles Duhigg*
+
+**Why read this:**  This isn’t a technology book, but helps understanding the science of habits, and how to unlock your potential by making positive changes more achievable.
+Between the neuroscience are great anecdotes that make it one of the best and most enjoyable books I've read.
 
 --- 
 
@@ -72,18 +92,25 @@ Between the neuroscience are great anecdotes that make it one of the best and mo
 
 --- 
 
+####  How Big Things Get Done
+*Bent Flybjerg & Dan Gardner*
+
+**Why read this:** Explains why so many large projects run massively over budget and are delivered late.
+
+---
+
+####  The Checklist Manifesto: How To Get Things Right
+*Atul Gawande*
+
+**Why read this:** Because humans are a leading cause of outages, especially when environments are complex and many steps are needed to do something. This book convinced me of what I already suspected. It's not just about writing down the steps of a process, but thinking it through and developing a collaborative culture that makes individual specialists put ego aside and work together.
+
+--- 
+
 ####  The Chimp Paradox
 *Steve Peters*
 
 **Why read this:**  Because it doesn't matter how much you know about technology, if you don't understand and control yourself and can't work with others (even difficult people), you won't have a great time at work..
 
 --- 
-
-####  How Big Things Get Done
-*Bent Flybjerg & Dan Gardner*
-
-**Why read this:** Explains why so many large projects run massively over budget and are delivered late.
-
-
 
 
