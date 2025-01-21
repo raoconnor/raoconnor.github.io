@@ -1,5 +1,5 @@
 
-# The search of five nines (High Availability
+# The search of five nines (High Availability)
 
 High levels of uptime is essential for critical applications as it ensures the availability and reliability of services and applications. Downtime can result in financial losses, reputational damage, regulatory fines and decreased customer satisfaction. 
 Uptime or availability is often measured in nines. Five nines being consider the gold standard.
