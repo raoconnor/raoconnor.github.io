@@ -95,7 +95,7 @@ Between the neuroscience are great anecdotes that make it one of the best and mo
 ####  How Big Things Get Done
 *Bent Flybjerg & Dan Gardner*
 
-**Why read this:** Explains why so many large projects run massively over budget and are delivered late.
+**Why read this:** Explains why so many large projects run massively over budget and are delivered late. It emphasizes the importance of thorough planning, risk management, and leveraging experience to achieve goals.
 
 ---
 
