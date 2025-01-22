@@ -22,7 +22,6 @@ For example, look at the table below for single instance Azure Virtual Machines,
 
 ![Table - N Redudancy](https://raoconnor.github.io/docs/assets/images/Availability-Table3.png)
 
-![Table - N Redudancy](https://raoconnor.github.io/docs/assets/images/Availability-Table3a.png)
 
 
 ![Table - N Redudancy](https://raoconnor.github.io/docs/assets/images/Availability-Table4.png)
