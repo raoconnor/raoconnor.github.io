@@ -28,7 +28,7 @@ The SLA for multiple instances is much better, however the application needs to 
 ![Table - N Redudancy](https://raoconnor.github.io/docs/assets/images/Availability-Table4.png)
 
 
-Spreading services across sites to improve availability reduces dependency on the underlying infrastructure and may be the vendor's preferred method for availability. Even so, we need to understand the capability of the critical business service, for example: native SAP database synchronization only protects against data loss. There is a primary active system and a secondary standby system; during a failure, downtime will be required while the secondary database takes over. Over-architecting the infrastructure will not elminate that downtime.
+Spreading services across sites or infrastucture (fault domains) to improve availability reduces dependency on the underlying infrastructure and may be the vendor's preferred method for availability. Even so, we need to understand the capability of the critical business service, for example: native SAP database synchronization only protects against data loss. There is a primary active system and a secondary standby system; during a failure, downtime will be required while the secondary database takes over. Over-architecting the infrastructure will not elminate that downtime.
 
 For legacy applications, high availability at the application layer may not be possible or was not considered when the service was deployed, it is important to understand moving workloads from a VMware vSphere Metro Storage Cluster (vMSC) to two Availability Zones in publc cloud does not result in the same recovery senario. 
 
