@@ -10,7 +10,7 @@
 ####  Site Reliability Engineering: How Google Runs Production Systems
 *Niall Richard Murphy, Betsy Beyer, Chris Jones* 
 
-**Why read this:** The first few chapters should be taught as a 101 for anyone entering the industry. Possibly one of the most important books for anyone concerned with running production systems at scale
+**Why read this:** The first few chapters should be taught as a 101 for anyone entering the industry. Possibly one of the most important books for involved with running production systems.
 
 ---  
 
@@ -24,21 +24,21 @@
 ####  The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations
 *Gene Kim, Kevin Behr, George Spafford*
 
-**Why read this:** The follow-on to 'The Phoenix Project', it elaborates on the ‘three ways': **Flow, Feedback and Continuous Improvement**, and explains how lean manufacturing principles apply to the technology value stream. There is so much in this book, I’m shocked so many who work in the industry have not read it.
+**Why read this:** The follow-on to 'The Phoenix Project', it elaborates on the ‘three ways': **Flow, Feedback and Continuous Improvement**, and explains how lean manufacturing principles apply to the technology value stream. There is so much in this book, It should be standard text for all in technology.
 
 --- 
 
 ####  Cloud FinOps
 *JR Storment & Mike Fuller*
 
-**Why read this:**  This sets out the roadmap for adopting and maturing FinOps discipline, is required reading for FinOps Certification, more importantly it exposes some why cloud costs are must higher than typically than forcast.
+**Why read this:**  This sets out the roadmap for adopting and maturing FinOps discipline, is required reading for FinOps Certification, more importantly it exposes why cloud costs are higher than typically than forcast. Fundamental reading for anyone responsable for estimating the cost of cloud.
 
 --- 
 
 ####  The ROI Story
 *Steven Kaplan*
 
-**Why read this:** This is for anyone involved in understanding the cost of IT infrastructure. It may be best read before Cloud FinOps as they complement each other.
+**Why read this:** This is for anyone involved in understanding the cost of IT infrastructure. Maybe it is be best read before Cloud FinOps as they complement each other. This is important reading as your career develops and understanding how to talk to management about cost becomes important.
 
 --- 
 
@@ -52,7 +52,7 @@
 ####  How the World Really Works
 *Vaclav Smil*
 
-**Why read this:** BilL Gates said the first three chapters should be required reading for anyone who wants to have an informed opinion on climate change. Understanding the energy dependency of industries such as food production, manufacturing, and transportation is a first step for anyone interested in sustainability.
+**Why read this:** Bill Gates said the first three chapters should be required reading for anyone who wants to have an informed opinion on climate change. Understanding the energy dependency of industries such as food production, manufacturing, and transportation is a first step for anyone interested in sustainability.
 
 --- 
 
@@ -95,7 +95,7 @@ Between the neuroscience are great anecdotes that make it one of the best and mo
 ####  How Big Things Get Done
 *Bent Flybjerg & Dan Gardner*
 
-**Why read this:** Explains why so many large projects run massively over budget and are delivered late. It emphasizes the importance of thorough planning, risk management, and leveraging experience to achieve goals.
+**Why read this:** Explains why so many large projects run massively over budget and are delivered late. It discusses the dangers of over-optimism and short-term politics, and emphasizes the importance of thorough planning, risk management, and leveraging experience to achieve goals.
 
 ---
 
@@ -109,7 +109,7 @@ Between the neuroscience are great anecdotes that make it one of the best and mo
 ####  The Chimp Paradox
 *Steve Peters*
 
-**Why read this:**  Because it doesn't matter how much you know about technology, if you don't understand and control yourself and can't work with others (even difficult people), you won't have a great time at work..
+**Why read this:**  Because it doesn't matter how much you know about technology, if you don't understand and control your emotions and have difficulty working with others, you won't have a great time at work.
 
 --- 
 
