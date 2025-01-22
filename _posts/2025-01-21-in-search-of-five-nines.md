@@ -1,5 +1,5 @@
 
-# The search of five nines (highly available IT services)
+# The search for five nines (highly available IT services)
 
 High levels of uptime are essential for critical applications as they ensure the availability and reliability of services and applications. Downtime can result in financial losses, reputational damage, regulatory fines, and decreased customer satisfaction. Uptime, or availability, is often measured in "nines," with five nines being considered the gold standard.
 
@@ -8,20 +8,22 @@ High levels of uptime are essential for critical applications as they ensure the
 
 
 
-However, it’s easy to misinterpret claims on availability. Components will differ in expected uptime; for example, traditional storage arrays have higher availability SLAs than virtual machines, which makes sense as data loss can be far more disruptive than losing a front-end web server. We could try calculating service availability by determining the availability of individual components and then combining the SLAs. For example, (0.99982 * 0.99999 * 0.995 = 0.99481095). This would give us a combined SLA of 99.4811%, with the overall system's availability being slightly lower than the individual SLAs due to the combined effect of potential downtimes
+However, it’s easy to misinterpret claims on availability. Components will differ in expected uptime; for example, traditional storage arrays have higher availability SLAs than virtual machines, which makes sense as data loss can be far more disruptive than losing a front-end web server. 
+We could try calculating service availability by determining the availability of individual components and then combining the SLAs. For example, (0.99982 * 0.99999 * 0.995 = 0.99481095). This would give us a combined SLA of 99.4811%, notice the overall system availability being slightly lower than the worst individual SLA due to the combined effect of potential downtimes.
+
 
 ![Table - N Redudancy](https://raoconnor.github.io/docs/assets/images/Availability-Table2.png)
 
 
-The number of components used by a single and dependencies make this difficult, tedious, and prone to error if single points of failure are not understood. 
+The number of components used by a service and its dependencies make this calculation difficult, as single points of failure are not allways obvious until something breaks.
 
-Design and architecture, or the combination of components, are vital. Having a data center with 99.999% uptime makes no sense if a service depends on non-redundant components.
-For example, look at these two tables for Microsoft Virtual Machines: 
+Design and architecture, or the combination of components, are vital. Having a data center with 99.999% uptime makes no sense if a service depends on non-redundant components with poor availability.
+For example, look at the table below for single instance Azure Virtual Machines, the should be consistant, but the SLA of disk type has the effect of reducing the overall SLA.
 
 ![Table - N Redudancy](https://raoconnor.github.io/docs/assets/images/Availability-Table3.png)
 
+![Table - N Redudancy](https://raoconnor.github.io/docs/assets/images/Availability-Table3a.png)
 
-For single instance VMs, the disk type will effectively reduce the overall SLA.
 
 ![Table - N Redudancy](https://raoconnor.github.io/docs/assets/images/Availability-Table4.png)
 
