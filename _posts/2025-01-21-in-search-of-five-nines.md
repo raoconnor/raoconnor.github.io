@@ -18,7 +18,7 @@ We could try calculating service availability by determining the availability of
 The number of components used by a service and its dependencies make this calculation difficult, as single points of failure are not allways obvious until something breaks.
 
 Design and architecture, or the combination of components, are vital. Having a data center with 99.999% uptime makes no sense if a service depends on non-redundant components with poor availability.
-For example, look at the tables below for single instance Azure Virtual Machines, the SLA for the VM should be consistant, but the SLA of disk type has the effect of reducing the overall SLA.
+For example, look at the tables below for single instance Azure Virtual Machines, the SLA for the VM should be consistant, but notice its the SLA of disk type that affects of the overall SLA.
 
 ![Table - N Redudancy](https://raoconnor.github.io/docs/assets/images/Availability-Table3.png)
 
