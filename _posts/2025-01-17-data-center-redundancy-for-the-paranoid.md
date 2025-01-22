@@ -5,7 +5,7 @@ Over the last year, I conducted an investigation into the advisability of twin d
 
 ## Causes of data center outages
 
-According to the Uptime Institute, power is the principal technical cause of site loss, followed by network, cooling, hardware, and software failures. My personal experience confirms this, with 5 out of 6 data center outages being power-related. (Note that most power failures are internal to the data center and not due to grid failure.)
+According to the Uptime Institute, power is the principal technical cause of site loss, followed by network, cooling, hardware, and software failures. My personal experience confirms this, with 5 out of 6 data center outages I have lived though being power-related. (Note that most power failures are internal to the data center and not due to grid failure.)
 
 Besides purely technical causes, human error—whether by an operator, misconfiguration, or due to a single point of failure in design—is a significant factor in outages.
 
