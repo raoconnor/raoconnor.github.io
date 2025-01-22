@@ -23,15 +23,17 @@ For example, look at the tables below for single instance Azure Virtual Machines
 ![Table - N Redudancy](https://raoconnor.github.io/docs/assets/images/Availability-Table3.png)
 
 
+The SLA for multiple instances is much better, however the application needs to be distributed, which can be done at the application level or with a load balancer. This is the pattern in public cloud, building high availability at the application and database layers and using multiple instances on independant infrastucture in two or more physical locations.
 
 ![Table - N Redudancy](https://raoconnor.github.io/docs/assets/images/Availability-Table4.png)
 
-For multiple instances, the application needs to be distributed, which can be done at the application level or with a load balancer. This is where we should focus our energy—on what can be done at the application and database layers.
 
-Spreading services across sites to improve availability reduces dependency on the underlying infrastructure and may be the vendor's preferred method for availability. Even so, if we take a critical business service, such as SAP, native SAP database synchronization only protects against data loss. There is a primary active system and a secondary standby system; during a failure, downtime is required while the secondary database takes over. Understanding the capabilities of the application will help avoid over-architecting the infrastructure.
+Spreading services across sites to improve availability reduces dependency on the underlying infrastructure and may be the vendor's preferred method for availability. Even so, we need to understand the capability of the critical business service, for example: native SAP database synchronization only protects against data loss. There is a primary active system and a secondary standby system; during a failure, downtime will be required while the secondary database takes over. Over-architecting the infrastructure will not elminate that downtime.
+
+For legacy applications, high availability at the application layer may not be possible or was not considered when the service was deployed, it is important to understand moving workloads from a VMware vSphere Metro Storage Cluster (vMSC) to two Availability Zones in publc cloud does not result in the same recovery senario. 
 
 ### In conclusion. 
 - Don’t develop a false sense of security from SLAs with many 9s. Take a holistic view of the architecture, especially the database or stateful services.
 - Some single points of failure, such as DNS, BGP, or the control plane, have caused major downtime for some of the world's best-engineered services.
-- Humans are guaranteed to make mistakes at some point. I’m not sure what our SLA is, but 99.999 is unlikely.
+- Humans are guaranteed to make mistakes at some point. I’m not sure what is our MTBF (Mean time between failure), but an SLA of 99.999 is unlikely.
 
