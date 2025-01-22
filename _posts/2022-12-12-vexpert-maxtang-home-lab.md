@@ -5,7 +5,7 @@ Many in the vExpert community received a Maxtang nuc at VMware Explore, here is 
 
  
 ### 1. Get the right SSD
-So I bought a TB of the wrong SSD on Black Friday - Samsung PCIe NVMe (2280) it fitted but was not recognized
+So I bought a TB of the wrong SSD on Black Friday - Samsung PCIe NVMe (2280) it fitted but was not recognized.
 Fortunately the folks at Amazon accepted a return and I replaced it with Transend MTS420S M.2 SATA III, the important factor is the M2 should be SATA II
 If you are not sure of the difference SATA M.2 SSD has two gaps in the interface NVMe M.2 SSD has one gap
 
