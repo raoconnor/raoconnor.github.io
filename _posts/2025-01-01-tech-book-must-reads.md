@@ -10,7 +10,7 @@
 ####  Site Reliability Engineering: How Google Runs Production Systems
 *Niall Richard Murphy, Betsy Beyer, Chris Jones* 
 
-**Why read this:** The first few chapters should be taught as a 101 for anyone entering the industry. Possibly one of the most important books for involved with running production systems.
+**Why read this:** The first few chapters should be taught as a 101 for anyone entering the industry. Possibly one of the most important reads for those involved with running production systems.
 
 ---  
 
