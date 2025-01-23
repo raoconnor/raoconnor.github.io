@@ -1,7 +1,6 @@
 
 # The search for five nines (highly available IT services)
 
-![Table - N Redudancy](https://raoconnor.github.io/docs/assets/images/Nines-1.png)
 
 
 High levels of uptime are essential for critical applications as they ensure the availability and reliability of services and applications. Downtime can result in financial losses, reputational damage, regulatory fines, and decreased customer satisfaction. Uptime, or availability, is often measured in "nines," with five nines being considered the gold standard.
