@@ -4,10 +4,10 @@ Well, of course, it depends. Creating a Total Cost of Ownership (TCO) is difficu
 
 The following use case is for predictable IaaS workloads, the sort we see in manufacturing. Using the following workloads as a baseline, I calculated the costs for an on-premises colocation facility with separate redundant fire rooms, AWS, Azure, and GCP in North America
 
-- Instances	358
-- Instances DR	90
-- Storage VM Disk TB	370
-- Backup VM TB	598
+- *Instances	358*
+- *Instances DR	90*
+- *Storage VM Disk TB	370*
+- *Backup VM TB	598*
 
 ![Image-1](https://raoconnor.github.io/docs/assets/images/CloudCompare-1.png)
 
@@ -22,7 +22,6 @@ Monitoring, log storage, and **other minor service** costs should not be underes
 **Support costs** should also be considered. If business-critical support is needed, for mid-range customers it's going to be between 7-10% of cloud spend.
 Finally, we have added a 12% **contingency** for cloud overspend. While this line will be unpopular, keep in mind that the FinOps Organization estimates even mature organizations have a spend accuracy variance of around 12%. Expect to have 20% of workloads without discount commitments.
 
-*FinOps Maturity Model*
 https://www.finops.org/framework/maturity-model/
 
 **Note on Rightsizing:** Reducing CPUs and memory for virtual machines can optimize costs both on-premises and in the cloud. While this can save hardware and license costs, careful capacity forecasting is essential.
