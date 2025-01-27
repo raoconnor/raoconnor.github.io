@@ -13,6 +13,10 @@ The following use case is for predictable IaaS workloads, the sort we see in man
   
 ![Image-1](https://raoconnor.github.io/docs/assets/images/CloudCompare-1.png)
 
+One point to add to the above is that numerous operating costs, as well as the effort involved in hardware renewal, are reduced when relocating to the public cloud. 
+At the same time, cost control specialists are vital in keeping cloud costs within budget.
+
+
 ## Line Items
 Let's first break down these charges. 
 
@@ -21,7 +25,7 @@ Sometimes cloud Bills of Materials (BoMs) are submitted to potential clients onl
 **Backup and DR** costs are not trivial. The above example uses a pilot light DR strategy with asynchronous database copies to another region; the other virtual machines would need to be recreated
 
 **Network costs** will vary based on traffic flows, gateways, firewall type, and activity. Try to identify in advance if there is a large amount of data churn or replication.
-Monitoring, log storage, and **other minor service** costs should not be underestimated. If you have done a Proof of Concept (PoC), it may be possible to extrapolate some of these costs to get an idea of how they accumulate.
+**Monitoring, log storage**, and **other minor service** costs should not be underestimated. If you have done a Proof of Concept (PoC), it may be possible to extrapolate some of these costs to get an idea of how they accumulate.
 
 **Support costs** should also be considered. If business-critical support is needed, for mid-range customers it's going to be between 7-10% of cloud spend.
 
@@ -30,17 +34,17 @@ Finally, we have added a 12% **contingency** for cloud overspend. While this lin
 [FinOps Org Maturity Model](https://www.finops.org/framework/maturity-model/)
 
 ***Note on Rightsizing:** Reducing CPUs and memory for virtual machines can optimize costs both on-premises and in the cloud. While this can save hardware and license costs, careful capacity forecasting is essential.* 
- 
+
  
 ## Totals Comparison 
 
-With all that out of the way, there is not a huge amount of difference; these numbers are estimates and should not be taken to show that one provider is always cheaper. The point is that for stabel IaaS workloads infrastructure cost is not a primary driver for deciding where to locate.
+With all that out of the way, there is not a huge amount of difference; these numbers are estimates and should not be taken to show that one provider is always cheaper. The point is that for stable IaaS workloads infrastructure cost is not a primary driver for deciding where to locate.
 
 ![Image-2](https://raoconnor.github.io/docs/assets/images/CloudCompare-3.png)
 
 
 
-One point to add to the above is that numerous operating costs, as well as the effort involved in hardware renewal, are reduced when relocating to the public cloud. At the same time, cost control specialists are vital in keeping cloud costs within budget.
+
 
 The value of public cloud can be challenging to articulate, especially when a client is primarily concerned with cost. Assigning a monetary value to advantages such as increased speed, accessibility of complex services, regional or global presence, and a host of other benefits aligns with business values but can sometimes sound like wishful thinking.
 
