@@ -3,8 +3,8 @@
 Well, of course, it depends. Creating a Total Cost of Ownership (TCO) is difficult. While independent studies show there is theoretical potential for savings, the ability to create new workloads and leave them running without cost management and governance will likely result in a shock when someone starts comparing the bills with the expected budget.
 The following use case is for predictable IaaS workloads, the sort we see in manufacturing. Using the following workloads as a baseline, I calculated the costs for an on-premises colocation facility with separate redundant fire rooms, AWS, Azure, and GCP in North America
 
-![Table - N Redudancy](https://raoconnor.github.io/docs/assets/images/CloudCompare-1)
-![2024 Review](https://raoconnor.github.io/docs/assets/images/Caps-3.png)
+docs/assets/images/CloudCompare-1.png
+![Image-1](https://raoconnor.github.io/docs/assets/images/CloudCompare-1.png)
 
 ![Table - N Redudancy](https://raoconnor.github.io/docs/assets/images/CloudCompare-2)
 
