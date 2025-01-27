@@ -13,7 +13,7 @@ The following use case is for predictable IaaS workloads, the sort we see in man
   
 ![Image-1](https://raoconnor.github.io/docs/assets/images/CloudCompare-1.png)
 
-One point to add to the above is that numerous operating costs, as well as the effort involved in hardware renewal, are reduced when relocating to the public cloud. 
+One point to add to the above is that numerous operating costs, as well as the effort involved in hardware renewal, are reduced when relocating to the public cloud.
 At the same time, cost control specialists are vital in keeping cloud costs within budget.
 
 
