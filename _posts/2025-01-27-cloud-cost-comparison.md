@@ -11,7 +11,6 @@ The following use case is for predictable IaaS workloads, the sort we see in man
   *358 Prod and Non prod Instances, 90 recover on demand instances in a seperate region, 370 TB of Disk storage, 598 TB of Backup Storage*
 
   
-
 ![Image-1](https://raoconnor.github.io/docs/assets/images/CloudCompare-1.png)
 
 ## Line Items
@@ -38,6 +37,7 @@ Finally, we have added a 12% **contingency** for cloud overspend. While this lin
 With all that out of the way, there is not a huge amount of difference; these numbers are estimates and should not be taken to show that one provider is always cheaper. The point is that for stabel IaaS workloads infrastructure cost is not a primary driver for deciding where to locate.
 
 ![Image-2](https://raoconnor.github.io/docs/assets/images/CloudCompare-3.png)
+
 
 
 One point to add to the above is that numerous operating costs, as well as the effort involved in hardware renewal, are reduced when relocating to the public cloud. At the same time, cost control specialists are vital in keeping cloud costs within budget.
