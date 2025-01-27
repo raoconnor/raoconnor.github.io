@@ -8,7 +8,7 @@ Once in the cloud poor cost management and governance will likely result in bill
 
 The following use case is for predictable IaaS workloads, the sort we see in manufacturing. Using the following workloads as a baseline, I calculated the costs for an on-premises colocation facility with separate redundant fire rooms, as well as AWS, Azure, and GCP costs in North America
 
-- *358 Prod and Non prod Instances, 90 recover on demand instances in a seperate region, 370 Tb of Disk storage, 598 TB of Backup Storage*
+  *358 Prod and Non prod Instances, 90 recover on demand instances in a seperate region, 370 TB of Disk storage, 598 TB of Backup Storage*
 
   
 
