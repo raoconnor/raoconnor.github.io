@@ -25,7 +25,7 @@ Monitoring, log storage, and **other minor service** costs should not be underes
 
 Finally, we have added a 12% **contingency** for cloud overspend. While this line will be unpopular, keep in mind that the FinOps Organization estimates even mature organizations have a spend accuracy variance of around 12%. Expect to have 20% of workloads without discount commitments.
 
-https://www.finops.org/framework/maturity-model/
+[FinOps Org Maturity Model](https://www.finops.org/framework/maturity-model/)
 
 **Note on Rightsizing:** Reducing CPUs and memory for virtual machines can optimize costs both on-premises and in the cloud. While this can save hardware and license costs, careful capacity forecasting is essential.
 
