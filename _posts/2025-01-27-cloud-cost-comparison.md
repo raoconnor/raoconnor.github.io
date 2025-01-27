@@ -12,10 +12,11 @@ The following use case is for predictable IaaS workloads, the sort we see in man
 - *Instances DR	90*
 - *Storage VM Disk TB	370*
 - *Backup VM TB	598*
+  
 
 ![Image-1](https://raoconnor.github.io/docs/assets/images/CloudCompare-1.png)
 
-
+## Line Items
 Let's first break down these charges. 
 
 Sometimes cloud Bills of Materials (BoMs) are submitted to potential clients only showing rightsized **compute and disk costs**. In the above scenarios, compute was just under 50% of the total cloud spend, so if you see a projected cost based on only compute and disk, you need to think twice.
