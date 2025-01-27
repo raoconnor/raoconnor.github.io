@@ -1,8 +1,12 @@
 # Is cloud more expensive than on-premise?
 
-Well, of course, it depends. Creating a Total Cost of Ownership (TCO) is difficult. While independent studies show there is theoretical potential for savings, the ability to create new workloads and leave them running without cost management and governance will likely result in a shock when someone starts comparing the bills with the expected budget.
+## Well, of course, it depends. 
 
-The following use case is for predictable IaaS workloads, the sort we see in manufacturing. Using the following workloads as a baseline, I calculated the costs for an on-premises colocation facility with separate redundant fire rooms, AWS, Azure, and GCP in North America
+While independent studies show there is theoretical potential for savings when moving to public, creating a baseline Total Cost of Ownership (TCO) for on-premises infrastructure is complex, and accurately forecasting cloud costs is an uncertain art.
+
+Once in the cloud poor cost management and governance will likely result in bills that are shockingly higher that what was estimated.
+
+The following use case is for predictable IaaS workloads, the sort we see in manufacturing. Using the following workloads as a baseline, I calculated the costs for an on-premises colocation facility with separate redundant fire rooms, as well as AWS, Azure, and GCP costs in North America
 
 - *Instances	358*
 - *Instances DR	90*
@@ -27,7 +31,7 @@ Finally, we have added a 12% **contingency** for cloud overspend. While this lin
 
 [FinOps Org Maturity Model](https://www.finops.org/framework/maturity-model/)
 
-**Note on Rightsizing:** Reducing CPUs and memory for virtual machines can optimize costs both on-premises and in the cloud. While this can save hardware and license costs, careful capacity forecasting is essential.  
+***Note on Rightsizing:** Reducing CPUs and memory for virtual machines can optimize costs both on-premises and in the cloud. While this can save hardware and license costs, careful capacity forecasting is essential.* 
  
  
 
