@@ -13,7 +13,6 @@ The following use case is for predictable IaaS workloads, the sort we see in man
   
 ![Image-1](https://raoconnor.github.io/docs/assets/images/CloudCompare-1.png)
 
-*One point to add to the above is that numerous operating costs, as well as the effort involved in hardware renewal, are reduced when relocating to the public cloud.*
 
 
 ## Line Items
@@ -44,9 +43,9 @@ These numbers are estimates and should not be taken to show that one provider is
 
 
 
-#### The point is that for stable IaaS workloads infrastructure cost is not a primary driver for deciding where to locate. ####
+#### The point is that for stable IaaS workloads infrastructure cost should not be the primary driver for deciding where to locate. ####
 
-The value of public cloud can be challenging to articulate, especially when a client is primarily concerned with cost. Assigning a monetary value to advantages such as increased speed, accessibility of complex services, regional or global presence, and a host of other benefits aligns with business values but can sometimes sound like wishful thinking.
+For some clients there are reasons beside cost that drive the decision to stay on-premises, for others just looking at infrastucture cost may be an indicator that the journey to cloud may fall short of expectations.
 
 
 
