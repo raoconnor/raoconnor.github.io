@@ -12,7 +12,9 @@ The following use case is for predictable IaaS workloads, the sort we see in man
 ![Image-1](https://raoconnor.github.io/docs/assets/images/CloudCompare-1.png)
 
 
-Let's first break down these charges. Sometimes cloud Bills of Materials (BoMs) are submitted to potential clients only showing rightsized **compute and disk costs**. In the above scenarios, compute was just under 50% of the total cloud spend, so if you see a projected cost based on only compute and disk, you need to think twice.
+Let's first break down these charges. 
+
+Sometimes cloud Bills of Materials (BoMs) are submitted to potential clients only showing rightsized **compute and disk costs**. In the above scenarios, compute was just under 50% of the total cloud spend, so if you see a projected cost based on only compute and disk, you need to think twice.
 
 **Backup and DR** costs are not trivial. The above example uses a pilot light DR strategy with asynchronous database copies to another region; the other virtual machines would need to be recreated
 
