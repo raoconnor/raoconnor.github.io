@@ -9,7 +9,6 @@ The following use case is for predictable IaaS workloads, the sort we see in man
 - Storage VM Disk TB	370
 - Backup VM TB	598
 
-
 ![Image-1](https://raoconnor.github.io/docs/assets/images/CloudCompare-1.png)
 
 
