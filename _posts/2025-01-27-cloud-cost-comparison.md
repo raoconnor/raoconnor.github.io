@@ -4,7 +4,7 @@
 
 While independent studies show there is theoretical potential for savings when moving to public, creating a baseline Total Cost of Ownership (TCO) for on-premises infrastructure is complex, and accurately forecasting cloud costs is an uncertain art.
 
-Once in the cloud without cost management and good governance, bills will be much higher that what was estimated, this has more to do with the estimate being overly optimistic, or the need for cloud maturity than public cloud being more expensive than on premises.
+Once in the cloud, without cost management and good governance, bills will be much higher that what was estimated. This has more to do with the estimate being overly optimistic, and the need for cloud maturity than public cloud being more expensive than on premises.
 
 The following use case is for predictable IaaS workloads, the sort we see in manufacturing. Using the following workloads as a baseline, I calculated the costs for an on-premises colocation facility with separate redundant fire rooms, as well as AWS, Azure, and GCP costs in North America
 
