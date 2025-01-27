@@ -29,7 +29,7 @@ https://www.finops.org/framework/maturity-model/
 
 **Note on Rightsizing:** Reducing CPUs and memory for virtual machines can optimize costs both on-premises and in the cloud. While this can save hardware and license costs, careful capacity forecasting is essential.
 
-With all that out of the way, there is not a huge amount of difference; these numbers are estimates and should not be taken to show that one provider is always cheaper. The point is that infrastructure cost is not a primary driver for deciding where to locate workload
+With all that out of the way, there is not a huge amount of difference; these numbers are estimates and should not be taken to show that one provider is always cheaper. The point is that for stabel IaaS workloads infrastructure cost is not a primary driver for deciding where to locate.
 
 ![Image-2](https://raoconnor.github.io/docs/assets/images/CloudCompare-3.png)
 
