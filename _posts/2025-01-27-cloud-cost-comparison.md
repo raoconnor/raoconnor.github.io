@@ -22,6 +22,7 @@ Sometimes cloud Bills of Materials (BoMs) are submitted to potential clients onl
 Monitoring, log storage, and **other minor service** costs should not be underestimated. If you have done a Proof of Concept (PoC), it may be possible to extrapolate some of these costs to get an idea of how they accumulate.
 
 **Support costs** should also be considered. If business-critical support is needed, for mid-range customers it's going to be between 7-10% of cloud spend.
+
 Finally, we have added a 12% **contingency** for cloud overspend. While this line will be unpopular, keep in mind that the FinOps Organization estimates even mature organizations have a spend accuracy variance of around 12%. Expect to have 20% of workloads without discount commitments.
 
 https://www.finops.org/framework/maturity-model/
