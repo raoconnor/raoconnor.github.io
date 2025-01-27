@@ -13,7 +13,6 @@ The following use case is for predictable IaaS workloads, the sort we see in man
 ![Image-1](https://raoconnor.github.io/docs/assets/images/CloudCompare-1.png)
 
 
-
 Let's first break down these charges. Sometimes cloud Bills of Materials (BoMs) are submitted to potential clients only showing rightsized **compute and disk costs**. In the above scenarios, compute was just under 50% of the total cloud spend, so if you see a projected cost based on only compute and disk, you need to think twice.
 
 **Backup and DR** costs are not trivial. The above example uses a pilot light DR strategy with asynchronous database copies to another region; the other virtual machines would need to be recreated
@@ -35,6 +34,7 @@ With all that out of the way, there is not a huge amount of difference; these nu
 
 
 One point to add to the above is that numerous operating costs, as well as the effort involved in hardware renewal, are reduced when relocating to the public cloud. At the same time, cost control specialists are vital in keeping cloud costs within budget.
+
 The value of public cloud can be challenging to articulate, especially when a client is primarily concerned with cost. Assigning a monetary value to advantages such as increased speed, accessibility of complex services, regional or global presence, and a host of other benefits aligns with business values but can sometimes sound like wishful thinking.
 
 
