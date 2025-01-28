@@ -45,7 +45,7 @@ These numbers are estimates and should not be taken to show that one provider is
 
 #### The point is that for stable IaaS workloads infrastructure cost should not be the primary driver for deciding where to locate. ####
 
-For some clients there are reasons beside cost that drive the decision to stay on-premises, if a client only focuses on infrastucture savings without transformation their journey to cloud may fall short of expectations.
+If a client only focuses on infrastucture savings without transformation their journey to cloud may fall short of expectations.
 
 
 
