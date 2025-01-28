@@ -2,7 +2,7 @@
 
 ## Well, of course, it depends. 
 
-While independent studies show there is theoretical potential for savings when moving to public, creating a baseline Total Cost of Ownership (TCO) for on-premises infrastructure is complex, and accurately forecasting cloud costs is an uncertain art.
+While independent studies show there is theoretical potential for savings when moving to public cloud, creating a baseline for TCO (Total Cost of Ownership) for on-premises infrastructure is complex, and precisely forecasting the total cost cloud of public cloud is not possible.
 
 Once in the cloud, without cost management and good governance, bills will be much higher than what was estimated. This has more to do with the estimate being overly optimistic and the need for cloud maturity rather than public cloud being more expensive than on-premises infrastructure.
 
@@ -45,7 +45,7 @@ These numbers are estimates and should not be taken to show that one provider is
 
 #### The point is that for stable IaaS workloads infrastructure cost should not be the primary driver for deciding where to locate. ####
 
-For some clients there are reasons beside cost that drive the decision to stay on-premises, for others just looking at infrastucture cost may be an indicator that the journey to cloud may fall short of expectations.
+For some clients there are reasons beside cost that drive the decision to stay on-premises, if a client only focuses on infrastucture savings their journey to cloud may fall short of expectations.
 
 
 
