@@ -1,4 +1,4 @@
-# Which is move expensive, cloud or on-premises?
+# Which is more expensive, cloud or on-premises?
 
 ## Well, of course, it depends. 
 
