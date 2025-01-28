@@ -36,7 +36,7 @@ Finally, we have added a 12% **contingency** for cloud overspend. While this lin
  
 ## Totals Comparison 
 
-These numbers are estimates and should not be taken to show that one provider is always cheaper, but there is not a huge amount of difference in this senario, as Move to Cloud costs would probably negate the difference between on-premises and cloud.
+These numbers are estimates and should not be taken to show that one provider is always cheaper, but there is not a huge amount of difference in the simple IaaS senario, as Move to Cloud effort would probably negate the difference between on-premises and cloud.
 
 
 ![Image-2](https://raoconnor.github.io/docs/assets/images/CloudCompare-3.png)
@@ -45,7 +45,7 @@ These numbers are estimates and should not be taken to show that one provider is
 
 #### The point is that for stable IaaS workloads infrastructure cost should not be the primary driver for deciding where to locate. ####
 
-For some clients there are reasons beside cost that drive the decision to stay on-premises, if a client only focuses on infrastucture savings their journey to cloud may fall short of expectations.
+For some clients there are reasons beside cost that drive the decision to stay on-premises, if a client only focuses on infrastucture savings without transformation their journey to cloud may fall short of expectations.
 
 
 
