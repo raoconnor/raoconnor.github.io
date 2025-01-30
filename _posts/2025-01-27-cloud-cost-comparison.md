@@ -36,7 +36,11 @@ Finally, we have added a 12% **contingency** for cloud overspend. While this lin
  
 ## Totals Comparison 
 
-These numbers are estimates and should not be taken to show that one provider is always cheaper, but there is not a huge amount of difference in the simple IaaS senario, as Move to Cloud effort would probably negate the difference between on-premises and cloud.
+These numbers are estimates and should not be taken to show that one provider is always cheaper. There is not a huge difference between on-premises and public cloud, as the effort to move to the cloud would probably negate that difference. Between hyperscalers, licenses can be massive, but in this scenario —IaaS based on SLES— advantages are fractional. Additionally, discount programs are not included, which could make it even harder to pick a winner.
+
+---
+
+Does this look better to you? Let me know if you need any further adjustments!
 
 
 ![Image-2](https://raoconnor.github.io/docs/assets/images/CloudCompare-3.png)
