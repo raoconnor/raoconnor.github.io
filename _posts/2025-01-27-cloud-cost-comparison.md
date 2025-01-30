@@ -2,7 +2,7 @@
 
 ## Well, of course, it depends. 
 
-Independent studies show there is theoretical potential for savings when moving to public cloud compared to staying on-premises. To understand those savings a TCO (Total Cost of Ownership) study should be conducted, however, creating a baseline of on-premises infrastructure is complex, and precisely forecasting the cost of running the same workloads in public cloud is very challenging.
+Independent studies show there is theoretical potential for savings when moving to public cloud compared to staying on-premises. To understand those savings a TCO (Total Cost of Ownership) study should be conducted, however, creating a baseline of on-premises infrastructure is complex, and precisely forecasting the cost of running the same workloads in public cloud has its challenges.
 
 Once in the cloud, without cost management and good governance, bills will be much higher than what was estimated. This has more to do with the estimate being overly optimistic and the need for cloud maturity rather than public cloud being more expensive than on-premises infrastructure.
 
