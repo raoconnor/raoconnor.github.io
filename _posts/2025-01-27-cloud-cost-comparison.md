@@ -27,11 +27,11 @@ Sometimes cloud Bills of Materials (BoMs) are submitted to potential clients onl
 
 **Support costs** should also be considered. If business-critical support is needed, for mid-range customers it's going to be between 7-10% of cloud spend.
 
-Finally, we have added a 12% **contingency** for cloud overspend. While this line will be unpopular, keep in mind that the FinOps Organization estimates even mature organizations have a spend accuracy variance of around 12%. Expect to have 20% of workloads without discount commitments.
+Finally, we have added a 12% **contingency** for cloud overspend. While this line will be unpopular, keep in mind that the FinOps Organization estimates even mature organizations have a spend accuracy variance of around 12%. Expect to have workloads without discount commitments which will drive up the cost from 3 year RIs .
 
 [FinOps Org Maturity Model](https://www.finops.org/framework/maturity-model/)
 
-***Note on Rightsizing:** Reducing CPUs and memory for virtual machines can optimize costs both on-premises and in the cloud. While this can save hardware and license costs, careful capacity forecasting is essential.* 
+***Note on Rightsizing:** Reducing CPUs and memory for virtual machines can optimize costs both on-premises and in the cloud. While this can save hardware and license costs, careful capacity forecasting is essential when buying hardware.* 
 
  
 ## Totals Comparison 
