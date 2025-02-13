@@ -38,7 +38,7 @@
 ####  The ROI Story
 *Steven Kaplan*
 
-**Why read this:** This is for anyone involved in understanding the cost of IT infrastructure. Maybe it is be best read before Cloud FinOps as they complement each other. This is important reading as your career develops and understanding how to talk to management about cost becomes important.
+**Why read this:** This is for anyone involved in understanding the cost of IT infrastructure. Maybe it is best to read this before Cloud FinOps as they complement each other. This is important reading as your career develops and understanding how to talk to management about cost becomes important.
 
 --- 
 
