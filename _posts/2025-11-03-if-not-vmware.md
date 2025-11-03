@@ -4,7 +4,7 @@ For most organizations, the decision to exit VMware isn’t primarily a technica
 
 Of these, **sentiment** is often underestimated. Strategy and financial models can be realigned if leadership is motivated. But when C-level executives express a desire to sever ties with Broadcom, the brand damage is difficult to repair.
 
-So, if not VMware—then where? This post explores **public and private cloud** as target platforms, along with associated **caveats, blockers**, and **sentiment drivers**.
+So, if not VMware—then where? This post explores public and private cloud as target platforms, along with associated **caveats, blockers**, and **sentiment drivers**.
 
 
 ## Blockers 
@@ -65,6 +65,7 @@ These constraints are **engineering-driven**, not punitive. They are concerned a
 It seems to me Nutanix is moving in the opposite direction from VMware — **more customers at lower revenue**, which strains engineering and support but speaks volumes about their brand values.
 
 #MCExperts, #MCX
+
 
 
 
