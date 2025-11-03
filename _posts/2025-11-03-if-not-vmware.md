@@ -33,6 +33,7 @@ I’m not going to make any recommendations, because there is a lot I just don�
 
 Yes, Nutanix’s integration with third party storage has its constraints, IP only (NAS, or iSCSI) for now only Dell, with Pure about to GA shortly, but these are engineering driven not punitive. This is putting them on the opposite direction of VMware, more customers at lower revenue, that’s a strain on engineering and support, and says a lot about the brand.
 
+#MCExperts, #MCX
 
 
 
