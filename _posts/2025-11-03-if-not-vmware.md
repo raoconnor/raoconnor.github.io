@@ -43,9 +43,9 @@ In public cloud, physical cores are translated to virtual cores. If your current
 
 If cost savings are the primary reason for moving to public cloud, factor in:
 
-- Project costs for resolving obsolescence and technical debt
-- Third-party licensing costs
-- The shift from over-architected capacity to a **pay-as-you-go** model without a spend limit
+- **Project costs** for resolving obsolescence and technical debt
+- Third-party **licensing costs**
+- The shift from over-architected capacity to a pay-as-you-go model **without a spend limit**
 
 
 ## Staying on premises
@@ -65,6 +65,7 @@ These constraints are **engineering-driven**, not punitive. They are concerned a
 It seems to me Nutanix is moving in the opposite direction from VMware — **more customers at lower revenue**, which strains engineering and support but speaks volumes about their brand values.
 
 #MCExperts, #MCX
+
 
 
 
