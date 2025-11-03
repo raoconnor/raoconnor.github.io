@@ -1,7 +1,7 @@
 # If not VMware, then where?
 
 For most organizations, deciding to exit VMware isn’t a technical discussion, as a hypervisor ESX is difficult to beat, but it’s just a hypervisor, and there are others, what is driving these decisions is more a mix of finance, strategic goals and sentiment 
-Of these Sentiment is probably more important than many realise, strategy and even finance can be realigned, if leadership are motivated, so when C level executives say they want nothing more to do with Broadcom, the brand damaged is hard to repair.
+Of these sentiment is probably more important than many realise, strategy and even finance can be realigned, if leadership are motivated, so when C level executives say they want nothing more to do with Broadcom, the brand damaged is hard to repair.
 So, if not VMware, then where? I’m going to discuss public and private cloud as target locations, caveats, blockers and sentiment.
 
 ## Blockers 
@@ -34,6 +34,7 @@ I’m not going to make any recommendations, because there is a lot I just don�
 Yes, Nutanix’s integration with third party storage has its constraints, IP only (NAS, or iSCSI) for now only Dell, with Pure about to GA shortly, but these are engineering driven not punitive. This is putting them on the opposite direction of VMware, more customers at lower revenue, that’s a strain on engineering and support, and says a lot about the brand.
 
 #MCExperts, #MCX
+
 
 
 
