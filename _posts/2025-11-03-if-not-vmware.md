@@ -62,9 +62,10 @@ While Nutanix’s integration with third-party storage has limitations:
 - Currently only supports Dell, with Pure Storage nearing general availability
 
 These constraints are **engineering-driven**, not punitive. They are concerned about the support impact of a rushed, poorly engineered solution.
-It seems to me Nutanix is moving in the opposite direction from VMware — **more customers at lower revenue**, which strains engineering and support but speaks volumes about their brand values.
+It seems to me Nutanix is moving in the opposite direction from VMware — **more customers at lower revenue**, which increases engineering and support costs but speaks volumes about their brand values.
 
 #MCExperts, #MCX
+
 
 
 
