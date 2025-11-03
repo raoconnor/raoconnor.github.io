@@ -4,12 +4,10 @@ For most organizations, deciding to exit VMware isn’t a technical discussion, 
 Of these Sentiment is probably more important than many realise, strategy and even finance can be realigned, if leadership are motivated, so when C level executives say they want nothing more to do with Broadcom, the brand damaged is hard to repair.
 So, if not VMware, then where? I’m going to discuss public and private cloud as target locations, caveats, blockers and sentiment.
 
-
 ## Blockers 
 Obsolescence and technical debt in the form of legacy operating systems, if upgrades to applications are needed, this is a budget constraint, so if the reason to get out of VMware is due to financial restrictions, have you thought about the investment required to update applications and systems.
 And while its true unsupported operating systems can run in public cloud and alternative hypervisors, these migrations can turn into nightmares, lack of official virtual hardware drivers, issues with migrations tools and problems post migration.  
 As it’s not unusual to see anything between 5-20% of workloads out of OS support, understanding the cost of obsolescence and technical debt has led many to keep a small VMware hypervisor footprint, until those systems are replaced. 
-
 
 ## Licences
 
@@ -35,5 +33,6 @@ Let’s start with why your organization is exiting VMware, it’s not technical
 I’m not going to make any recommendations, because there is a lot I just don’t know, but I will say I was extremely impressed with the conversations I had with Nutanix. At recent .Next events I was invited to some closed-door sessions with the CTO and engineering teams, now these are the guys who have been pushing hyperconverged and trying to get us to give up our beloved storage arrays, to hear them same they are backing down and putting in the engineering hours because that’s what customers want is convincing. 
 
 Yes, Nutanix’s integration with third party storage has its constraints, IP only (NAS, or iSCSI) for now only Dell, with Pure about to GA shortly, but these are engineering driven not punitive. This is putting them on the opposite direction of VMware, more customers at lower revenue, that’s a strain on engineering and support, and says a lot about the brand.
+
 
 
