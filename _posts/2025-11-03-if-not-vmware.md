@@ -12,7 +12,6 @@ As it’s not unusual to see anything between 5-20% of workloads out of OS suppo
 ## Licences
 
 **Licence costs in public cloud can be more than the cost of compute infrastructure**
-
 Organizations that are not hosting providers frequently purchase Microsoft and Oracle licences based on the physical cores. Microsoft only allow Windows server licences with software assurance to be transferred to shared hardware on Azure, SQL Server can be transferred to AWS if software assurance has been acquired. If Oracle licences are purchased directly from Oracle, then it’s probable those can also be transferred.
 However, you might find move to cloud will require a significant cost increase in licences 
 
@@ -33,6 +32,7 @@ Let’s start with why your organization is exiting VMware, it’s not technical
 I’m not going to make any recommendations, because there is a lot I just don’t know, but I will say I was extremely impressed with the conversations I had with Nutanix. At recent .Next events I was invited to some closed-door sessions with the CTO and engineering teams, now these are the guys who have been pushing hyperconverged and trying to get us to give up our beloved storage arrays, to hear them same they are backing down and putting in the engineering hours because that’s what customers want is convincing. 
 
 Yes, Nutanix’s integration with third party storage has its constraints, IP only (NAS, or iSCSI) for now only Dell, with Pure about to GA shortly, but these are engineering driven not punitive. This is putting them on the opposite direction of VMware, more customers at lower revenue, that’s a strain on engineering and support, and says a lot about the brand.
+
 
 
 
