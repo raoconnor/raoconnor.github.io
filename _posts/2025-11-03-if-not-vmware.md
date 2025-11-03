@@ -8,12 +8,12 @@ So, if not VMware—then where? This post explores public and private cloud as t
 
 
 ## Blockers 
-One of the biggest blockers is technical debt, especially in the form of legacy operating systems. If application upgrades are required, this introduces budget constraints. So, if the motivation to leave VMware is financial, consider the **investment needed to modernize applications and systems**.
+One of the biggest blockers is technical debt, especially in the form of legacy operating systems. If an OS wasn't upgraded because of an application dependancy this is probably because of a budget constraint. So, if the motivation to leave VMware is financial, consider the **what investment is needed to modernize applications and systems**.
 While unsupported operating systems can technically run in public cloud or on alternative hypervisors, these migrations often become problematic:
 
-Lack of official virtual hardware drivers
-Issues with migration tools
-Post-migration instability
+- Lack of official virtual hardware drivers
+- Issues with migration tools
+- Post-migration incompatability with cloud native tools
 
 It’s not uncommon to see **10–20% of workloads running on unsupported OS versions**. Many organizations retain a minimal VMware footprint to host these workloads until they can be replaced.
 
@@ -65,6 +65,7 @@ These constraints are **engineering-driven**, not punitive. They are concerned a
 It seems to me Nutanix is moving in the opposite direction from VMware — **more customers at lower revenue**, which strains engineering and support but speaks volumes about their brand values.
 
 #MCExperts, #MCX
+
 
 
 
