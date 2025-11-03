@@ -23,7 +23,7 @@ VMware architects are familiar with pCPU to vCPU ratios, which is the amount to 
 
 Moving to shared hardware in public cloud will require transferring physical cores to virtual cores, so if your current pCPU to vCPU ratio is 1:4 you will need four times the licences, for SQL developer and replication licences can help reduce that, but and increase is to be expected. 
 
-![pcpu-vcpu](docs/assets/images/pcpu-vcpu.png)
+![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/pcpu-vcpu.png)
 
 Dedicated hardware will often be suggested by the Hyperscalers as a way around this, but keep in mind while it allows BYOL, the cloud hypervisor does not allow CPU oversubscription so the issues of needing more licences still applies. Additionally dedicated hardware can be a bit of an administrative headache due to fitting workloads of the same family into the physical instance, also you need to check your if your Microsoft T&Cs prevent in place upgrades.
 
@@ -36,3 +36,4 @@ Let’s start with why your organization is exiting VMware, it’s not technical
 I’m not going to make any recommendations, because there is a lot I just don’t know, but I will say I was extremely impressed with the conversations I had with Nutanix. At recent .Next events I was invited to some closed-door sessions with the CTO and engineering teams, now these are the guys who have been pushing hyperconverged and trying to get us to give up our beloved storage arrays, to hear them same they are backing down and putting in the engineering hours because that’s what customers want is convincing. 
 
 Yes, Nutanix’s integration with third party storage has its constraints, IP only (NAS, or iSCSI) for now only Dell, with Pure about to GA shortly, but these are engineering driven not punitive. This is putting them on the opposite direction of VMware, more customers at lower revenue, that’s a strain on engineering and support, and says a lot about the brand.
+
