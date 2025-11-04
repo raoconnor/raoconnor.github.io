@@ -41,10 +41,11 @@ License portability is a complex subject. The terms and conditions are replete w
 
 - Cloud hypervisors don’t allow CPU oversubscription, so you will still need more licenses.
 - Dedicated hardware introduces administrative complexity — e.g., grouping similar workloads into physical instances.
-- Check your Microsoft T&Cs to confirm whether in-place upgrades are permitted
+- Check your Microsoft T&Cs to confirm whether in-place upgrades are permitted.
+- 
 
 
-<span style='color: red;'>If cost savings are the primary reason for moving to public cloud, factor in:</span> 
+If cost savings are the primary reason for moving to public cloud, factor in
 
  **Project costs** for resolving obsolescence and technical debt
  Third-party **licensing costs**
@@ -68,6 +69,7 @@ These constraints are **engineering-driven**, not punitive. They are concerned a
 It seems to me Nutanix is moving in the opposite direction from VMware — **more customers at lower revenue**, which increases engineering and support costs but speaks volumes about their brand values.
 
 #MCExperts, #MCX
+
 
 
 
