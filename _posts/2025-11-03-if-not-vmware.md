@@ -8,6 +8,7 @@ So, if not VMware—then where? This post explores public and private cloud as t
 
 
 ## Blockers 
+
 One of the biggest blockers is technical debt, especially in the form of legacy operating systems. If an OS wasn't upgraded because of an application dependancy this is probably because of a budget constraint. So, if the motivation to leave VMware is financial, consider the **what investment is needed to modernize applications and systems**.
 While unsupported operating systems can technically run in public cloud or on alternative hypervisors, these migrations often become problematic:
 
@@ -43,15 +44,14 @@ License portability is a complex subject. The terms and conditions are replete w
 - Dedicated hardware introduces administrative complexity — e.g., grouping similar workloads into physical instances.
 - Check your Microsoft T&Cs to confirm whether in-place upgrades are permitted.
 
+> If cost savings are the primary reason for moving to public cloud, factor in
 
-##### If cost savings are the primary reason for moving to public cloud, factor in
-
-#####  **Project costs** for resolving obsolescence and technical debt
-#####  Third-party **licensing costs**
-#####  The shift from over-architected capacity to a pay-as-you-go model **without a spend limit**
-
+> - **Project costs** for resolving obsolescence and technical debt
+> - Third-party **licensing costs**
+> - The shift from over-architected capacity to a pay-as-you-go model **without a spend limit**
 
 ## Staying on premises
+
 If budget constraints are key, but executive sentiment means VMware is no longer viable, what are the on-premises alternatives?
 
 Let’s be clear: the decision to exit VMware isn’t technical—it’s about **trust, stability**, and **relationship quality**. You’ll need to carefully evaluate potential providers.
@@ -68,6 +68,7 @@ These constraints are **engineering-driven**, not punitive. They are concerned a
 It seems to me Nutanix is moving in the opposite direction from VMware — **more customers at lower revenue**, which increases engineering and support costs but speaks volumes about their brand values.
 
 #MCExperts, #MCX
+
 
 
 
