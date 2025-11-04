@@ -31,9 +31,11 @@ Organizations that aren’t hosting providers often purchase Microsoft and Oracl
 However, moving to cloud may still result in **significant licensing cost increases**.
 
 VMware architects are familiar with *pCPU to vCPU ratios* — the number of virtual cores that can run concurrently on a physical core. A 1:4 ratio is standard; 1:1 is reserved for high-performance workloads. Some production systems run at 1:12 without noticeable performance degradation, typically due to gradual load increases rather than greenfield design.
-In public cloud, physical cores are translated to virtual cores. If your current ratio is 1:4, you may need **four times the licenses**. SQL Developer and replication licenses can help reduce this, but an increase is expected. 
+In public cloud, physical cores are translated to virtual cores. If your current ratio is 1:4, you may need **four times the licenses**. SQL Developer and failover licenses can help reduce this, but you need to do the math first.
 
 ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/pcpu-vcpu.png)
+
+**Note:** *License portability is a complex subject. The terms and conditions are replete with clauses and restrictions. For example, if you move to Azure or OCI, they offer benefits for their own software that are not extended to AWS or GCP. Enterprise versions of databases are significantly more expensive — are your DBA installing Enterprise “just in case”? That’s a big red flag. There are minimum core requirements that need to be understood, so you may have to increase cores even further or consolidate. And as mentioned earlier, failover and developer licenses can help offset the increase for SQL.*
 
 **Dedicated hardware** is often suggested by hyperscalers to enable Bring Your Own License (BYOL). However:
 
@@ -65,6 +67,7 @@ These constraints are **engineering-driven**, not punitive. They are concerned a
 It seems to me Nutanix is moving in the opposite direction from VMware — **more customers at lower revenue**, which increases engineering and support costs but speaks volumes about their brand values.
 
 #MCExperts, #MCX
+
 
 
 
