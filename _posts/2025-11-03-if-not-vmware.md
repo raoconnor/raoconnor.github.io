@@ -45,7 +45,7 @@ License portability is a complex subject. The terms and conditions are replete w
 - Check your Microsoft T&Cs to confirm whether in-place upgrades are permitted.
 
 > If cost savings are the primary reason for moving to public cloud, factor in
-
+>
 > - **Project costs** for resolving obsolescence and technical debt
 > - Third-party **licensing costs**
 > - The shift from over-architected capacity to a pay-as-you-go model **without a spend limit**
@@ -68,6 +68,7 @@ These constraints are **engineering-driven**, not punitive. They are concerned a
 It seems to me Nutanix is moving in the opposite direction from VMware — **more customers at lower revenue**, which increases engineering and support costs but speaks volumes about their brand values.
 
 #MCExperts, #MCX
+
 
 
 
