@@ -35,7 +35,7 @@ In public cloud, physical cores are translated to virtual cores. If your current
 
 ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/pcpu-vcpu.png)
 
-####### Note: License portability is a complex subject. The terms and conditions are replete with clauses and restrictions. For example, if you move to Azure or OCI, they offer benefits for their own software that are not extended to AWS or GCP. Enterprise versions of databases are significantly more expensive — are your DBA installing Enterprise “just in case”? That’s a big red flag. There are minimum core requirements that need to be understood, so you may have to increase cores even further or consolidate. And as mentioned earlier, failover and developer licenses can help offset the increase for SQL.
+License portability is a complex subject. The terms and conditions are replete with clauses and restrictions. For example, if you move to Azure or OCI, they offer benefits for their own software that are not extended to AWS or GCP. Enterprise versions of databases are significantly more expensive — are your DBA installing Enterprise “just in case”? That’s a big red flag. There are minimum core requirements that need to be understood, so you may have to increase cores even further or consolidate. And as mentioned earlier, failover and developer licenses can help offset the increase for SQL.
 
 **Dedicated hardware** is often suggested by hyperscalers to enable Bring Your Own License (BYOL). However:
 
@@ -43,11 +43,11 @@ In public cloud, physical cores are translated to virtual cores. If your current
 - Dedicated hardware introduces administrative complexity — e.g., grouping similar workloads into physical instances.
 - Check your Microsoft T&Cs to confirm whether in-place upgrades are permitted.
 
-If cost savings are the primary reason for moving to public cloud, factor in:
+> If cost savings are the primary reason for moving to public cloud, factor in:
 
-- **Project costs** for resolving obsolescence and technical debt
-- Third-party **licensing costs**
-- The shift from over-architected capacity to a pay-as-you-go model **without a spend limit**
+>> **Project costs** for resolving obsolescence and technical debt
+>> Third-party **licensing costs**
+>> The shift from over-architected capacity to a pay-as-you-go model **without a spend limit**
 
 
 ## Staying on premises
@@ -67,6 +67,7 @@ These constraints are **engineering-driven**, not punitive. They are concerned a
 It seems to me Nutanix is moving in the opposite direction from VMware — **more customers at lower revenue**, which increases engineering and support costs but speaks volumes about their brand values.
 
 #MCExperts, #MCX
+
 
 
 
