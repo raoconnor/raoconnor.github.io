@@ -17,9 +17,9 @@ Understanding the agenda and motives of others is critical. Vendors want to sell
 When indicators suggest public cloud isn’t right for your organization, how do you decide whether to move on or stay? The cost equation seems simple:
 **Effort + migration cost < license increase**
 
-But this ignores intangibles such as **sentiment**. In social media, sentiment is measured by analysing words or emojis to interpret attitudes toward a topic or brand. What I’m suggesting is a quantitative valuation of sentiment—based on measurable criteria.
+But this ignores intangibles such as **sentiment**. In social media, sentiment is measured by analysing content to interpret attitudes toward a topic or brand. What I’m suggesting is a quantitative valuation of sentiment—based on measurable criteria.
 
-Let’s start with why your organization is exiting VMware. It’s not a technical issue, but it will have financial implications, and it’s important to get it right.
+Let’s start with **why your organization is exiting VMware**. It’s not a technical issue, but it will have financial implications, and it’s important to get it right.
 I asked ChatGPT to create a vendor evaluation checklist, and it produced these categories and criteria.
 
 ![table](https://raoconnor.github.io/docs/assets/images/vendor-critera.png) 
@@ -38,6 +38,7 @@ Yes, Nutanix’s integration with third party storage has its constraints, IP on
 
 
 #MCExperts, #MCX
+
 
 
 
