@@ -5,7 +5,7 @@
 For most organizations, the decision to exit VMware isn’t technical. As a hypervisor, ESX is hard to beat. The motives behind these decisions are usually a mix of financial, strategic, and sentiment-driven factors.
 Of these, sentiment is often more important than many realize. It may sound like a “sixth sense,” but strategy and even financial decisions can be realigned around it. This isn’t about a purely emotional reaction—it’s about informed opinion. 
 
-VMware no longer holds a monopoly on virtualization; there are other strong options
+VMware no longer holds a monopoly on virtualization; there are other strong options:
 
 ## Public Cloud
 One company’s loss is another’s gain. Cloud providers are actively capitalizing on the situation by offering funding and credits to offset migration costs. That’s attractive to budget-conscious customers and helps build goodwill.
@@ -17,7 +17,7 @@ Understanding the agenda and motives of others is critical. Vendors want to sell
 When indicators suggest public cloud isn’t right for your organization, how do you decide whether to move on or stay? The cost equation seems simple:
 **Effort + migration cost < license increase**
 
-But this ignores intangibles such as sentiment. In social media, sentiment is measured by analysing words or emojis to interpret attitudes toward a topic or brand. What I’m suggesting is a quantitative valuation of sentiment—based on measurable criteria.
+But this ignores intangibles such as **sentiment**. In social media, sentiment is measured by analysing words or emojis to interpret attitudes toward a topic or brand. What I’m suggesting is a quantitative valuation of sentiment—based on measurable criteria.
 
 Let’s start with why your organization is exiting VMware. It’s not a technical issue, but it will have financial implications, and it’s important to get it right.
 I asked ChatGPT to create a vendor evaluation checklist, and it produced these categories and criteria.
@@ -38,6 +38,7 @@ Yes, Nutanix’s integration with third party storage has its constraints, IP on
 
 
 #MCExperts, #MCX
+
 
 
 
