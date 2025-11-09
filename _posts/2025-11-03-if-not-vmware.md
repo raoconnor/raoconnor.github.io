@@ -3,9 +3,9 @@
 
 ### Exiting VMware: Sentiment, Strategy, and Alternatives
 For most organizations, the decision to exit VMware isn’t technical. As a hypervisor, ESX is hard to beat. The motives behind these decisions are usually a mix of financial, strategic, and sentiment-driven factors.
-Of these, sentiment is often more important than many realize. It may sound like a “sixth sense,” but strategy and even financial decisions can be realigned around it. This isn’t about a purely emotional reaction—it’s about informed opinion. 
+Of these, **sentiment is important**. It may sound like a “sixth sense,” but strategy and even financial decisions can be realigned around it. This isn’t about a purely emotional reaction—it’s about informed opinion. 
 
-VMware no longer holds a monopoly on virtualization; there are other strong options:
+#### VMware no longer holds a monopoly on virtualization; there are other strong options:
 
 ### Public Cloud
 One company’s loss is another’s gain. Cloud providers are actively capitalizing on the situation by offering funding and credits to offset migration costs. That’s attractive to budget-conscious customers and helps build goodwill.
@@ -38,6 +38,7 @@ Yes, Nutanix’s integration with third party storage has its constraints, IP on
 
 
 #MCExperts, #MCX
+
 
 
 
