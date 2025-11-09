@@ -21,29 +21,19 @@ Let’s start with why your organization is exiting VMware. It’s not a technic
 I asked ChatGPT to create a vendor evaluation checklist, and it produced these categories and criteria
 
 
-| **Category**                  | **Criteria**                  | **Description**                                                     |
-|-------------------------------|-------------------------------|---------------------------------------------------------------------|
-| Functional & Technical        | Feature Fit                   | Meets current and future technical requirements                     |
-|                               | Integration Compatibility     | Works seamlessly with existing systems and virtualization platforms |
-|                               | Performance & Reliability     | Proven uptime, scalability, and stability                           |
-|                               | Security & Compliance         | Meets data protection and compliance standards                      |
-| Financial & Commercial        | Total Cost of Ownership (TCO) | Includes licensing, support, and maintenance costs                  |
-|                               | Pricing Flexibility           | Offers subscription, perpetual, or other flexible pricing models    |
-|                               | ROI & Value                   | Demonstrated return on investment                                   |
-|                               | Vendor Stability              | Financial health and market longevity                               |
-| Vendor Capability & Support   | Technical Support & SLA       | Quality, responsiveness, and global coverage                        |
-|                               | Training & Documentation      | Quality of learning and knowledge resources                         |
-|                               | Product Roadmap               | Vendor’s innovation and development commitment                      |
-| Implementation & Management   | Ease of Deployment            | Simplicity of installation and migration                            |
-|                               | Management & Automation       | Centralized control, APIs, and orchestration                        |
-| Risk & Compliance             | Data Sovereignty & Privacy    | Compliance with regional data requirements                          |
-|                               | Exit Strategy / Portability   | Ability to migrate or switch vendors easily                         |
-| User & Operational Experience | UI/UX & Usability             | Ease of use for admins and users                                    |
-|                               | Customer Feedback             | Independent reviews, case studies, satisfaction                     |
-
-
 ![vendor evaluation table](https://raoconnor.github.io/docs/assets/images/vendor-critera.png)
-raoconnor.github.io/
+
+
+While there is a section on Vendor Capability and Support, specific focus on sentiment was missing and yet this is some of the most important factors in and partnership. 
+
+- **Trust** –will the vendor hold you hostage, your infrastructure and software critical are to the business, does the vendor make decisions that have a negative impact on your business, in such a way that you have with few options and no time to react, is there flexibility in negotiations, indicating a willingness to meet you half way, how would you describe the relationship, positive, neutral or negative. 
+
+- **Predictability** – each renewal should not be a time of uncertainty and fear, do you have contractual terms and conditions to ensure costs won’t significantly increase, or are you at the mercy of the vendor, thinking in terms of renewal and what’s the historical reputation of the vendor, may help focus long term plans.
+
+I’m spending a lot of time looking at the alternatives to Vmware. I’ve been impressed with the conversations I have had with Nutanix. For example at recent .Next events I was invited to some closed-door sessions with the CTO and engineering teams, most of whom are ex VMware, now these are the guys who have been pushing hyperconverged and trying to get us to give up our beloved storage arrays, to hear them say they are willing to putt in the engineering hours because what some customers want is to continue with external storage, made an impression on me. 
+Yes, Nutanix’s integration with third party storage has its constraints, IP only (NAS, or iSCSI) for now only Dell, with Pure about to GA shortly, but these are engineering driven constraints not punitive designed to drive up revenue. As the price point for non-converged software will be lower, this is putting them on the opposite direction to VMware, more customers at lower revenue, that’s a strain on engineering and support, but says a lot about the brand.
+
+
 
 
 
