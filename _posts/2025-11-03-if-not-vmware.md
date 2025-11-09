@@ -21,8 +21,9 @@ Let’s start with why your organization is exiting VMware. It’s not a technic
 I asked ChatGPT to create a vendor evaluation checklist, and it produced these categories and criteria
 
 
-Category	Criteria	Description
+Category | Criteria |	Description
 --- | --- | ---
+
 
 
 
