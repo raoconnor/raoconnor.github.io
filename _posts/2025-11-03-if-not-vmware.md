@@ -25,7 +25,7 @@ I asked ChatGPT to create a vendor evaluation checklist, and it produced these c
 ![table](https://raoconnor.github.io/docs/assets/images/vendor-critera.png) 
 
 
-While there is a section on Vendor Capability and Support, specific focus on sentiment was missing and yet this is some of the most important factors in and partnership. 
+While there is a section on Vendor Capability and Support, specific focus on sentiment was missing, yet this is one of the most important factors in any choosing a brand. 
 
 - **Trust** –will the vendor hold you hostage, your infrastructure and software critical are to the business, does the vendor make decisions that have a negative impact on your business, in such a way that you have with few options and no time to react, is there flexibility in negotiations, indicating a willingness to meet you half way, how would you describe the relationship, positive, neutral or negative. 
 
@@ -38,6 +38,7 @@ Yes, Nutanix’s integration with third party storage has its constraints, IP on
 
 
 #MCExperts, #MCX
+
 
 
 
