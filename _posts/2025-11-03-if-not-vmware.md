@@ -21,13 +21,13 @@ Let’s start with why your organization is exiting VMware. It’s not a technic
 I asked ChatGPT to create a vendor evaluation checklist, and it produced these categories and criteria
 
 
-Category | Criteria |	Description
+Category | Criteria |Description
 --- | --- | ---
-
 Functional & Technical | Feature Fit |	Meets current and future technical requirements 
                        | Integration Compatibility | Works seamlessly with existing systems and virtualization platforms
                        | Performance & Reliability | Proven uptime, scalability, and stability
 	                     | Security & Compliance| Meets data protection and compliance standards
+
 
 
 
