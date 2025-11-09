@@ -43,6 +43,8 @@ I asked ChatGPT to create a vendor evaluation checklist, and it produced these c
 
 
 
+raoconnor.github.io/
+
 
 
 
