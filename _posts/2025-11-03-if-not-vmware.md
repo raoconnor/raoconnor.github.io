@@ -42,8 +42,9 @@ I asked ChatGPT to create a vendor evaluation checklist, and it produced these c
 |                               | Customer Feedback             | Independent reviews, case studies, satisfaction                     |
 
 
-![vendor evaluation table](https://raoconnor.github.io/docs/assets/images/vendor-critera.jpg)
+![vendor evaluation table](https://raoconnor.github.io/docs/assets/images/vendor-critera.png)
 raoconnor.github.io/
+
 
 
 
