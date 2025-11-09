@@ -20,8 +20,8 @@ In social media, sentiment is measured by analysing words or emojis to interpret
 Let’s start with why your organization is exiting VMware. It’s not a technical issue, but it will have financial implications, and it’s important to get it right.
 I asked ChatGPT to create a vendor evaluation checklist, and it produced these categories and criteria.
 
-![vendor evaluation table](https://raoconnor.github.io/docs/assets/images/vendor-critera.png) 
-
+![table](https://raoconnor.github.io/docs/assets/images/vendor-critera.png) 
+![move](https://raoconnor.github.io/docs/assets/images/Move.png)
 
 While there is a section on Vendor Capability and Support, specific focus on sentiment was missing and yet this is some of the most important factors in and partnership. 
 
@@ -31,6 +31,7 @@ While there is a section on Vendor Capability and Support, specific focus on sen
 
 I’m spending a lot of time looking at the alternatives to Vmware. I’ve been impressed with the conversations I have had with Nutanix. For example at recent .Next events I was invited to some closed-door sessions with the CTO and engineering teams, most of whom are ex VMware, now these are the guys who have been pushing hyperconverged and trying to get us to give up our beloved storage arrays, to hear them say they are willing to putt in the engineering hours because what some customers want is to continue with external storage, made an impression on me. 
 Yes, Nutanix’s integration with third party storage has its constraints, IP only (NAS, or iSCSI) for now only Dell, with Pure about to GA shortly, but these are engineering driven constraints not punitive designed to drive up revenue. As the price point for non-converged software will be lower, this is putting them on the opposite direction to VMware, more customers at lower revenue, that’s a strain on engineering and support, but says a lot about the brand.
+
 
 
 
