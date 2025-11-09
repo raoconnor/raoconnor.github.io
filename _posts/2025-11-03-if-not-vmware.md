@@ -15,7 +15,7 @@ Understanding the agenda and motives of others is critical. Vendors want to sell
 
 ### Staying On-Premises
 When indicators suggest public cloud isn’t right for your organization, how do you decide whether to move on or stay? The cost equation seems simple:
-**Effort + migration cost < license increase**
+*Effort + migration cost < license increase*
 
 But this ignores intangibles such as **sentiment**. In social media, sentiment is measured by analysing content to interpret attitudes toward a topic or brand. What I’m suggesting is a quantitative valuation of sentiment—based on measurable criteria.
 
@@ -38,6 +38,7 @@ Yes, Nutanix’s integration with third party storage has its constraints, IP on
 
 
 #MCExperts, #MCX
+
 
 
 
