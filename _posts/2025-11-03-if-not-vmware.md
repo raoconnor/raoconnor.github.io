@@ -5,6 +5,7 @@
 For most organizations, the decision to exit VMware isn’t technical. As a hypervisor, ESX is hard to beat. The motives behind these decisions are usually a mix of financial, strategic, and sentiment-driven factors.
 Of these, **sentiment is important**. It may sound like a “sixth sense,” but strategy and even financial decisions can be realigned around it. This isn’t about a purely emotional reaction—it’s about informed opinion. 
 
+<code style="cyan : name_color">text</code>
 <code style="color : aqua">VMware no longer holds a monopoly on virtualization; there are other strong options:</code>
 
 ### Public Cloud
@@ -40,6 +41,7 @@ Yes, Nutanix’s integration with third party storage has its constraints, IP on
 
 
 #MCExperts, #MCX
+
 
 
 
