@@ -24,7 +24,7 @@ A similar scenario occurs in Azure:
 - When compared to a license-included instance, results in an increase of more than double.
 
  ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/windows-cost-compare.png)
- 
+
 ### Key Warning
 Be cautious of any TCO model that estimates Windows servers as AWS Linux or assumes Hybrid Benefit when you don’t have Software Assurance
 
@@ -93,6 +93,7 @@ There are advantages to running an enterprise-grade third-party hypervisor that 
 Unfortunately, Broadcom has strained relationships with many customers and cloud providers. **Nutanix Cloud Infrastructure** is considered the closest to VMware in functionality and hybrid-cloud capabilities. Switching to **Nutanix AHV** may be a viable alternative, offering physical core licensing and oversubscription benefits both on-premises and in dedicated public cloud hardware.
 
 *In the future blog I’ll deep dive into SQL licencing in public cloud*
+
 
 
 
