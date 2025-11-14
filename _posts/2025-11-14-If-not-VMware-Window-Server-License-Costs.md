@@ -26,8 +26,10 @@ A similar scenario occurs in Azure:
  ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/windows-cost-compare1.png)
 
 ---
+
 #### Key Warning
 Be cautious of any TCO model that estimates Windows servers as AWS Linux or assumes Hybrid Benefit when you don’t have Software Assurance
+
 ---
 
 
@@ -97,6 +99,7 @@ Unfortunately, Broadcom has strained relationships with many customers and cloud
 
 
 #MCExperts, #MCX
+
 
 
 
