@@ -36,7 +36,7 @@ Software Assurance does have a cost, and any TCO model should include that when 
 ## Cores Are the Currency
 The number of cores is the key metric for determining cost. This applies to licenses, as well as cloud compute capacity. While compute calculations are straightforward, moving licenses from on-premises to the cloud introduces important changes.
 
-Many enterprises purchase Microsoft and Oracle licenses based on **physical cores**. As stated, Microsoft only allows Windows Server licenses with Software Assurance to be transferred to shared hardware on Azure. However, SQL Server can be transferred to AWS if Software Assurance is in place. This can also extend to other software such as Oracle or Red Hat licenses.
+Many enterprises purchase Microsoft and Oracle licenses based on **physical cores**. As stated, Microsoft only allows Windows Server licenses with Software Assurance to be transferred to Azure. However, SQL Server can be transferred to AWS if Software Assurance is in place. This can also extend to other software such as Oracle or Red Hat licenses.
 
 Transferring physical core licensing to the cloud is not a like-for-like process and can result in significant cost increases.
 
@@ -93,6 +93,7 @@ There are advantages to running an enterprise-grade third-party hypervisor that 
 Unfortunately, Broadcom has strained relationships with many customers and cloud providers. **Nutanix Cloud Infrastructure** is considered the closest to VMware in functionality and hybrid-cloud capabilities. Switching to **Nutanix AHV** may be a viable alternative, offering physical core licensing and oversubscription benefits both on-premises and in dedicated public cloud hardware.
 
 *In the future blog I’ll deep dive into SQL licencing in public cloud*
+
 
 
 
