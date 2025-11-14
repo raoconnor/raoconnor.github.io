@@ -95,6 +95,7 @@ Unfortunately, Broadcom has strained relationships with many customers and cloud
 *In the future blog I’ll deep dive into SQL licencing in public cloud*
 
 
+#MCExperts, #MCX
 
 
 
