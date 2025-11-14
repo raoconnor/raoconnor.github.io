@@ -45,7 +45,7 @@ VMware architects are familiar with pCPU-to-vCPU ratios, which represent how man
 - 1:1 is reserved for high-performance workstations.
 - I've seen ratios as high as 1:12, without noticable slowness
 
-Moving to public cloud usually requires transferring physical core licenses to virtual cores. For example, if 8 physical licensed cores are applied to a host running at a 1:4 ratio, you may need **four times the licenses** in the cloud.
+Moving to public cloud usually requires transferring physical core licenses to virtual cores. For example, if the license applied to a 8 core physical host running at a 1:4 ratio, you may need **four times the virtual core licenses** in the cloud.
 
  ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/pCPU-vCPU-Compare.png)
 
@@ -91,6 +91,7 @@ There are advantages to running an enterprise-grade third-party hypervisor that 
 Unfortunately, Broadcom has strained relationships with many customers and cloud providers. **Nutanix Cloud Infrastructure** is considered the closest to VMware in functionality and hybrid-cloud capabilities. Switching to **Nutanix AHV** may be a viable alternative, offering physical core licensing and oversubscription benefits both on-premises and in dedicated public cloud hardware.
 
 *In the future blog I’ll deep dive into SQL licencing in public cloud*
+
 
 
 
