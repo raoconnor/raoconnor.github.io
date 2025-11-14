@@ -13,7 +13,8 @@ Microsoft terms and conditions only allow Windows Server Licences with software 
 As an example check out the comparative pricing for a 4 core 16 GB memory instance –the AWS Linux image has no operating system cost and is a baseline for compute capacity, comparing that with windows licence included and the price more than doubles. A similar scenario plays out in Azure, Hybrid Benefit - which removes the cost of the licence, compared the licence included, and the increase is more than double.
 
 ###Be careful of any TCO model that estimates Windows servers as AWS Linux or assumes Hybrid benefit when you don’t have software assurance.
- 
+
+ ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/windows-cost-compare.png)
 
 Software assurance does have a cost, a TCO model should add that on to Hybrid Benefit. Also Hybrid Benefit imposes an 8-core minimum per VM, 8 core licenses are required even if you only use 4 cores. The concern is that you will not have enough eligible Windows Server licenses for your VMs deployed in Azure.
 Cores are the currency
@@ -22,7 +23,8 @@ Many enterprises purchase Microsoft and Oracle licences based on the physical co
 Transferring physical cores licencing to cloud is not like for like, and cloud result in significant cost increase.
 VMware architects are familiar with pCPU to vCPU ratios, which is the amount to virtual cores that can run “simultaneously” on a physical core, 1:4 is considered standard, 1:1 is reserved for a few very high-performance workstations, I’ve seen production systems running at 1:12 without any noticeable slowness. 
 Moving to public cloud will usually requires transferring physical cores licences to virtual cores. For example, if 8 physical licence cores are applied to a host running with 1:4 ratio you may need four times the licences. 
- 
+
+ ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/pCPU-vCPU-Compare.png)
 
 In the case of virtual machines, the destination matters, first which cloud provider, then the type of hosting service
 IaaS Hosting Services 
@@ -32,6 +34,7 @@ There are two hosting services for your IaaS workloads, shared tenancy / or VM �
 **Azure**
 If you have Windows Server Datacenter edition with SA, then Azure allows simultaneous use of on-premises and in Azure for an unlimited duration when used for licensing VMs with Windows Server in shared tenancy.
 Azure allows Unlimited Virtualization for Windows Server Datacenter edition; allowing you to use any number of Windows Server VMs on an Azure dedicated host if you allocate Windows Server Datacenter licenses with active Software Assurance or subscription for all the available physical cores on that Azure server. Note this negates the option above of simultaneous licence assignment.
+
 Important note: your licencing specialist needs to get this validated from Microsoft, your cloud architecture and estimated cost will change significantly if you are not able to leverage the above conditions, this must be validated before any commitment is made.
 
 **AWS and the others**
@@ -49,5 +52,6 @@ The business case for some organizations is not compiling, and it can be these l
 Sadly Broadcom has soured it relationship with many customers and cloud providers, Nutanix Cloud Infrastructure is considered as the closest to VMware in functionality, and hybrid-cloud capabilities. Switching Hypervisors to Nutanix AHV may be a viable alternative, allowing the advantages of physical core licensing and core oversubscription either on premises or in dedicated hardware in public cloud.
 
 *In the future blog I’ll deep dive into SQL licencing in public cloud*
+
 
 
