@@ -5,53 +5,91 @@
 If you are looking at alternatives, make sure you have agonistically calculated the numbers on what it’ll cost to move and run your workloads elsewhere. Otherwise, you might end up trading one headache for another — jumping out of the frying pan and straight into the fire.
 
 ## Public Cloud 
-Calculating the future run costs of public cloud is open to myriads of tweaks, assumptions that can throw budgets way off track.
-I want to zero in on a couple of really important assumptions teams commonly make when moving to the cloud — and how those can seriously shift the cost equation.
+Estimating future run costs in the public cloud involves countless tweaks and assumptions that can easily throw budgets off track.
+I want to focus on a couple of critical assumptions teams often make when moving to the cloud — and how these can significantly impact the cost equation.
 
 ## Windows Server Licences 
-Microsoft terms and conditions only allow Windows Server Licences with software assurance to be transferred to Azure, not AWS, GCP or OCI, for those providers you will need to either repurchase the licences under a cloud subscription model or go to dedicated hardware.
-As an example check out the comparative pricing for a 4 core 16 GB memory instance –the AWS Linux image has no operating system cost and is a baseline for compute capacity, comparing that with windows licence included and the price more than doubles. A similar scenario plays out in Azure, Hybrid Benefit - which removes the cost of the licence, compared the licence included, and the increase is more than double.
+Microsoft’s terms and conditions only allow Windows Server licenses with Software Assurance to be transferred to Azure—not AWS, GCP, or OCI. For those providers, you’ll need to either repurchase the licenses under a cloud subscription model or use dedicated hardware.
 
-###Be careful of any TCO model that estimates Windows servers as AWS Linux or assumes Hybrid benefit when you don’t have software assurance.
+For example, compare the pricing for a 4-core, 16 GB memory instance:
+
+- The AWS Linux image has no operating system cost and serves as a baseline for compute capacity.
+- When you include a Windows license, the price more than doubles.
+
+A similar scenario occurs in Azure:
+
+- Hybrid Benefit,  removes the license cost
+- When compared to a license-included instance, results in an increase of more than double.
+
+### Key Warning
+Be cautious of any TCO model that estimates Windows servers as AWS Linux or assumes Hybrid Benefit when you don’t have Software Assurance
 
  ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/windows-cost-compare.png)
 
-Software assurance does have a cost, a TCO model should add that on to Hybrid Benefit. Also Hybrid Benefit imposes an 8-core minimum per VM, 8 core licenses are required even if you only use 4 cores. The concern is that you will not have enough eligible Windows Server licenses for your VMs deployed in Azure.
-Cores are the currency
-The number of virtual cores has become the key metric in determining cost, the applies to licences on prem and in cloud, as well as cloud compute capacity. While for compute capacity the calculation is straightforward, when moving licences from on premises to cloud there are important changes.
-Many enterprises purchase Microsoft and Oracle licences based on the physical cores. As stated Microsoft only allow Windows server licences with software assurance to be transferred to shared hardware on Azure, however SQL Server can be transferred to AWS if software assurance has been acquired. This can extend to other software such Oracle or Redhat licences.
-Transferring physical cores licencing to cloud is not like for like, and cloud result in significant cost increase.
-VMware architects are familiar with pCPU to vCPU ratios, which is the amount to virtual cores that can run “simultaneously” on a physical core, 1:4 is considered standard, 1:1 is reserved for a few very high-performance workstations, I’ve seen production systems running at 1:12 without any noticeable slowness. 
-Moving to public cloud will usually requires transferring physical cores licences to virtual cores. For example, if 8 physical licence cores are applied to a host running with 1:4 ratio you may need four times the licences. 
+## Software Assurance and Hybrid Benefit
+Software Assurance does have a cost, and any TCO model should include that when applying Hybrid Benefit. Additionally, Hybrid Benefit imposes an **8-core minimum** per VM—meaning you need 8 core licenses even if you only use 4 cores. The concern is that you may not have enough eligible Windows Server licenses for all your VMs deployed in Azure.
+
+## Cores Are the Currency
+The number of virtual cores has become the key metric for determining cost. This applies to licenses on-premises and in the cloud, as well as cloud compute capacity. While compute capacity calculations are straightforward, moving licenses from on-premises to the cloud introduces important changes.
+
+Many enterprises purchase Microsoft and Oracle licenses based on **physical cores**. As stated, Microsoft only allows Windows Server licenses with Software Assurance to be transferred to shared hardware on Azure. However, SQL Server can be transferred to AWS if Software Assurance is in place. This can also extend to other software such as Oracle or Red Hat licenses.
+
+Transferring physical core licensing to the cloud is not a like-for-like process and can result in significant cost increases.
+
+---
+## Physical vs. Virtual Core Ratios
+VMware architects are familiar with pCPU-to-vCPU ratios, which represent how many virtual cores can run “simultaneously” on a physical core.
+
+- 1:4 is considered standard.
+- 1:1 is reserved for high-performance workstations.
+- In production, ratios like 1:12 are sometimes used without noticeable slowness.
+
+Moving to public cloud usually requires transferring physical core licenses to virtual cores. For example, if 8 physical licensed cores are applied to a host running at a 1:4 ratio, you may need **four times the licenses** in the cloud.
 
  ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/pCPU-vCPU-Compare.png)
 
-In the case of virtual machines, the destination matters, first which cloud provider, then the type of hosting service
-IaaS Hosting Services 
-There are two hosting services for your IaaS workloads, shared tenancy / or VM – no host system admin, just select a size and deploy the instance, and dedicated hardware – you pay for the entire host assign VMs of the same family to that host, all host capacity is billed.
+## Destination Matters for Virtual Machines
+When it comes to virtual machines, the destination matters—first, which cloud provider you choose, and then the type of hosting service.
+---
+## IaaS Hosting Services
+There are two main hosting options for IaaS workloads:
 
-## Which Public Cloud
+- Shared tenancy (VM-based): No host-level administration; you simply select a size and deploy the instance.
+- Dedicated hardware: You pay for the entire host and assign VMs of the same family to that host. All host capacity is billed.
+
+---
+## Which Public Cloud?
 **Azure**
-If you have Windows Server Datacenter edition with SA, then Azure allows simultaneous use of on-premises and in Azure for an unlimited duration when used for licensing VMs with Windows Server in shared tenancy.
-Azure allows Unlimited Virtualization for Windows Server Datacenter edition; allowing you to use any number of Windows Server VMs on an Azure dedicated host if you allocate Windows Server Datacenter licenses with active Software Assurance or subscription for all the available physical cores on that Azure server. Note this negates the option above of simultaneous licence assignment.
+If you have Windows Server Datacenter Edition with Software Assurance (SA), Azure allows simultaneous use on-premises and in Azure for an unlimited duration when licensing VMs in shared tenancy.
+Azure also offers Unlimited Virtualization for Windows Server Datacenter Edition. This means you can run any number of Windows Server VMs on an Azure dedicated host if you allocate Datacenter licenses with active SA or subscription for all physical cores on that server.
+Note: This negates the option of simultaneous license assignment mentioned above.
 
-Important note: your licencing specialist needs to get this validated from Microsoft, your cloud architecture and estimated cost will change significantly if you are not able to leverage the above conditions, this must be validated before any commitment is made.
+**Important:** Your licensing specialist must validate these conditions with Microsoft. Your cloud architecture and cost estimates can change significantly if you cannot leverage these benefits. Validate before making any commitments.
+---
+##AWS and Other Providers
+AWS often suggests dedicated hardware to reduce license costs. However:
 
-**AWS and the others**
-Dedicated hardware will often be suggested by the AWS to keep licence costs down, but keep in mind while dedicated hardware allows BYOL, the cloud hypervisor does not allow CPU oversubscription so the issues of needing more licences still applies. Additionally dedicated hardware can be a bit of an administrative headache due to fitting workloads of the same family into the physical instance, also you need to check your if your Microsoft T&Cs prevent in place upgrades.
-The simplicity of shared tenancy with new Windows server subscription is attractive to many organizations, some customers don’t have Software Assurance, and those that do should include a line removing that cost as part of the TCO. 
+While dedicated hardware allows **BYOL (Bring Your Own License)**, the cloud hypervisor does not permit CPU oversubscription, so you may still need more licenses.
+Dedicated hardware can be administratively challenging because workloads of the same family must fit into the physical instance.
+Check whether your Microsoft T&Cs prevent in-place upgrades.
 
-Don’t overlook, how powering off instances over weekends and nights affects the cost of licences, if 50% of your Windows environment is test and dev and can be shut down and restarted, running those instances 30% of the time will also result in 35% savings in compute and licences. 
+Shared tenancy with new Windows Server subscriptions is attractive for many organizations. Customers without SA—and those with SA—should include or remove that cost in their TCO models accordingly.
 
-It’s important to keep in mind the non-Microsoft clouds will look to offset this disadvantage in other ways, such as storage, backup, support and of course discounts.
+## Additional Considerations
 
-It may also be a time to evaluate Windows Server usage, a program to move applications and databases off windows cloud result in valuable savings.
-In conclusion if saving money is the reason to choose public cloud, take a good look at licence costs, you may need to engage an independent consultant. 
-The business case for some organizations is not compiling, and it can be these licence costs that tip the balance - there advantages to running an enterprise grade 3rd Party hypervisor that allows physical core licencing and vCPU oversubscription.
+- Don’t overlook how **powering off instances during weekends and nights** affects license costs. If 50% of your Windows environment is test/dev and can be shut down, running those instances only 30% of the time can yield up to **35% savings** in compute and licensing.
+- Non-Microsoft clouds often offset licensing disadvantages with benefits like storage, backup, support, and discounts.
+- It may be time to evaluate Windows Server usage. Migrating applications and databases off Windows could result in significant savings.
 
-Sadly Broadcom has soured it relationship with many customers and cloud providers, Nutanix Cloud Infrastructure is considered as the closest to VMware in functionality, and hybrid-cloud capabilities. Switching Hypervisors to Nutanix AHV may be a viable alternative, allowing the advantages of physical core licensing and core oversubscription either on premises or in dedicated hardware in public cloud.
+## Final Thoughts
+If saving money is your primary reason for choosing public cloud, scrutinize license costs carefully. You may need to engage an independent consultant. For some organizations, the business case for public cloud does not hold up—and licensing costs often tip the balance.
+
+There are advantages to running an enterprise-grade third-party hypervisor that supports **physical core licensing and vCPU oversubscription**.
+
+Unfortunately, Broadcom has strained relationships with many customers and cloud providers. **Nutanix Cloud Infrastructure** is considered the closest to VMware in functionality and hybrid-cloud capabilities. Switching to **Nutanix AHV** may be a viable alternative, offering physical core licensing and oversubscription benefits both on-premises and in dedicated public cloud hardware.
 
 *In the future blog I’ll deep dive into SQL licencing in public cloud*
+
 
 
 
