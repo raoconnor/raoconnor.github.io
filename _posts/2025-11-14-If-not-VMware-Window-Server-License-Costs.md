@@ -31,7 +31,7 @@ Be cautious of any TCO model that estimates Windows servers as AWS Linux or assu
 
 
 ## Software Assurance and Hybrid Benefit
-Software Assurance does have a cost, and any TCO model should include that when applying Hybrid Benefit. Additionally, Hybrid Benefit imposes an **8-core minimum** per VM—meaning you need 8 core licenses even if you only use 4 cores. So what you saving in licences, you may end up spending in Capacity.
+Software Assurance does have a cost, and any TCO model should include that when applying Hybrid Benefit. Additionally, Hybrid Benefit imposes an **8-core minimum** per VM—meaning you need 8 core licenses even if you only use 4 cores. 
 
 ## Cores Are the Currency
 The number of cores is the key metric for determining cost. This applies to licenses, as well as cloud compute capacity. While compute calculations are straightforward, moving licenses from on-premises to the cloud introduces important changes.
@@ -93,6 +93,7 @@ There are advantages to running an enterprise-grade third-party hypervisor that 
 Unfortunately, Broadcom has strained relationships with many customers and cloud providers. **Nutanix Cloud Infrastructure** is considered the closest to VMware in functionality and hybrid-cloud capabilities. Switching to **Nutanix AHV** may be a viable alternative, offering physical core licensing and oversubscription benefits both on-premises and in dedicated public cloud hardware.
 
 *In the future blog I’ll deep dive into SQL licencing in public cloud*
+
 
 
 
