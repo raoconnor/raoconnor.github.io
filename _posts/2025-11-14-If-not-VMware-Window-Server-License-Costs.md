@@ -5,10 +5,12 @@
 If you are looking at alternatives, make sure you have agonistically calculated the numbers on what it’ll cost to move and run your workloads elsewhere. Otherwise, you might end up trading one headache for another — jumping out of the frying pan and straight into the fire.
 
 ## Public Cloud 
+
 Estimating future run costs in the public cloud involves countless tweaks and assumptions that can easily throw budgets off track.
 I want to focus on a couple of critical assumptions teams often make when moving to the cloud — and how these can significantly impact the cost equation.
 
 ## Windows Server Licences 
+
 Microsoft’s terms and conditions only allow Windows Server licenses with Software Assurance to be transferred to Azure—not AWS, GCP, or OCI. For those providers, you’ll need to either repurchase the licenses under a cloud subscription model or use dedicated hardware.
 
 For example, compare the pricing for a 4-core, 16 GB memory instance:
@@ -89,6 +91,7 @@ There are advantages to running an enterprise-grade third-party hypervisor that 
 Unfortunately, Broadcom has strained relationships with many customers and cloud providers. **Nutanix Cloud Infrastructure** is considered the closest to VMware in functionality and hybrid-cloud capabilities. Switching to **Nutanix AHV** may be a viable alternative, offering physical core licensing and oversubscription benefits both on-premises and in dedicated public cloud hardware.
 
 *In the future blog I’ll deep dive into SQL licencing in public cloud*
+
 
 
 
