@@ -40,8 +40,6 @@ These numbers are estimates and should not be taken to show that one provider is
 
 ---
 
-Does this look better to you? Let me know if you need any further adjustments!
-
 
 ![Image-2](https://raoconnor.github.io/docs/assets/images/CloudCompare-3.png)
 
@@ -50,6 +48,7 @@ Does this look better to you? Let me know if you need any further adjustments!
 #### The point is that for stable IaaS workloads infrastructure cost should not be the primary driver for deciding where to locate. ####
 
 If a client only focuses on infrastucture savings without transformation their journey to cloud may fall short of expectations.
+
 
 
 
