@@ -1,4 +1,4 @@
-# If not VMware, Then Where?  - License Costs Part 1
+# If Not VMware, Then Where?  - License Costs Part 1
 
 ### You have maybe heard the claim that public cloud is more expensive than on premises
 
@@ -99,6 +99,7 @@ Unfortunately, Broadcom has strained relationships with many customers and cloud
 
 
 #MCExperts, #MCX
+
 
 
 
