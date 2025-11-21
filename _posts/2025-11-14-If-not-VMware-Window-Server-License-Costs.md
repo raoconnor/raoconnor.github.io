@@ -86,7 +86,7 @@ Shared tenancy with new Windows Server subscriptions is attractive for many orga
 
 ## Additional Considerations
 
-- Don’t overlook how **powering off instances during weekends and nights** affects license costs. If 50% of your Windows environment is test/dev and can be shut down, running those instances only 30% of the time can yield up to **35% savings** in compute and licensing.
+- Don’t overlook how **powering off instances during weekends and nights** affects license costs. If 50% of your Windows environment is test/dev and can be shut down, running those instances only 30% of the time can yield up to **35% savings** in compute **and licensing**.
 - Non-Microsoft clouds often offset licensing disadvantages with benefits like storage, backup, support, and discounts.
 - It may be time to evaluate Windows Server usage. Migrating applications and databases off Windows could result in significant savings.
 
@@ -101,6 +101,7 @@ Unfortunately, Broadcom has strained relationships with many customers and cloud
 
 
 #MCExperts, #MCX
+
 
 
 
