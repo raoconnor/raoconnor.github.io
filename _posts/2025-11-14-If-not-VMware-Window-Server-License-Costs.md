@@ -7,7 +7,7 @@ If you are looking at alternatives to VMware, make sure you have impartially cal
 ## Public Cloud 
 
 Estimating future run costs in the public cloud involves countless tweaks and assumptions that can easily throw budgets off track.
-I want to focus on a couple of critical assumptions teams often make when moving to the cloud — and how these can significantly impact the cost equation.
+I want to focus on a couple of critical assumptions teams often make when moving to the cloud — and how these can significantly impact the cost equation. I'm not saying don't go to cloud, only you need to have your eyes open and  realistic expectations.
 
 ## Windows Server Licences 
 
@@ -99,6 +99,7 @@ Unfortunately, Broadcom has strained relationships with many customers and cloud
 
 
 #MCExperts, #MCX
+
 
 
 
