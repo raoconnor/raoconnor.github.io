@@ -2,7 +2,7 @@
 
 ### You have maybe heard the claim that public cloud is more expensive than on premises
 
-If you are looking at alternatives to VMware, make sure you have agonistically calculated the numbers on what it’ll cost to move and run your workloads elsewhere. Otherwise, you might end up trading one headache for another — jumping out of the frying pan and straight into the fire.
+If you are looking at alternatives to VMware, make sure you have impartially calculated the numbers on what it’ll cost to move and run your workloads elsewhere. Otherwise, you might end up trading one headache for another — jumping out of the frying pan and straight into the fire.
 
 ## Public Cloud 
 
@@ -99,6 +99,7 @@ Unfortunately, Broadcom has strained relationships with many customers and cloud
 
 
 #MCExperts, #MCX
+
 
 
 
