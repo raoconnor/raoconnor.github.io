@@ -80,7 +80,7 @@ AWS often suggests dedicated hardware to reduce license costs. However:
 
 While dedicated hardware allows **BYOL (Bring Your Own License)**, the cloud hypervisor does not permit CPU oversubscription, so you may still need more licenses.
 Dedicated hardware can be administratively challenging because workloads of the same family must fit into the physical instance.
-Check whether your Microsoft T&Cs prevent in-place upgrades.
+Check whether your Microsoft T&Cs prevent in-place upgrades of Windows Server.
 
 Shared tenancy with new Windows Server subscriptions is attractive for many organizations. Customers without SA—and those with SA—should include or remove that cost in their TCO models accordingly.
 
@@ -101,6 +101,7 @@ Unfortunately, Broadcom has strained relationships with many customers and cloud
 
 
 #MCExperts, #MCX
+
 
 
 
