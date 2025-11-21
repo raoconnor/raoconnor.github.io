@@ -36,7 +36,7 @@ I’m ignoring dedicated hosting for the moment, and I’ll come back to it late
 
 
 ## Software Assurance and Hybrid Benefit
-Software Assurance does have a cost, and any TCO model should include that when applying Hybrid Benefit. Additionally, Hybrid Benefit imposes an **8-core minimum** per VM—meaning you need 8 core licenses even if you only use 4 cores. 
+Software Assurance does have a cost, and any TCO model should include that when applying Hybrid Benefit. Additionally, Hybrid Benefit imposes an **8-core minimum**.
 
 ## Cores Are the Currency
 The number of cores is the key metric for determining cost. This applies to licenses, as well as cloud compute capacity. While compute calculations are straightforward, moving licenses from on-premises to the cloud introduces important changes.
@@ -101,6 +101,7 @@ Unfortunately, Broadcom has strained relationships with many customers and cloud
 
 
 #MCExperts, #MCX
+
 
 
 
