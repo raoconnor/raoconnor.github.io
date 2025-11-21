@@ -23,7 +23,7 @@ A similar scenario occurs in Azure:
 - Hybrid Benefit,  removes the license cost
 - When compared to a license-included instance, results in an increase of more than double.
 
- ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/windows-cost-compare1.png)
+ ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/windows-cost-compar2e1.png)
 
 I’m ignoring dedicated hosting for the moment, and I’ll come back to it later, first lets dive into how licensing changes when moving to cloud, and how that impacts core count which is the basis for how many software licenses are purchased 
 
@@ -101,6 +101,7 @@ Unfortunately, Broadcom has strained relationships with many customers and cloud
 
 
 #MCExperts, #MCX
+
 
 
 
