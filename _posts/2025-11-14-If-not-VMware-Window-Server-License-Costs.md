@@ -73,7 +73,8 @@ There are two main hosting options for IaaS workloads:
 **Azure**
 If you have Windows Server Datacenter Edition with Software Assurance (SA), Azure allows simultaneous use on-premises and in Azure for an unlimited duration when licensing VMs in shared tenancy.
 Azure also offers Unlimited Virtualization for Windows Server Datacenter Edition. This means you can run any number of Windows Server VMs on an Azure dedicated host if you allocate Datacenter licenses with active SA or subscription for all physical cores on that server.
-Notes: Unlimited Virtualization negates the option of Simultaneous license assignment. Hybrid Benefit imposes an 8-core minimum per vm.
+
+Note: Unlimited Virtualization negates the option of Simultaneous license assignment. Hybrid Benefit imposes an 8-core minimum per vm.
 
 
 **Important:** Your licensing specialist must validate these conditions with Microsoft. Your cloud architecture and cost estimates can change significantly if you cannot leverage these benefits. Validate before making any commitments.
@@ -104,6 +105,7 @@ Unfortunately, Broadcom has strained relationships with many customers and cloud
 
 
 #MCExperts, #MCX
+
 
 
 
