@@ -55,7 +55,8 @@ RDS is the full PaaS service, the higher price tag is in consideration of the lo
 
 ## The FinOps Perspective
 
-Public clouds make deploying databases and services incredibly easy. However, if teams fail to plan for licensing costs, expenses can **double, triple, quadruple—or in the worst case, be nearly six times higher** than the BYOL option.
+Public clouds make deploying databases and services incredibly easy, if those who deploy such service are not cost aware or understand the alternatives, the choices they make can **double, triple, quadruple—or in the worst case, be nearly six times higher** than the BYOL option.
+
 
 ---
 
