@@ -30,7 +30,7 @@ In the cloud, you have several licensing options:
 
 The following diagrams illustrate how using existing licenses can significantly reduce costs.  
 
-![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sqlx1.png)
+![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql1.png)
 
 For example, in **Azure**, committing to an instance and using license mobility via **Hybrid Benefit** can reduce costs by nearly **50%** compared to deploying an instance with a bundled license.
 
@@ -38,7 +38,7 @@ For **Pay-As-You-Go (PAYG)**, SQL licensing alone can add approximately **\$583*
 
 There is price parity for **cloud-native Azure Database Service** 
 
-![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sqlx2.png)
+![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql2.png)
 
 For **AWS**, the choice between **Standard** and **Enterprise** editions is a major cost driver. This becomes a serious issue if DBAs and application architects select Enterprise simply because it was previously paid for on physical hosts.
 
