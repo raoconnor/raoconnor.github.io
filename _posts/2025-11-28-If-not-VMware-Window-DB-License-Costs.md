@@ -30,11 +30,21 @@ In the cloud, you have several licensing options:
 
 The following diagrams illustrate how using existing licenses can significantly reduce costs.  
 
+![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql1.png)
+
 For example, in **Azure**, committing to an instance and using license mobility via **Hybrid Benefit** can reduce costs by nearly **50%** compared to deploying an instance with a bundled license.
 
 For **Pay-As-You-Go (PAYG)**, SQL licensing alone can add approximately **\$583**. If admins and developers don’t consider licensing costs, a database could end up costing nearly **three times more** than necessary.
 
-There is price parity for **cloud-native Azure Database Service**, but for **AWS**, the choice between **Standard** and **Enterprise** editions is a major cost driver. This becomes a serious issue if DBAs and application architects select Enterprise simply because it was previously paid for on physical hosts.
+There is price parity for **cloud-native Azure Database Service** 
+
+![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql2.png)
+
+For **AWS**, the choice between **Standard** and **Enterprise** editions is a major cost driver. This becomes a serious issue if DBAs and application architects select Enterprise simply because it was previously paid for on physical hosts.
+
+![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql3.png)
+
+![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql4.png)
 
 ---
 
@@ -48,9 +58,11 @@ Public clouds make deploying databases and services incredibly easy. However, if
 
 Having fixed capacity and the ability to license physical cores (and oversubscribe those cores) provides both cost predictability and peace of mind. This approach ensures that computing and licensing costs remain stable.
 
-This doesn’t have to be on-premises. **Hybrid cloud infrastructure solutions** allow organizations to run servers in both on-premises and public cloud environments. While the cloud abstracts much of the technical complexity of running workloads, it requires **in-depth knowledge of the consequences of licensing choices** when migrating or deploying new workloads.
+![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql5.png)
+
+This doesn’t have to be on premises. Hybrid cloud infrastructure solutions such as **Nutanix Cloud Platform (NCP)**, which combines hyperconverged infrastructure (HCI) with cloud services allowing organizations to run servers either on-premises and public cloud environments on dedicated hardware with the ability to oversubscribe CPU and maximize the usage of expensive database licenses.
 
 ---
 
-### ✅ Key Takeaway
-Licensing decisions in the cloud are not just technical—they’re financial. Understanding these nuances is essential for cost optimization and compliance.
+### Key Takeaway
+While the cloud abstracts much of the technical complexity of running workloads, it requires **in-depth knowledge of the consequences of licensing choices** when migrating or deploying new workloads. Licensing decisions in the cloud are not just technical—they’re financial. Understanding these nuances is essential for cost optimization and compliance.
