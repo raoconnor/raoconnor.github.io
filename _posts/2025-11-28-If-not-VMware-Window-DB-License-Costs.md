@@ -76,3 +76,5 @@ This doesn’t have to be on premises. Hybrid cloud infrastructure solutions suc
 ### Key Takeaway
 - While the cloud abstracts much of the technical complexity of running workloads, it requires **in-depth knowledge of the consequences of licensing choices** when migrating or deploying new workloads. 
 - **Licensing decisions in the cloud are** not just technical—they’re **financial**. Understanding these nuances is essential for cost optimization and compliance.
+
+#MCExperts, #MCX
