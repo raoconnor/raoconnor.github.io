@@ -30,7 +30,7 @@ In the cloud, you have several licensing options:
 
 The following diagrams illustrate how using existing licenses can significantly reduce costs.  
 
-![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql11.png)
+![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql1.png)
 
 For example, in **Azure**, committing to an instance and using license mobility via **Hybrid Benefit** can reduce costs from **\$1.173** to **\$589**, nearly 50% less than deploying an instance with a bundled SQL license.
 
