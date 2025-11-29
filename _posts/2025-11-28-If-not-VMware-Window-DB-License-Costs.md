@@ -1,5 +1,5 @@
 
-# If Not VMware, Then Where? – *Understanding SQL Server License Costs* 
+# If Not VMware, Then Where? – *SQL Server License Costs* 
 
 
 Infrastructure costs are only one part of the overall IT budget. When moving to the public cloud, ignoring how license agreements with third parties such as Microsoft and Oracle impact compliance can lead to significant cost increases.
