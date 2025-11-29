@@ -63,7 +63,7 @@ Public clouds make deploying databases and services incredibly easy. However, if
 
 Having fixed capacity and the ability to **license physical cores** (and oversubscribe those cores) provides both cost predictability and peace of mind. This approach ensures that computing and licensing costs remain stable.
 
-![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql5.png)
+![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql51.png)
 
 
 
