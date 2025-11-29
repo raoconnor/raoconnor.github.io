@@ -68,7 +68,8 @@ Changing from a 1:4 core oversubscription to 1:1 can have license implications. 
 This doesn’t have to be on premises. Hybrid cloud infrastructure solutions such as **Nutanix Cloud Platform (NCP)**, which combines hyperconverged infrastructure (HCI) with cloud services allows organizations to run servers either on-premises and public cloud environments on dedicated hardware with the ability to oversubscribe CPU and maximize the usage of expensive database licenses.
 
 *For addtional details see my earlier post* 
-![Windows Server Licence Costs] https://raoconnor.github.io/2025/11/14/If-not-VMware-Window-Server-License-Costs.html
+
+![] https://raoconnor.github.io/2025/11/14/If-not-VMware-Window-Server-License-Costs.html
 
 ---
 
