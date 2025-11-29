@@ -60,9 +60,11 @@ Having fixed capacity and the ability to **license physical cores** (and oversub
 
 ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql5.png)
 
-For addtional details see my earlier post https://raoconnor.github.io/2025/11/14/If-not-VMware-Window-Server-License-Costs.html
+
 
 This doesn’t have to be on premises. Hybrid cloud infrastructure solutions such as **Nutanix Cloud Platform (NCP)**, which combines hyperconverged infrastructure (HCI) with cloud services allowing organizations to run servers either on-premises and public cloud environments on dedicated hardware with the ability to oversubscribe CPU and maximize the usage of expensive database licenses.
+
+*For addtional details see my earlier post https://raoconnor.github.io/2025/11/14/If-not-VMware-Window-Server-License-Costs.html*
 
 ---
 
