@@ -18,7 +18,7 @@ In the cloud, you have several licensing options:
 
 - **License Mobility through Software Assurance**  
   Allows you to move eligible Microsoft licenses (like SQL Server) to shared cloud infrastructure (e.g., AWS EC2 or Azure VMs).  
-  *Note: This does **not** cover Windows Server OS licenses.*
+  *Note: This does **not** cover Windows Server OS licenses, expect in Azure*
 
 - **Bring Your Own License (BYOL)**  
   A broader term for using your own licenses in the cloud. This can apply to both dedicated and shared environments, depending on license terms.  
