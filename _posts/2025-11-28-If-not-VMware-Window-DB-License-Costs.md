@@ -69,7 +69,7 @@ This doesn’t have to be on premises. Hybrid cloud infrastructure solutions suc
 
 *For addtional details see my earlier post* 
 
-![] https://raoconnor.github.io/2025/11/14/If-not-VMware-Window-Server-License-Costs.html
+![](https://raoconnor.github.io/2025/11/14/If-not-VMware-Window-Server-License-Costs.html)
 
 ---
 
