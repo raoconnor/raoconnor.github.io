@@ -38,12 +38,16 @@ For **Pay-As-You-Go (PAYG)**, SQL licensing for 16 CPUs can add **\$583**.
 
 
 There is price parity for **cloud-native Azure Database Service** 
+Note: Azure SQL Database Service is typically suitable for new cloud-native apps and Managed Instance for migration from on-prem SQL Server with minimal changes.
+
 
 ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql2.png)
 
 For **AWS**, the choice between **Standard** and **Enterprise** editions is a huge red flag - this could become a serious issue if DBAs and application architects select Enterprise simply because it was previously paid for on physical hosts. Having to aquire a new SQL enterprise licence is a 500% percent increase on a BYOL reserved instance.
 
 ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql3.png)
+
+RDS is the full PaaS service, the higher price tag is in consideration of the lower operational effort to maintain.
 
 ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql4.png)
 
