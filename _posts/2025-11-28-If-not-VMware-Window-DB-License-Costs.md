@@ -34,7 +34,8 @@ The following diagrams illustrate how using existing licenses can significantly 
 
 For example, in **Azure**, committing to an instance and using license mobility via **Hybrid Benefit** can reduce costs from **\$1.173** to **\$589**, nearly 50% less than deploying an instance with a bundled SQL license.
 
-For **Pay-As-You-Go (PAYG)**, SQL licensing for 16 CPUs can add **\$583**. If admins and developers don’t consider licensing costs, a database could end up costing nearly **three times more** than necessary.
+For **Pay-As-You-Go (PAYG)**, SQL licensing for 16 CPUs can add **\$583**. 
+
 
 There is price parity for **cloud-native Azure Database Service** 
 
