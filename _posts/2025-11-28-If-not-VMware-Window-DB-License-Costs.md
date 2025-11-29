@@ -61,10 +61,9 @@ Public clouds make deploying databases and services incredibly easy. However, if
 
 ## Predictability Through Fixed Capacity
 
-Having fixed capacity and the ability to **license physical cores** (and oversubscribe those cores) provides both cost predictability and peace of mind. This approach ensures that computing and licensing costs remain stable.
+Changing from a 1:4 core oversubscription to 1:1 can have license implications. Having fixed capacity in the form of dedicated hosts, that enables ** physical cores licensing** (and more importantly the oversubscription those cores) provides both cost predictability and peace of mind. This approach ensures that computing and licensing costs remain stable.
 
 ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql51.png)
-
 
 
 This doesn’t have to be on premises. Hybrid cloud infrastructure solutions such as **Nutanix Cloud Platform (NCP)**, which combines hyperconverged infrastructure (HCI) with cloud services allowing organizations to run servers either on-premises and public cloud environments on dedicated hardware with the ability to oversubscribe CPU and maximize the usage of expensive database licenses.
