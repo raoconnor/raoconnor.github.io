@@ -32,15 +32,15 @@ The following diagrams illustrate how using existing licenses can significantly 
 
 ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql1.png)
 
-For example, in **Azure**, committing to an instance and using license mobility via **Hybrid Benefit** can reduce costs by nearly **50%** compared to deploying an instance with a bundled license.
+For example, in **Azure**, committing to an instance and using license mobility via **Hybrid Benefit** can reduce costs from **\$1.173** to **\$589**, nearly 50% less than deploying an instance with a bundled SQL license.
 
-For **Pay-As-You-Go (PAYG)**, SQL licensing alone can add approximately **\$583**. If admins and developers don’t consider licensing costs, a database could end up costing nearly **three times more** than necessary.
+For **Pay-As-You-Go (PAYG)**, SQL licensing for 16 CPUs can add **\$583**. If admins and developers don’t consider licensing costs, a database could end up costing nearly **three times more** than necessary.
 
 There is price parity for **cloud-native Azure Database Service** 
 
 ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql2.png)
 
-For **AWS**, the choice between **Standard** and **Enterprise** editions is a major cost driver. This becomes a serious issue if DBAs and application architects select Enterprise simply because it was previously paid for on physical hosts.
+For **AWS**, the choice between **Standard** and **Enterprise** editions is a huge red flag - this could become a serious issue if DBAs and application architects select Enterprise simply because it was previously paid for on physical hosts. Having to aquire a new SQL enterprise licence is a 500% percent increase on a BYOL reserved instance.
 
 ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql3.png)
 
@@ -50,15 +50,17 @@ For **AWS**, the choice between **Standard** and **Enterprise** editions is a ma
 
 ## The FinOps Perspective
 
-Public clouds make deploying databases and services incredibly easy. However, if teams fail to plan for licensing costs, expenses can **double, triple, quadruple—or in the worst case, be nearly seven times higher** than the Reserved Instance (RI) plus BYOL option.
+Public clouds make deploying databases and services incredibly easy. However, if teams fail to plan for licensing costs, expenses can **double, triple, quadruple—or in the worst case, be nearly six times higher** than the BYOL option.
 
 ---
 
 ## Predictability Through Fixed Capacity
 
-Having fixed capacity and the ability to license physical cores (and oversubscribe those cores) provides both cost predictability and peace of mind. This approach ensures that computing and licensing costs remain stable.
+Having fixed capacity and the ability to **license physical cores** (and oversubscribe those cores) provides both cost predictability and peace of mind. This approach ensures that computing and licensing costs remain stable.
 
 ![pcpu-vcpu](https://raoconnor.github.io/docs/assets/images/sql5.png)
+
+For addtional details see my earlier post https://raoconnor.github.io/2025/11/14/If-not-VMware-Window-Server-License-Costs.html
 
 This doesn’t have to be on premises. Hybrid cloud infrastructure solutions such as **Nutanix Cloud Platform (NCP)**, which combines hyperconverged infrastructure (HCI) with cloud services allowing organizations to run servers either on-premises and public cloud environments on dedicated hardware with the ability to oversubscribe CPU and maximize the usage of expensive database licenses.
 
