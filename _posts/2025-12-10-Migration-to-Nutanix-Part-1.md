@@ -4,7 +4,7 @@ Moving workloads either to cloud or between hypervisors comes at a cost, change 
 I set up Nutanix Move in my home lab to test some migration scenarios, I’ll start with simple modern systems and work down to move complex, older systems in later posts
 
 The homelab setup is simple AHV on the smaller NUC and VMware Workstation on larger machine
-![move](https://raoconnor.github.io/docs/assets/images/homelab.png)
+![move](https://raoconnor.github.io/docs/assets/images/homelab1.png)
 
 
 ## Download and Deploy a Move Appliance
@@ -52,5 +52,6 @@ For ESX a VDDK library needs to be downloaded from Broadcom
 
 
 		
+
 
 
