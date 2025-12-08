@@ -91,6 +91,9 @@ Computer Configuration\Windows Settings\Security Settings\Local Policies\Securit
 Or disable Windows UAC (User Account Control) - In windows search for User Account Control and set it to Never Notify
 
 
+## Next Steps
+
+Netw steps are to create a migration plan and test some migrations
 
 
 
