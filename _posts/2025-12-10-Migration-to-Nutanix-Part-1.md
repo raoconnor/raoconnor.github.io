@@ -39,10 +39,12 @@ Once you have accessed the Move console Add Environments
 In my case I have two source environments, and esx server and a hyper-v server
 There are some additional actions needed for both 
 
+<img src="https://raoconnor.github.io/docs/assets/images/move-7.png" width="900">
+
 ### Add VMware ESX as Source
 For ESX a VDDK library needs to be downloaded from Broadcom 
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-7.png" width="900">
+
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-8.png" width="900">
 
@@ -53,6 +55,7 @@ For ESX a VDDK library needs to be downloaded from Broadcom
 
 
 		
+
 
 
 
