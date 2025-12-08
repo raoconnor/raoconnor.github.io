@@ -57,12 +57,15 @@ Clicking on the message opens a dialog with the link to the library
 
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-11.png" width="900">
-		
+
+Once downloaded to teh local network, upload to the Move appliance
+
 <img src="https://raoconnor.github.io/docs/assets/images/move-12.png" width="900">
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-13.png" width="900">
+<img src="https://raoconnor.github.io/docs/assets/images/move-13.png" width="500">
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-14.png" width="900">
+<img src="https://raoconnor.github.io/docs/assets/images/move-14.png" width="500">
+
 
 
 
