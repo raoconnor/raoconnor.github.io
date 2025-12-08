@@ -34,7 +34,7 @@ Accept the license agreement and access Move
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-5.png" width="900">
 
-Once have accessed the Move console Add Environments 
+Once you have accessed the Move console Add Environments 
 In my case I have two source environments, and esx server and a hyper-v server
 There are some additional actions needed for both 
 
@@ -53,6 +53,7 @@ For ESX a VDDK library needs to be downloaded from Broadcom
 
 
 		
+
 
 
 
