@@ -85,7 +85,12 @@ Also the following inbound and outbound ports using the TCP protocol should be e
 
 See https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_0:top-enable-winrm-hyperv-ahv-t.html
 
-Use a local admin account or disable Windows UAC (User Account Control)
+If using a local "administrator" account, disable the following Local Security policy:
+Computer Configuration\Windows Settings\Security Settings\Local Policies\Security Options\User Account Control: Admin Approval Mode for the Built-in Administrator account
+
+Or disable Windows UAC (User Account Control) - In windows search for User Account Control and set it to Never Notify
+
+
 
 
 
