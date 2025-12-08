@@ -93,7 +93,8 @@ Or disable Windows UAC (User Account Control) - In windows search for User Accou
 
 ## Next Steps
 
-Netw steps are to create a migration plan and test some migrations
+Next steps are to create a migration plan and test some migrations
+
 
 
 
