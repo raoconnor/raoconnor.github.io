@@ -13,7 +13,7 @@ http://portal.nutanix.com/page/downloads?product=move
 
 As I am running AHV is downloaded the Move ZIP file for AHV
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-1.png" width="480">
+<img src="https://raoconnor.github.io/docs/assets/images/move-1.png" width="900">
 
 Unzip the move qcow2 file 
 From Prism Central - > Settings and Images upload as DISK with Bus Type as SCSI
@@ -52,6 +52,7 @@ For ESX a VDDK library needs to be downloaded from Broadcom
 
 
 		
+
 
 
 
