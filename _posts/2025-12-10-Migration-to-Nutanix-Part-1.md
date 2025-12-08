@@ -64,7 +64,7 @@ Clicking on the message opens a dialog with the link to the library
 
 Once downloaded to the local network, upload to the Move appliance
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-12.png" width="700">
+<img src="https://raoconnor.github.io/docs/assets/images/move-12.png" width="800">
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-13.png" width="500">
 
@@ -72,6 +72,7 @@ Once downloaded to the local network, upload to the Move appliance
 Note I am using the cluster external address
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-14.png" width="500">
+
 
 
 
