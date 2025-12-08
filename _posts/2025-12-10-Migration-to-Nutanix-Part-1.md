@@ -26,13 +26,13 @@ Wait for the image to upload and turn ACTIVE
 
 Create a new VM, cloning the image to create a new disk
 
-![move](https://raoconnor.github.io/docs/assets/images/move-4.png)
+<img src="https://raoconnor.github.io/docs/assets/images/move-4.png" width="500">
 
 The next step requires DHCP is active in the environment
 Power on the VM, wait for the move instance to obtain an IP, open a web browser such as chrome and navigate to the instance 
 Accept the license agreement and access Move
 
-![move](https://raoconnor.github.io/docs/assets/images/move-5.png)
+<img src="https://raoconnor.github.io/docs/assets/images/move-5.png" width="500">
 
 Once have accessed the Move console Add Environments 
 In my case I have two source environments, and esx server and a hyper-v server
@@ -52,6 +52,7 @@ For ESX a VDDK library needs to be downloaded from Broadcom
 
 
 		
+
 
 
 
