@@ -6,6 +6,8 @@ I set up Nutanix Move in my home lab to test some migration scenarios, I’ll st
 The homelab setup is simple AHV on the smaller NUC and VMware Workstation on larger machine
 ![move](https://raoconnor.github.io/docs/assets/images/homelab.png)
 
+<img src="https://raoconnor.github.io/docs/assets/images/homelab.png" width="48">
+
 
 ## Download and Deploy a Move Appliance
 http://portal.nutanix.com/page/downloads?product=move 
@@ -52,6 +54,7 @@ For ESX a VDDK library needs to be downloaded from Broadcom
 
 
 		
+
 
 
 
