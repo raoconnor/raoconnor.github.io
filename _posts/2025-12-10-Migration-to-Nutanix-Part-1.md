@@ -40,19 +40,20 @@ There are some additional actions needed for both
 
 For ESX a VDDK library needs to be downloaded from Broadcom 
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-6.png" width="500">
+<img src="https://raoconnor.github.io/docs/assets/images/move-6.png" width="900">
 
+<img src="https://raoconnor.github.io/docs/assets/images/move-7.png" width="900">
 
-![move](https://raoconnor.github.io/docs/assets/images/move-7.png)
+<img src="https://raoconnor.github.io/docs/assets/images/move-8.png" width="900">
 
-![move](https://raoconnor.github.io/docs/assets/images/move-8.png)
+<img src="https://raoconnor.github.io/docs/assets/images/move-9.png" width="900">
 
-![move](https://raoconnor.github.io/docs/assets/images/move-9.png)
+<img src="https://raoconnor.github.io/docs/assets/images/move-10.png" width="900">
 
-![move](https://raoconnor.github.io/docs/assets/images/move-10.png)
 
 
 		
+
 
 
 
