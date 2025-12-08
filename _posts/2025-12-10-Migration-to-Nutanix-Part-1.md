@@ -50,11 +50,12 @@ For ESX a VDDK library needs to be downloaded from Broadcom
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-9.png" width="900">
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-10.png" width="900">
+<img src="https://raoconnor.github.io/docs/assets/images/move-10.png" width="500">
 
 
 
 		
+
 
 
 
