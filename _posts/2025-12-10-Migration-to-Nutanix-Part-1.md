@@ -11,20 +11,34 @@ The homelab setup is simple AHV on the smaller NUC and VMware Workstation on lar
 http://portal.nutanix.com/page/downloads?product=move 
 
 As I am running AHV is downloaded the Move ZIP file for AHV
+
 ![move](https://raoconnor.github.io/docs/assets/images/move-1.png)
 
 
 Unzip the move qcow2 file 
 From Prism Central - > Settings and Images upload as DISK with Bus Type as SCSI
+
 ![move](https://raoconnor.github.io/docs/assets/images/move-2.png)
 
 Wait for the image to upload and turn ACTIVE
+
 ![move](https://raoconnor.github.io/docs/assets/images/move-3.png)
 
 Create a new VM, cloning the image to create a new disk
+
 ![move](https://raoconnor.github.io/docs/assets/images/move-4.png)
 
+The next step requires DHCP is active in the environment
+Power on the VM, wait for the move instance to obtain an IP, open a web browser such as chrome and navigate to the instance 
+Accept the license agreement and access Move
+
 ![move](https://raoconnor.github.io/docs/assets/images/move-5.png)
+
+Once have accessed the Move console Add Environments 
+In my case I have two source environments, and esx server and a hyper-v server
+There are some additional actions needed for both 
+
+For ESX a VDDK library needs to be downloaded from Broadcom 
 
 ![move](https://raoconnor.github.io/docs/assets/images/move-6.png)
 
@@ -38,4 +52,5 @@ Create a new VM, cloning the image to create a new disk
 
 
 		
+
 
