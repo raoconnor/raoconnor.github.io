@@ -5,7 +5,7 @@ I set up Nutanix Move in my home lab to test some migration scenarios, I’ll st
 
 The homelab setup is simple AHV on the smaller NUC and VMware Workstation on larger machine
 
-<img src="https://raoconnor.github.io/docs/assets/images/homelab.png" width="600">
+<img src="https://raoconnor.github.io/docs/assets/images/homelab.png" width="500">
 
 
 ## Download and Deploy a Move Appliance
@@ -22,7 +22,7 @@ From Prism Central - > Settings and Images upload as DISK with Bus Type as SCSI
 
 Wait for the image to upload and turn ACTIVE
 
-![move](https://raoconnor.github.io/docs/assets/images/move-3.png)
+<img src="https://raoconnor.github.io/docs/assets/images/move-3.png" width="500">
 
 Create a new VM, cloning the image to create a new disk
 
@@ -52,6 +52,7 @@ For ESX a VDDK library needs to be downloaded from Broadcom
 
 
 		
+
 
 
 
