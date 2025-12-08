@@ -5,7 +5,7 @@ I set up Nutanix Move in my home lab to test some migration scenarios, I’ll st
 
 The homelab setup is simple AHV on the smaller NUC and VMware Workstation on larger machine
 
-<img src="https://raoconnor.github.io/docs/assets/images/homelab.png" width="480">
+<img src="https://raoconnor.github.io/docs/assets/images/homelab.png" width="600">
 
 
 ## Download and Deploy a Move Appliance
@@ -18,7 +18,7 @@ As I am running AHV is downloaded the Move ZIP file for AHV
 Unzip the move qcow2 file 
 From Prism Central - > Settings and Images upload as DISK with Bus Type as SCSI
 
-![move](https://raoconnor.github.io/docs/assets/images/move-2.png)
+<img src="https://raoconnor.github.io/docs/assets/images/move-2.png" width="900">
 
 Wait for the image to upload and turn ACTIVE
 
@@ -52,6 +52,7 @@ For ESX a VDDK library needs to be downloaded from Broadcom
 
 
 		
+
 
 
 
