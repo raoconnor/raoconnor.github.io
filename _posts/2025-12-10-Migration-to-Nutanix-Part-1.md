@@ -42,11 +42,12 @@ There are some additional actions needed for both
 <img src="https://raoconnor.github.io/docs/assets/images/move-7.png" width="900">
 
 ### Add VMware ESX as Source
-For ESX a VDDK library needs to be downloaded from Broadcom 
 
-
+I am going to add single ESX host as source, first I need the IP and credentiales
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-8.png" width="900">
+
+Then for ESX a VDDK library needs to be downloaded from Broadcom 
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-9.png" width="900">
 
@@ -55,6 +56,7 @@ For ESX a VDDK library needs to be downloaded from Broadcom
 
 
 		
+
 
 
 
