@@ -32,7 +32,6 @@ The next step requires DHCP is active in the environment
 Power on the VM, wait for the move instance to obtain an IP, open a web browser such as chrome and navigate to the instance 
 Accept the license agreement and access Move
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-5.png" width="900">
 
 Once you have accessed the Move console Add Environments 
 In my case I have two source environments, and esx server and a hyper-v server
@@ -40,7 +39,7 @@ There are some additional actions needed for both
 
 For ESX a VDDK library needs to be downloaded from Broadcom 
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-6.png" width="900">
+<img src="https://raoconnor.github.io/docs/assets/images/move-6.png" width="500">
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-7.png" width="900">
 
@@ -53,6 +52,7 @@ For ESX a VDDK library needs to be downloaded from Broadcom
 
 
 		
+
 
 
 
