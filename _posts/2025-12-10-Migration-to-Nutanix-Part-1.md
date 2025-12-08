@@ -9,6 +9,7 @@ The homelab setup is simple AHV on the smaller NUC and VMware Workstation on lar
 
 
 ## Download and Deploy a Move Appliance
+Note: it's best practice to install Move in the Target enviroment
 http://portal.nutanix.com/page/downloads?product=move 
 
 As I am running AHV is downloaded the Move ZIP file for AHV
@@ -69,12 +70,22 @@ Once downloaded to the local network, upload to the Move appliance
 <img src="https://raoconnor.github.io/docs/assets/images/move-13.png" width="500">
 
 ### Add a Nutanix Cluster as Source
-Note I am using the cluster external address
+Now add the Nutanix Enviroment which will be the target for migrations
+Note I am using the cluster external address, not the AHV address
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-14.png" width="500">
 
 
+### Add Hyper-V Source
+Before adding Hyper-V 
+WinRM should be configured on the Hyper-V server
+Also the following inbound and outbound ports using the TCP protocol should be enabled for the Windows Remote Management (WinRM) feature to work.
+- WinRM-HTTPS: 5986
+- WinRM-HTTP: 5985
 
+See https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_0:top-enable-winrm-hyperv-ahv-t.html
+
+Use a local admin account or disable Windows UAC (User Account Control)
 
 
 
