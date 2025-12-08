@@ -55,8 +55,9 @@ Clicking on the message opens a dialog with the link to the library
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-10.png" width="500">
 
-- For ESX 5.5*, 6.0, and 6.5 as source the VDDK Library Version is 7.0.3.1 (for Linux)
+- For ESX 6.0, and 6.5 as source the VDDK Library Version is 7.0.3.1 (for Linux)
 - For ESX 6.7, 7.0, and 8.0 as source the VDDK Library Version is 8.0.3.2 (for Linux)
+
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-11.png" width="900">
 
@@ -67,6 +68,7 @@ Once downloaded to the local network, upload to the Move appliance
 <img src="https://raoconnor.github.io/docs/assets/images/move-13.png" width="500">
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-14.png" width="500">
+
 
 
 
