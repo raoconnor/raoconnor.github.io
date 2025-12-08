@@ -39,8 +39,8 @@ In my case I have two source environments, and esx server and a hyper-v server
 There are some additional actions needed for both 
 
 For ESX a VDDK library needs to be downloaded from Broadcom 
+<img src="https://raoconnor.github.io/docs/assets/images/move-6.png" width="500">
 
-![move](https://raoconnor.github.io/docs/assets/images/move-6.png)
 
 ![move](https://raoconnor.github.io/docs/assets/images/move-7.png)
 
@@ -52,6 +52,7 @@ For ESX a VDDK library needs to be downloaded from Broadcom
 
 
 		
+
 
 
 
