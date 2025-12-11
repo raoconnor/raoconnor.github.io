@@ -8,7 +8,7 @@ In this post I will migrate a single workload to AHV to test the migration pater
 
 I previously I added two source environments (ESX and Hyper-V) and the AHV cluster as target
 
-The move dashboard has Clicking on the three dots will show the Environment Details and VMs that can be moved
+On each Enviroment clicking on the three dots will show the Environment Details and VMs that can be moved
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-30.png" width="700">
 
@@ -109,6 +109,7 @@ Check the source the VM should be powered off and the network card removed
 On the nutanix cluster, check the VM is running, connect to the OS, open devmgr and verify the Nutanix drivers are present
 
 <kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-49.png" width="700"></kbd>
+
 
 
 
