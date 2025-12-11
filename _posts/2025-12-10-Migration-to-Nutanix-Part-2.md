@@ -60,7 +60,7 @@ Click on create a migration plan and give the plan a name
 <img src="https://raoconnor.github.io/docs/assets/images/move-38.png" width="700">
 
 4) VM Settings
-5) 
+
 <img src="https://raoconnor.github.io/docs/assets/images/move-39.png" width="700">
 
 Run the setup script
@@ -98,6 +98,7 @@ Wait for Cutover to complete
 Check the sourcem the VM should be powered off and the network card removed
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-47.png" width="700">
+
 
 
 
