@@ -70,7 +70,7 @@ Click on create a migration plan and give the plan a name
 
 Run the setup script on the VM
 
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-48.png" width="700"></kbd>
+<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-29.png" width="700"></kbd>
 
 Review the summary and start
 
@@ -107,6 +107,7 @@ Check the source the VM should be powered off and the network card removed
 On the nutanix cluster, check the VM is running, connect to the OS, open devmgr and verify the Nutanix drivers are present
 
 <kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-49.png" width="700"></kbd>
+
 
 
 
