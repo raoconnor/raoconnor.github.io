@@ -46,7 +46,7 @@ in later blogs I'll investigate show some workarounds.**
 
 Click on create a migration plan and give the plan a name
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-34.png" width="700">
+<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-34.png" width="700"></kbd>
 
 1) Choose source and destination
 
@@ -107,6 +107,7 @@ Check the source the VM should be powered off and the network card removed
 On the nutanix cluster, check the VM is running, connect to the OS, open devmgr and verify the Nutanix drivers are present
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-49.png" width="700">
+
 
 
 
