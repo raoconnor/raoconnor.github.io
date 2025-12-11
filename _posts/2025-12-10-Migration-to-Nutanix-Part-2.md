@@ -15,6 +15,8 @@ Clicking on the three dots show the Environment Details
 
 ### Source - hyper-v
 
+<img src="https://raoconnor.github.io/docs/assets/images/move-17a.png" width="700">
+
 ### Target - AVH
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-31.png" width="700">
@@ -63,9 +65,9 @@ Click on create a migration plan and give the plan a name
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-39.png" width="700">
 
-Run the setup script
+Run the setup script on the VM
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-41.png" width="700">
+<img src="https://raoconnor.github.io/docs/assets/images/move-48.png" width="700">
 
 Review the summary and start
 
@@ -95,9 +97,13 @@ Wait for Cutover to complete
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-46.png" width="700">
 
-Check the sourcem the VM should be powered off and the network card removed
+Check the source the VM should be powered off and the network card removed
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-47.png" width="700">
+
+On the nutanix cluster, check the VM is running, connect to the OS, open devmgr and verify the Nutanix drivers are present
+
+<img src="https://raoconnor.github.io/docs/assets/images/move-49.png" width="700">
 
 
 
