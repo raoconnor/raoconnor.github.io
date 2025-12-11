@@ -50,63 +50,64 @@ Click on create a migration plan and give the plan a name
 
 1) Choose source and destination
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-35.png" width="700">
+<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-35.png" width="700"></kbd>
 
 2) select the instances to move
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-36.png" width="700">
+<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-36.png" width="700"></kbd>
 
 3) select the target network
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-37.png" width="700">
+<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-37.png" width="700"></kbd>
 
 4) The preparation mode 
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-38.png" width="700">
+<img src="https://raoconnor.github.io/docs/assets/images/move-38.png" width="700"></kbd>
 
 4) VM Settings
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-39.png" width="700">
+<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-39.png" width="700"></kbd>
 
 Run the setup script on the VM
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-48.png" width="700">
+<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-48.png" width="700"></kbd>
 
 Review the summary and start
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-40.png" width="700">
+<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-40.png" width="700"></kbd>
 
 Wait for plan to validate
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-41.png" width="700">
+<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-41.png" width="700"></kbd>
 
 Plan should change to In Progress
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-42.png" width="700">
+<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-42.png" width="700"></kbd>
 
 In the details the remaining time can be seen
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-43.png" width="700">
+<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-43.png" width="700"></kbd>
 
 Finally the plan VM status will change to Ready to Cutover
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-44.png" width="700">
+<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-44.png" width="700"></kbd>
 
 Open deatils and start the Cutover
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-45.png" width="700">
+<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-45.png" width="700"></kbd>
 
 Wait for Cutover to complete
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-46.png" width="700">
+<img src="https://raoconnor.github.io/docs/assets/images/move-46.png" width="700"></kbd>
 
 Check the source the VM should be powered off and the network card removed
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-47.png" width="700">
+<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-47.png" width="700"></kbd>
 
 On the nutanix cluster, check the VM is running, connect to the OS, open devmgr and verify the Nutanix drivers are present
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-49.png" width="700">
+<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-49.png" width="700"></kbd>
+
 
 
 
