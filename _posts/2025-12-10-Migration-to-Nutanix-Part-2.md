@@ -39,8 +39,7 @@ in later blogs I'll investigate show some workarounds.**
 >   - Replace <nutanix-move-ip> with the IP address of the Move VM.
 >
   
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-33.png" width="700"></kbd>
-
+***
 
 ## Create a Migration Plan
 
@@ -107,6 +106,7 @@ Check the source the VM should be powered off and the network card removed
 On the nutanix cluster, check the VM is running, connect to the OS, open devmgr and verify the Nutanix drivers are present
 
 <kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-49.png" width="700"></kbd>
+
 
 
 
