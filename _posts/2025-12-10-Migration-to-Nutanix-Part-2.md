@@ -37,16 +37,69 @@ in later blogs I'll investigate show some workarounds.
   
 <img src="https://raoconnor.github.io/docs/assets/images/move-33.png" width="900">
 
+## Create a Migration Plan
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-19.png" width="900">
+Click on create a migration plan and give the plan a name
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-20.png" width="900">
+<img src="https://raoconnor.github.io/docs/assets/images/move-34.png" width="900">
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-21.png" width="900">
+1) Choose source and destination
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-23.png" width="900">
+<img src="https://raoconnor.github.io/docs/assets/images/move-35.png" width="900">
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-24.png" width="900">
+2) select the instances to move
+
+<img src="https://raoconnor.github.io/docs/assets/images/move-36.png" width="900">
+
+3) select the target network
+
+<img src="https://raoconnor.github.io/docs/assets/images/move-37.png" width="900">
+
+4) The preparation mode 
+
+<img src="https://raoconnor.github.io/docs/assets/images/move-38.png" width="900">
+
+4) VM Settings
+5) 
+<img src="https://raoconnor.github.io/docs/assets/images/move-39.png" width="900">
+
+Run the setup script
+
+<img src="https://raoconnor.github.io/docs/assets/images/move-41.png" width="900">
+
+Review the summary and start
+
+<img src="https://raoconnor.github.io/docs/assets/images/move-40.png" width="900">
+
+Wait for plan to validate
+
+<img src="https://raoconnor.github.io/docs/assets/images/move-41.png" width="900">
+
+Plan should change to In Progress
+
+<img src="https://raoconnor.github.io/docs/assets/images/move-42.png" width="900">
+
+In the details the remaining time can be seen
+
+<img src="https://raoconnor.github.io/docs/assets/images/move-43.png" width="900">
+
+Finally the plan VM status will change to Ready to Cutover
+
+<img src="https://raoconnor.github.io/docs/assets/images/move-44.png" width="900">
+
+Open deatils and start the Cutover
+
+<img src="https://raoconnor.github.io/docs/assets/images/move-45.png" width="900">
+
+Wait for Cutover to complete
+
+<img src="https://raoconnor.github.io/docs/assets/images/move-46.png" width="900">
+
+Check the sourcem the VM should be powered off and the network card removed
+
+<img src="https://raoconnor.github.io/docs/assets/images/move-47.png" width="900">
+
+
 
 
 
