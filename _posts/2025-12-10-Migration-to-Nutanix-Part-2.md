@@ -32,6 +32,7 @@ in later blogs I'll investigate show some workarounds.**
 
 > ## Prerequisites Hyper-V
 > 
+> - Guest VMs are Gen 2 with legacy BIOS
 > - Ensure guest VMs have connectivity with Move.
 > - Ensure that the guest VMs have integration services installed and an IP address is present in the Networking section of the Hyper-V manager for automatic preparation of the source VMs.
 > - Disable backups.
@@ -109,6 +110,7 @@ Check the source the VM should be powered off and the network card removed
 On the nutanix cluster, check the VM is running, connect to the OS, open devmgr and verify the Nutanix drivers are present
 
 <kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-49.png" width="700"></kbd>
+
 
 
 
