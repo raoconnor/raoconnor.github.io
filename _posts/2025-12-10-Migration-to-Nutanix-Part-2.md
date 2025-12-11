@@ -35,7 +35,7 @@ in later blogs I'll investigate show some workarounds.**
 > - Inbound and outbound ports TCP 5986 and 5985 are enabled for (WinRM) feature to work.
 > -	In the Hyper-V host, download move-agent-installer.exe from http://<nutanix-move-ip>/downloads/agents/move-agent-installer.exe .
 > -	Launch the command prompt with Run as Administrator to run the following command from C:\Users\Administrator.
->        move-agent-installer.exe -o [operation] -ip [move ip] -u [user]
+>  `move-agent-installer.exe -o [operation] -ip [move ip] -u [user]`
 > - Replace <nutanix-move-ip> with the IP address of the Move VM.
 >
   
@@ -107,6 +107,7 @@ Check the source the VM should be powered off and the network card removed
 On the nutanix cluster, check the VM is running, connect to the OS, open devmgr and verify the Nutanix drivers are present
 
 <kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-49.png" width="700"></kbd>
+
 
 
 
