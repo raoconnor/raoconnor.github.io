@@ -26,14 +26,14 @@ in later blogs I'll investigate show some workarounds.
 
 ## Prerequisites Hyper-V
 
-•	Ensure guest VMs have connectivity with Move.
-•	Ensure that the guest VMs have integration services installed and an IP address is present in the Networking section of the Hyper-V manager for automatic preparation of the source VMs.
-•	Disable backups.
-• Inbound and outbound ports TCP 5986 and 5985 are enabled for (WinRM) feature to work.
-•	In the Hyper-V host, download move-agent-installer.exe from http://<nutanix-move-ip>/downloads/agents/move-agent-installer.exe .
-•	Launch the command prompt with Run as Administrator to run the following command from C:\Users\Administrator.
-  move-agent-installer.exe -o [operation] -ip [move ip] -u [user]
-  Replace <nutanix-move-ip> with the IP address of the Move VM.
+- Ensure guest VMs have connectivity with Move.
+- Ensure that the guest VMs have integration services installed and an IP address is present in the Networking section of the Hyper-V manager for automatic preparation of the source VMs.
+- Disable backups.
+- Inbound and outbound ports TCP 5986 and 5985 are enabled for (WinRM) feature to work.
+-	In the Hyper-V host, download move-agent-installer.exe from http://<nutanix-move-ip>/downloads/agents/move-agent-installer.exe .
+-	Launch the command prompt with Run as Administrator to run the following command from C:\Users\Administrator.
+- move-agent-installer.exe -o [operation] -ip [move ip] -u [user]
+- Replace <nutanix-move-ip> with the IP address of the Move VM.
   
 <img src="https://raoconnor.github.io/docs/assets/images/move-33.png" width="900">
 
@@ -98,6 +98,7 @@ Wait for Cutover to complete
 Check the sourcem the VM should be powered off and the network card removed
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-47.png" width="900">
+
 
 
 
