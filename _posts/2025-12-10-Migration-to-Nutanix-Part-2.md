@@ -4,6 +4,8 @@
 In part 2 I deployed a Move appliance, and added some source environments 
 In this post I will migrate workloads to AHV
 
+## Validate Source and Target Enviroments
+
 The move dashboard has the two source environments and the AHV cluster as target
 Clicking on the three dots show the Environment Details
 
@@ -41,7 +43,7 @@ in later blogs I'll investigate show some workarounds.**
   
 ***
 
-## Create a Migration Plan
+## Create and Execute a Migration Plan
 
 Click on create a migration plan and give the plan a name
 
@@ -106,6 +108,7 @@ Check the source the VM should be powered off and the network card removed
 On the nutanix cluster, check the VM is running, connect to the OS, open devmgr and verify the Nutanix drivers are present
 
 <kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-49.png" width="700"></kbd>
+
 
 
 
