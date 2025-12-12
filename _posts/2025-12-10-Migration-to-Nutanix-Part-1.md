@@ -50,7 +50,7 @@ I am going to add single ESX host as source, first I need the IP and credentiale
 
 Then for ESX, I must download a VDDK library from Broadcom 
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-9.png" width="900"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/move-9.png" width="900"></kbd>
 
 Clicking on the message opens a dialog with the link to the library
 
@@ -100,6 +100,7 @@ Or disable Windows UAC (User Account Control) - In windows search for User Accou
 ## Next Steps
 
 Next steps are to create a migration plan and test some migrations
+
 
 
 
