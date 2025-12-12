@@ -5,7 +5,7 @@ I set up Nutanix Move in my home lab to test some migration scenarios, I’ll st
 
 The homelab setup is simple, AHV on the smaller NUC and VMware Workstation on the larger machine
 
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/homelab.png" width="500"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/homelab.png" width="500"></kbd>
 
 
 ## Download and Deploy a Move Appliance
@@ -14,12 +14,12 @@ http://portal.nutanix.com/page/downloads?product=move
 
 As I am running AHV, I downloaded the Move ZIP file for AHV
 
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-1.png" width="900"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/move-1.png" width="900"></kbd>
 
 Unzip the move qcow2 file 
 From Prism Central - > Settings and Images upload as DISK with Bus Type as SCSI
 
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-2.png" width="900"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/move-2.png" width="900"></kbd>
 
 Wait for the image to upload to turn ACTIVE
 
@@ -100,6 +100,7 @@ Or disable Windows UAC (User Account Control) - In windows search for User Accou
 ## Next Steps
 
 Next steps are to create a migration plan and test some migrations
+
 
 
 
