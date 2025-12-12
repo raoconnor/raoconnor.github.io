@@ -3,16 +3,16 @@
 Moving workloads either to cloud or between hypervisors comes at a cost, change planning, downtime and administrator effort. 
 I set up Nutanix Move in my home lab to test some migration scenarios, I’ll start with simple modern systems and work down to move complex, older systems in later posts
 
-The homelab setup is simple AHV on the smaller NUC and VMware Workstation on larger machine
+The homelab setup is simple, AHV on the smaller NUC and VMware Workstation on the larger machine
 
 <kbd>!<img src="https://raoconnor.github.io/docs/assets/images/homelab.png" width="500"></kbd>
-<kbd>!  </kbd>
+
 
 ## Download and Deploy a Move Appliance
-Note: it's best practice to install Move in the Target enviroment
+Note: it's best practice to install Nutanix Move in the Target enviroment
 http://portal.nutanix.com/page/downloads?product=move 
 
-As I am running AHV is downloaded the Move ZIP file for AHV
+As I am running AHV, I downloaded the Move ZIP file for AHV
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-1.png" width="900"></kbd>
 
@@ -21,7 +21,7 @@ From Prism Central - > Settings and Images upload as DISK with Bus Type as SCSI
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-2.png" width="900"></kbd>
 
-Wait for the image to upload and turn ACTIVE
+Wait for the image to upload to turn ACTIVE
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-3.png" width="500"></kbd>
 
@@ -36,8 +36,8 @@ Accept the license agreement and access Move
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-6.png" width="500"></kbd>
 
 ## Add Environments 
-Once you have accessed the Move console Add Environments 
-In my case I have two source environments, and esx server and a hyper-v server
+Once you have accessed the Move console first step is to Add Environments 
+In my case I have two source environments, an esx server and a hyper-v server
 There are some additional actions needed for both 
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-7.png" width="900"></kbd>
@@ -48,7 +48,7 @@ I am going to add single ESX host as source, first I need the IP and credentiale
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-8.png" width="900"></kbd>
 
-Then for ESX a VDDK library needs to be downloaded from Broadcom 
+Then for ESX, I must download a VDDK library from Broadcom 
 
 <img src="https://raoconnor.github.io/docs/assets/images/move-9.png" width="900"></kbd>
 
@@ -74,6 +74,7 @@ Once downloaded to the local network, upload to the Move appliance
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-13.png" width="500"></kbd>
 
 ### Add a Nutanix Cluster as Source
+
 Now add the Nutanix Enviroment which will be the target for migrations
 Note I am using the cluster external address, not the AHV address
 
@@ -81,6 +82,7 @@ Note I am using the cluster external address, not the AHV address
 
 
 ### Add Hyper-V Source
+
 Before adding Hyper-V 
 WinRM should be configured on the Hyper-V server
 Also the following inbound and outbound ports using the TCP protocol should be enabled for the Windows Remote Management (WinRM) feature to work.
@@ -98,6 +100,7 @@ Or disable Windows UAC (User Account Control) - In windows search for User Accou
 ## Next Steps
 
 Next steps are to create a migration plan and test some migrations
+
 
 
 
