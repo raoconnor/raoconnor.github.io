@@ -5,7 +5,7 @@ I set up Nutanix Move in my home lab to test some migration scenarios, I’ll st
 
 The homelab setup is simple, AHV on the smaller NUC and VMware Workstation on the larger machine
 
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/homelab.png" width="500"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/homelab.png" width="500"></kbd>
 
 
 ## Download and Deploy a Move Appliance
@@ -100,6 +100,7 @@ Or disable Windows UAC (User Account Control) - In windows search for User Accou
 ## Next Steps
 
 Next steps are to create a migration plan and test some migrations
+
 
 
 
