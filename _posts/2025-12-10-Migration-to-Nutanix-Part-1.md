@@ -56,12 +56,14 @@ Clicking on the message opens a dialog with the link to the library
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-10.png" width="500"></kbd>
 
+
+
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/move-11.png" width="700"></kbd>
+
 > ### VDDK Library Versions
 > - For ESX 6.0, and 6.5 as source the VDDK Library Version is 7.0.3.1 (for Linux)
 > - For ESX 6.7, 7.0, and 8.0 as source the VDDK Library Version is 8.0.3.2 (for Linux)
 >
-
-<kbd><img src="https://raoconnor.github.io/docs/assets/images/move-11.png" width="700"></kbd>
 
 Once downloaded to the local network, upload to the Move appliance
 
@@ -94,6 +96,7 @@ Or disable Windows UAC (User Account Control) - In windows search for User Accou
 ## Next Steps
 
 Next steps are to create a migration plan and test some migrations
+
 
 
 
