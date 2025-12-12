@@ -10,19 +10,19 @@ I previously I added two source environments (ESX and Hyper-V) and the AHV clust
 
 On each Enviroment clicking on the three dots will show the Environment Details and VMs that can be moved
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-30.png" width="700">
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/move-30.png" width="700"></kbd>
 
 ### Source - esx 
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-32.png" width="700">
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/move-32.png" width="700"></kbd>
 
 ### Source - hyper-v
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-17a.png" width="700">
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/move-17a.png" width="700"></kbd>
 
 ### Target - AVH
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-31.png" width="700">
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/move-31.png" width="700"></kbd>
 
 **Notes:**
 **The standalone free version of ESX has restrictions on allowing Move to autheticate to VMs, 
@@ -110,6 +110,7 @@ Check the source the VM should be powered off and the network card removed
 On the nutanix cluster, check the VM is running, connect to the OS, open devmgr and verify the Nutanix drivers are present
 
 <kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-49.png" width="700"></kbd>
+
 
 
 
