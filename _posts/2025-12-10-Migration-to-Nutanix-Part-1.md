@@ -12,7 +12,7 @@ The homelab setup is simple, AHV on the smaller NUC and VMware Workstation on th
 Note: it's best practice to install Nutanix Move in the Target enviroment
 http://portal.nutanix.com/page/downloads?product=move 
 
-As I am running AHV, I downloaded the Move ZIP file for AHV
+As I am running AHV, I downloaded the **Move ZIP file for AHV**
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-1.png" width="900"></kbd>
 
@@ -100,6 +100,7 @@ Or disable Windows UAC (User Account Control) - In windows search for User Accou
 ## Next Steps
 
 Next steps are to create a migration plan and test some migrations
+
 
 
 
