@@ -16,8 +16,9 @@ As I am running AHV, I downloaded the **Move ZIP file for AHV**
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-1.png" width="900"></kbd>
 
-Unzip the move qcow2 file 
-From Prism Central - > Settings and Images upload as DISK with Bus Type as SCSI
+Unzip the move qcow2 file
+
+Then from Prism Central - > Settings and Images upload as DISK with Bus Type as SCSI
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-2.png" width="900"></kbd>
 
@@ -100,6 +101,7 @@ Or disable Windows UAC (User Account Control) - In windows search for User Accou
 ## Next Steps
 
 Next steps are to create a migration plan and test some migrations
+
 
 
 
