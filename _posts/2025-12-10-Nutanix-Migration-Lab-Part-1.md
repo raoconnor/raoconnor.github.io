@@ -91,7 +91,7 @@ Also the following inbound and outbound ports using the TCP protocol should be e
 - WinRM-HTTP: 5985
 
 [See  Nutanix Move enable WinRM] 
-(https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_0:top-enable-winrm-hyperv-ahv-t.html)
+https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_0:top-enable-winrm-hyperv-ahv-t.html
 
 If using a local "administrator" account, disable the following Local Security policy:
 Computer Configuration\Windows Settings\Security Settings\Local Policies\Security Options\User Account Control: Admin Approval Mode for the Built-in Administrator account
@@ -102,6 +102,7 @@ Or disable Windows UAC (User Account Control) - In windows search for User Accou
 ## Next Steps
 
 Next steps are to create a migration plan and test some migrations
+
 
 
 
