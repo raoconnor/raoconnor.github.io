@@ -85,11 +85,11 @@ Wait for plan to validate
 
 Plan should change to In Progress
 
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-42.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/move-42.png" width="700"></kbd>
 
 In the details the remaining time can be seen
 
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/move-43.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/move-43.png" width="700"></kbd>
 
 Finally the plan VM status will change to Ready to Cutover
 
@@ -101,7 +101,7 @@ Open deatils and start the Cutover
 
 Wait for Cutover to complete
 
-<img src="https://raoconnor.github.io/docs/assets/images/move-46.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/move-46.png" width="700"></kbd>
 
 Check the source the VM should be powered off and the network card removed
 
@@ -110,6 +110,7 @@ Check the source the VM should be powered off and the network card removed
 On the nutanix cluster, check the VM is running, connect to the OS, open devmgr and verify the Nutanix drivers are present
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-49.png" width="700"></kbd>
+
 
 
 
