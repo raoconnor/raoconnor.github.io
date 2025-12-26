@@ -20,12 +20,16 @@ All versions use BIOS, Nutanix CE has issues with UEFI, these are seen on the co
 **Warning:**
 The standalone free version of ESX (8.0.3) has restrictions on allowing Move migrations.
 
-### Validate Source and Target Enviroments
+### Create a Migration Plan
+
+Connect to the Move Console 
 
 I previously added source and target environments (ESX and the AHV)
 
 On each enviroment clicking on the three dots will show discoved VMs.
+Create a Migration Plan
 
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/move-30.png" width="700"></kbd>
 
 
 ### 1) Select Source and Target 
@@ -127,6 +131,7 @@ https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/co
 There is additional work for Windows 2008 Server, but the process is straightforward once the steps are understood
 Typically, the VM would be checked and prepared in advance of running the migration plan 
  
+
 
 
 
