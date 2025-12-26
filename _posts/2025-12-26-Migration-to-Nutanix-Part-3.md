@@ -25,6 +25,12 @@ I previously added source and target environments (ESX and the AHV)
 
 On each enviroment clicking on the three dots will show discoved VMs.
 
+
+
+## 1) Select Source and Target 
+
+Select VMs
+
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove1.png" width="700"></kbd>
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove1a.png" width="300"></kbd>
@@ -32,11 +38,6 @@ On each enviroment clicking on the three dots will show discoved VMs.
 Unless we upgrade Windows 2008 R2 to SP1 we cannot migrate that instance. 
 
 
-## 1) Select Source and Target 
-
-Select VMs
-
-<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove2.png" width="700"></kbd>
 
 2) Select Network
 
@@ -45,6 +46,8 @@ Select VMs
 Choose manual preperation – as these are older systems, there are a number of dependencies that we need to take care of first
 
 The default version of PowerShell on Windows 2008 R2 needs updating to PowerShell version 4.0 or later.
+
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove2.png" width="400"></kbd>
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove4.png" width="400"></kbd>
 
@@ -110,6 +113,7 @@ https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/co
 There is additional work for Windows 2008 Server, but the process is straightforward once the steps are understood
 Typically, the VM would be checked and prepared in advance of running the migration plan 
  
+
 
 
 
