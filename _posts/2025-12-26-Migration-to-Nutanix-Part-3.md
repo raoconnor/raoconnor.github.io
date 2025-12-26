@@ -106,18 +106,23 @@ keep default setting
 
 Review Summary and start 
 
-Wait for plan to validate and move to in progress, click on View Details to see the estimated remaining time
+Wait for plan to validate and move to **in progress**, click on View Details to see the estimated remaining time
+The plan will move through various stages, **Seeding Data**, then **Ready for Cutover**
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove8.png" width="700"></kbd>
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove9.png" width="700"></kbd>
 
+Once the Cutover option is selected the plan will stop the Source VM and Create and **Configure Target VM**
+
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove10.png" width="700"></kbd>
+
+In **Source VM Cleanup** the Network card is removed from the Source VM
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove11.png" width="700"></kbd>
 
+Click on the **View Traget VM** to open Prism Element Console
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove12.png" width="700"></kbd>
-
 
 ### From Prism element connect to each server and open device manager 
 
@@ -137,6 +142,7 @@ https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/co
 There is additional work for Windows 2008 Server, but the process is straightforward once the steps are understood
 Typically, the VM would be checked and prepared in advance of running the migration plan 
  
+
 
 
 
