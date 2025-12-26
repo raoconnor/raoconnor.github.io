@@ -21,7 +21,7 @@ All versions use BIOS, Nutanix CE has issues with UEFI, these are seen on the co
 
 I previously I added source and target environments (ESX and the AHV)
 
-On each Enviroment clicking on the three dots to see VMs that can be moved
+On each enviroment clicking on the three dots will show which VMs can be moved
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove1.png" width="700"></kbd>
 
@@ -102,4 +102,5 @@ https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/co
 There is additional work for Windows 2008 Server, but the process is straightforward once the steps are understood
 Typically, the VM would be checked and prepared in advance of running the migration plan 
  
+
 
