@@ -23,9 +23,9 @@ I previously I added source and target environments (ESX and the AHV)
 
 On each Enviroment clicking on the three dots to see VMs that can be moved
 
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/winmove1.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove1.png" width="700"></kbd>
 
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/winmove2.png" width="300"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove2.png" width="300"></kbd>
 
 Unless we upgrade Windows 2008 R2 to SP1 we cannot migrate that instance. 
 
@@ -33,7 +33,7 @@ Select Source and Target
 
 Select VMs
 
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/winmove3.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove3.png" width="700"></kbd>
 
 Select Network
 
@@ -43,7 +43,7 @@ Manual – as these are older systems, there are a number of dependencies that w
 
 The default version of PowerShell on Windows 2008 R2 needs updating to PowerShell version 4.0 or later.
 
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/winmove4.png" width="400"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove4.png" width="400"></kbd>
 
 We will stick with minimal supported versions rather than the latest
 
@@ -62,11 +62,11 @@ Once the update is installed check the Powershell version again
 
 Go back to the Move console, Copy and Run the Preparation script on the target 2008 server 
 
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/winmove6.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove6.png" width="700"></kbd>
 
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/winmove7.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove7.png" width="700"></kbd>
 
-Window Server 2012 has PowerShell version 4.0 so no update required  
+Windows Server 2012 has PowerShell version 4.0 so no update required  
 
 <kbd>!<img src="https://raoconnor.github.io/docs/assets/images/winmove8.png" width="400"></kbd>
 
@@ -80,24 +80,26 @@ Review Summary and start
 
 Wait for plan to validate and move to in progress, click on View Details to see the estimated remaining time
 
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/winmove10.png" width="700"></kbd>
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/winmove11.png" width="700"></kbd>
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/winmove12.png" width="700"></kbd>
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/winmove13.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove10.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove11.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove12.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove13.png" width="700"></kbd>
 
 From Prism element connect to each server and open device manager 
 
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/winmove14.png" width="700"></kbd>
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/winmove15.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove14.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove15.png" width="700"></kbd>
 
 ## Conclusion 
 
 The current supported Nutanix software requires systems to be Windows 2008 SP1 with VMware tool installed, powershell 4 which requires NET Framework 4.5.2 or later
 
 See the AVH Compatibility and Interoperability Matrix
+
 https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/compatibility
 
 
 There is additional work for Windows 2008 Server, but the process is straightforward once the steps are understood
 Typically, the VM would be checked and prepared in advance of running the migration plan 
  
+
