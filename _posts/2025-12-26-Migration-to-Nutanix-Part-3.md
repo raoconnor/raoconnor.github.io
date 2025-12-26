@@ -87,7 +87,7 @@ Go back to the Move console, Copy and Run the Preparation script on the target s
 
 **Windows 2012**
 
-<kbd> <img src="https://raoconnor.github.io/docs/assets/images/winmove7.png" width="500"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove7.png" width="500"></kbd>
 
 VM Settings – keep default setting
 
@@ -97,13 +97,13 @@ Review Summary and start
 
 Wait for plan to validate and move to in progress, click on View Details to see the estimated remaining time
 
-<kbd> <img src="https://raoconnor.github.io/docs/assets/images/winmove8.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove8.png" width="700"></kbd>
 
-<kbd> <img src="https://raoconnor.github.io/docs/assets/images/winmove9.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove9.png" width="700"></kbd>
 
-<kbd> <img src="https://raoconnor.github.io/docs/assets/images/winmove10.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove10.png" width="700"></kbd>
 
-<kbd> <img src="https://raoconnor.github.io/docs/assets/images/winmove11.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove11.png" width="700"></kbd>
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove12.png" width="700"></kbd>
 
@@ -126,6 +126,7 @@ https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/co
 There is additional work for Windows 2008 Server, but the process is straightforward once the steps are understood
 Typically, the VM would be checked and prepared in advance of running the migration plan 
  
+
 
 
 
