@@ -45,35 +45,31 @@ Choose the target network
 
 ### 3) VM Preparation
  
-Choose manual preperation – as these are older systems, there are a number of dependencies that we need to take care of first
+Choose manual preperation – as these are older systems, there are a number of dependencies that we need resolve first
+For all depedancies I will use minimal supported or the next version rather than the latest
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove4.png" width="700"></kbd>
 
-
-RDP to the target server and run the command '$PSversionTable` to check the powershell version
+####  Update PowerShell on Windows Server 2008 R2
+RDP to the target server and run the command **$PSversionTable** to check the powershell version
 
 The default version of PowerShell on Windows 2008 R2 needs updating to PowerShell version 4.0 or later.
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove2.png" width="400"></kbd>
 
-
-For all depedancies I will use minimal or older supported versions rather than the latest
-
 First download and install .NET Framework 4.5.2 or later
-
 https://www.microsoft.com/en-us/download/details.aspx?id=42642
 
-
-Next download and install Windows Management Framework (WMF) 5.1  file from Microsoft
+Next download and install Windows Management Framework (WMF) 5.1  file from Microsoft\
 https://www.microsoft.com/en-us/download/details.aspx?id=54616
 
 The required file is Win7AndW2K8R2-KB3191566-x64.zip 
-
 
 Once the update is installed check the Powershell version again
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove5.png" width="400"></kbd>
 
+####  Run the Preparation Script to install VirtIO drivers 
 Go back to the Move console, Copy and Run the Preparation script on the target 2008 server 
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove6.png" width="400"></kbd>
@@ -120,6 +116,7 @@ https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/co
 There is additional work for Windows 2008 Server, but the process is straightforward once the steps are understood
 Typically, the VM would be checked and prepared in advance of running the migration plan 
  
+
 
 
 
