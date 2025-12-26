@@ -57,30 +57,31 @@ The default version of PowerShell on Windows 2008 R2 needs updating to PowerShel
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove2.png" width="400"></kbd>
 
-First download and install .NET Framework 4.5.2 or later
+First download and install .NET Framework 4.5.2 or later\
 https://www.microsoft.com/en-us/download/details.aspx?id=42642
 
 Next download and install Windows Management Framework (WMF) 5.1  file from Microsoft\
 https://www.microsoft.com/en-us/download/details.aspx?id=54616
 
-The required file is Win7AndW2K8R2-KB3191566-x64.zip 
+The required file is **Win7AndW2K8R2-KB3191566-x64.zip** 
 
 Once the update is installed check the Powershell version again
 
-<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove5.png" width="400"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove3.png" width="400"></kbd>
+
+Windows Server 2012 has PowerShell version 4.0 so no update required  
+
+<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/winmove6.png" width="400"></kbd>
+
 
 ####  Run the Preparation Script to install VirtIO drivers 
 Go back to the Move console, Copy and Run the Preparation script on the target 2008 server 
 
-<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove6.png" width="400"></kbd>
+**Windows 2008 R2**
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove5.png" width="500"></kbd>
 
-<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove7.png" width="400"></kbd>
-
-Windows Server 2012 has PowerShell version 4.0 so no update required  
-
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/winmove8.png" width="400"></kbd>
-
-<kbd>!<img src="https://raoconnor.github.io/docs/assets/images/winmove9.png" width="700"></kbd>
+**Windows 2012**
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove7.png" width="500"></kbd>
 
 VM Settings – keep default setting
 
@@ -90,19 +91,22 @@ Review Summary and start
 
 Wait for plan to validate and move to in progress, click on View Details to see the estimated remaining time
 
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove8.png" width="700"></kbd>
+
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove9.png" width="700"></kbd>
+
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove10.png" width="700"></kbd>
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove11.png" width="700"></kbd>
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove12.png" width="700"></kbd>
 
+
+### From Prism element connect to each server and open device manager 
+
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove13.png" width="700"></kbd>
 
-From Prism element connect to each server and open device manager 
-
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove14.png" width="700"></kbd>
-
-<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove15.png" width="700"></kbd>
 
 ## Conclusion 
 
@@ -116,6 +120,7 @@ https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/co
 There is additional work for Windows 2008 Server, but the process is straightforward once the steps are understood
 Typically, the VM would be checked and prepared in advance of running the migration plan 
  
+
 
 
 
