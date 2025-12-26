@@ -27,6 +27,7 @@ Connect to the Move Console
 I previously added source and target environments (ESX and the AHV)
 
 On each enviroment clicking on the three dots will show discovered VMs.
+
 Create a Migration Plan
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-30.png" width="700"></kbd>
@@ -131,6 +132,7 @@ https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/co
 There is additional work for Windows 2008 Server, but the process is straightforward once the steps are understood
 Typically, the VM would be checked and prepared in advance of running the migration plan 
  
+
 
 
 
