@@ -1,7 +1,7 @@
 # Migration to Nutanix - Part 3
 
 
-In part 1 I deployed the Nutanix Move appliance, in Part two I tested a migration of a Windows 2019 Server from ESX to AHV. 
+In **Part 1** I deployed the Nutanix Move appliance, in **Part Two** I tested a migration of a Windows 2019 Server from ESX to AHV. 
 In this post I will test older versions of Windows: Windows 2012 and Windows 2008 R2 SP1 one instance with VMware tools installed and another Windows 2008 R2 without any Service Pack or VMware tools.
 
 **Warning:**
@@ -126,6 +126,7 @@ https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/co
 There is additional work for Windows 2008 Server, but the process is straightforward once the steps are understood
 Typically, the VM would be checked and prepared in advance of running the migration plan 
  
+
 
 
 
