@@ -132,16 +132,23 @@ Click on the **View Traget VM** to open Prism Element Console
 
 ## Conclusion 
 
-The current supported Nutanix software requires systems to be Windows 2008 SP1 with VMware tool installed, powershell 4 which requires NET Framework 4.5.2 or later
+The current supported Nutanix software requires systems to be Windows 2008 SP1 or later with VMware tools installed.
+Powershell 4 is required (standard from Windows 2012 onwards) 
+Updates to Powershell 4 will require NET Framework 4.5.2 or later
 
-See the AVH Compatibility and Interoperability Matrix
 
-https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/compatibility
 
 
 There is additional work for Windows 2008 Server, but the process is straightforward once the steps are understood
 Typically, the VM would be checked and prepared in advance of running the migration plan 
  
+Reference - 
+
+Move 6.1 User Guide\
+https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:Nutanix-Move-v6_1
+
+AVH Compatibility and Interoperability Matrix\
+https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/compatibility
 
 
 
