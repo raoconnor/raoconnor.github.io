@@ -33,7 +33,7 @@ Create a Migration Plan
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-30.png" width="700"></kbd>
 
 
-### 1) Select Source and Target 
+### 1) Source and Target 
 
 Select VMs
 
@@ -47,7 +47,7 @@ Unless we upgrade Windows Server 2008 R2 to SP1 we cannot migrate that instance.
 
 
 
-### 2) Select Network
+### 2) Network and Policy
 
 Choose the target network
 
@@ -96,9 +96,13 @@ Go back to the Move console, Copy and Run the Preparation script on the target s
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove7.png" width="500"></kbd>
 
-VM Settings – keep default setting
+### 5) VM Settings
+
+keep default setting
 
 ## VM Migration
+
+### 6) Summary
 
 Review Summary and start 
 
@@ -133,6 +137,7 @@ https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/co
 There is additional work for Windows 2008 Server, but the process is straightforward once the steps are understood
 Typically, the VM would be checked and prepared in advance of running the migration plan 
  
+
 
 
 
