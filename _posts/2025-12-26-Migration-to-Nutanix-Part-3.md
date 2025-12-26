@@ -6,9 +6,6 @@ In this post I will test older versions of Windows:
 - Windows 2012
 - Windows 2008 R2 SP1 one instance with VMware tools installed and another Windows 2008 R2 without any Service Pack or VMware tools.
 
-**Warning:**
-The standalone free version of ESX (8.0.3) has restrictions on allowing Move migrations.
-
 These are the oldest supported Windows versions if you are using recent versions of Nutanix software
 https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:top-esxi-vm-migration-c.html
 
@@ -20,6 +17,8 @@ Windows 2008 R2 requires VMware tools, to install the VMware tools Windows 2008 
 **Warning:**
 All versions use BIOS, Nutanix CE has issues with UEFI, these are seen on the community edition, licenced or NFR do not have the same limitation.
 
+**Warning:**
+The standalone free version of ESX (8.0.3) has restrictions on allowing Move migrations.
 
 ### Validate Source and Target Enviroments
 
@@ -128,6 +127,7 @@ https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/co
 There is additional work for Windows 2008 Server, but the process is straightforward once the steps are understood
 Typically, the VM would be checked and prepared in advance of running the migration plan 
  
+
 
 
 
