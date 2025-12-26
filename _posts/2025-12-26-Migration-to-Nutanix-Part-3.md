@@ -90,11 +90,11 @@ Go back to the Move console, Copy and Run the Preparation script on the target s
 
 **Windows 2008 R2**
 
-<kbd> <img src="https://raoconnor.github.io/docs/assets/images/winmove5.png" width="500"></kbd>
+<kbd> <img src="https://raoconnor.github.io/docs/assets/images/winmove5.png" width="600"></kbd>
 
 **Windows 2012**
 
-<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove7.png" width="500"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove7.png" width="600"></kbd>
 
 ### 5) VM Settings
 
@@ -149,6 +149,7 @@ https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:Nut
 
 AVH Compatibility and Interoperability Matrix\
 https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/compatibility
+
 
 
 
