@@ -1,27 +1,29 @@
 # Migration to Nutanix - Part 3
 
 
-In part 1 I deployed the Nutanix Move appliance, in Part two I test a migration of a Windows 2019 Server from ESX to AHV. 
-In this post I will test older versions of Windows: Windows 2012 and Window 2008 R2 with VMware tools installed and another without the tools.
+In part 1 I deployed the Nutanix Move appliance, in Part two I tested a migration of a Windows 2019 Server from ESX to AHV. 
+In this post I will test older versions of Windows: Windows 2012 and Windows 2008 R2 one instance with VMware tools installed and another without the tools.
 
 **Warning:**
-**The standalone free version of ESX has restrictions on allowing Move migrations
+The standalone free version of ESX (8.0.3) has restrictions on allowing Move migrations.
 
-These are the oldest supported Windows versions if you are using recent version of Nutanix software
+These are the oldest supported Windows versions if you are using recent versions of Nutanix software
 https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:top-esxi-vm-migration-c.html
 
 Note that versions are divided into BIOS and UEFI
 
 **Warning:**
-** Windows 2008 R2 requires VMware tools, to install the VMware tools SP 1 and KB4474419 need to be installed that 
-All versions use BIOS, Nutanix CE has issues with UEFI, these are seen on the community edition, licenced or NFR do not have the same limitation.**
+Windows 2008 R2 requires VMware tools, to install the VMware tools Windows 2008 R2 requires SP 1 and KB4474419.
+
+**Warning:**
+All versions use BIOS, Nutanix CE has issues with UEFI, these are seen on the community edition, licenced or NFR do not have the same limitation.
 
 
 ## Validate Source and Target Enviroments
 
-I previously I added source and target environments (ESX and the AHV)
+I previously added source and target environments (ESX and the AHV)
 
-On each enviroment clicking on the three dots will show which VMs can be moved
+On each enviroment clicking on the three dots will show discoved VMs.
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove1.png" width="700"></kbd>
 
@@ -29,17 +31,18 @@ On each enviroment clicking on the three dots will show which VMs can be moved
 
 Unless we upgrade Windows 2008 R2 to SP1 we cannot migrate that instance. 
 
-Select Source and Target 
+
+## 1) Select Source and Target 
 
 Select VMs
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove3.png" width="700"></kbd>
 
-Select Network
+2) Select Network
 
-## VM Preparation
+## 3) VM Preparation
  
-Manual – as these are older systems, there are a number of dependencies that we need to take care of first
+Choose manual preperation – as these are older systems, there are a number of dependencies that we need to take care of first
 
 The default version of PowerShell on Windows 2008 R2 needs updating to PowerShell version 4.0 or later.
 
@@ -49,6 +52,7 @@ We will stick with minimal supported versions rather than the latest
 
 
 First download and install .NET Framework 4.5.2 or later
+
 https://www.microsoft.com/en-us/download/details.aspx?id=42642
 
 
@@ -81,13 +85,17 @@ Review Summary and start
 Wait for plan to validate and move to in progress, click on View Details to see the estimated remaining time
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove10.png" width="700"></kbd>
+
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove11.png" width="700"></kbd>
+
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove12.png" width="700"></kbd>
+
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove13.png" width="700"></kbd>
 
 From Prism element connect to each server and open device manager 
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove14.png" width="700"></kbd>
+
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove15.png" width="700"></kbd>
 
 ## Conclusion 
@@ -102,5 +110,6 @@ https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/co
 There is additional work for Windows 2008 Server, but the process is straightforward once the steps are understood
 Typically, the VM would be checked and prepared in advance of running the migration plan 
  
+
 
 
