@@ -53,8 +53,8 @@ Choose the target network
 
 ### 3) VM Preparation
  
-Choose manual preperation – as these are older systems, there are a number of dependencies that we need resolve first
-For all depedancies I will use minimal supported or the next version rather than the latest
+Choose manual preparation – as these are older systems, there are a number of dependencies that we need resolve first
+(For all depedancies I will use minimal supported or the next version rather than the latest)
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove4.png" width="700"></kbd>
 
@@ -149,6 +149,7 @@ https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:Nut
 
 AVH Compatibility and Interoperability Matrix\
 https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/compatibility
+
 
 
 
