@@ -39,7 +39,7 @@ Select VMs
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove1.png" width="700"></kbd>
 
-Note why a VM is not availabel to migrate
+Note why a VM is not available to migrate
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove1a.png" width="300"></kbd>
 
@@ -134,6 +134,7 @@ https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/co
 There is additional work for Windows 2008 Server, but the process is straightforward once the steps are understood
 Typically, the VM would be checked and prepared in advance of running the migration plan 
  
+
 
 
 
