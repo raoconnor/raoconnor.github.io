@@ -58,7 +58,7 @@ Choose manual preparation as these are legacy systems, and we want to be sure th
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-plan-4.png" width="800"></kbd>
 
 
-Copy the provided preparation script - Note your move ip address will be embedded
+Copy the provided preparation script - Note your move ip address will be embedded\
  ```curl -sSk https://**<Move IP>**/resources/uvm/linux/esx_setup_uvm.sh | sudo sh /dev/stdin --move-address ’**Move IP**’ /--retain-ip --install-amd --reconfig-lvm --uninstall-vmware-tools --install-ngt ```
 
  <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-plan-5.png" width="400"></kbd>
@@ -99,6 +99,7 @@ Once data is seeded the option to cutover will appear
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-5.png" width="700"></kbd>
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-6.png" width="700"></kbd>
+
 
 
 
