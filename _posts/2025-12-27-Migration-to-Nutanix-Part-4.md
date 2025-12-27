@@ -29,7 +29,7 @@ Tests are limted to systems that use BIOS firmware, Nutanix CE has issues with U
 
 From the Move Console create a New Migration Plan
 
-<kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-plan-0.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-plan-0.png" width="800"></kbd>
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-plan-1.png" width="300"></kbd>
 
@@ -91,6 +91,7 @@ Once data is seeded the option to cutover will appear
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-5.png" width="700"></kbd>
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-6.png" width="700"></kbd>
+
 
 
 
