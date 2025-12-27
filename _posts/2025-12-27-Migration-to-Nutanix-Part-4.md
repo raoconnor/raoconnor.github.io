@@ -7,14 +7,14 @@ In **Part 3** I tested migration test of Windows 2012 and Windows 2008 R2.
 
 In this lab I am going to migrate some older Linux systems, these are some of the oldest supported versions for each distribution 
 
-•	Ubuntu Linux 18 (64 bit)
-•	Red Hat Enterprise Linux 7.7 (64 bit)
-•	SUSE Linux Enterprise 12 SP3 (64 bit)
-•	Rocky 8.10 
-•	Centos 7.0
+•	Ubuntu Linux 18 (64 bit)\
+•	Red Hat Enterprise Linux 7.7 (64 bit)\
+•	SUSE Linux Enterprise 12 SP3 (64 bit)\
+•	Rocky 8.10\
+•	Centos 7.0\
 
 
-See Nutanix documentation for supported systems
+See Nutanix documentation for supported systems\
 https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:top-esxi-vm-migration-c.html
 
 
@@ -91,6 +91,7 @@ Once data is seeded the option to cutover will appear
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-5.png" width="700"></kbd>
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-6.png" width="700"></kbd>
+
 
 
 
