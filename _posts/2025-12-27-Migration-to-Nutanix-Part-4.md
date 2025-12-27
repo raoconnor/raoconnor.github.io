@@ -98,7 +98,8 @@ Once data is seeded the option to cutover will appear
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-5.png" width="900"></kbd>
 
-<kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-6.png" width="950"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-6.png" width="1100"></kbd>
+
 
 
 
