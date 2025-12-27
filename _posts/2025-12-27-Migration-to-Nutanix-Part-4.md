@@ -53,11 +53,11 @@ Select the target Network
 
 ### Prepare VMs
 
-´curl -sSk https://<Move IP>/resources/uvm/linux/esx_setup_uvm.sh | sudo sh /dev/stdin --move-address ’Move IP’ /--retain-ip --install-amd --reconfig-lvm --uninstall-vmware-tools --install-ngt´
+ ```curl -sSk https://<Move IP>/resources/uvm/linux/esx_setup_uvm.sh | sudo sh /dev/stdin --move-address ’Move IP’ /--retain-ip --install-amd --reconfig-lvm --uninstall-vmware-tools --install-ngt ```
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/ubuntu-1.png" width="700"></kbd>
 
-<kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/rhel-1v" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/rhel-1.png" width="700"></kbd>
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/sles-1.png" width="700"></kbd>
 
@@ -91,6 +91,7 @@ Once data is seeded the option to cutover will appear
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-5.png" width="700"></kbd>
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-6.png" width="700"></kbd>
+
 
 
 
