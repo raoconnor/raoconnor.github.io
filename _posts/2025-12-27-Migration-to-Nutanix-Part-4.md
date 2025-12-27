@@ -92,13 +92,14 @@ The various stages of migration are indicated though View Details
 
 Once data is seeded the option to cutover will appear
 
-<kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-3.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-3.png" width="800"></kbd>
 
-<kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-4.png" width="400"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-4.png" width="800"></kbd>
 
-<kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-5.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-5.png" width="400"></kbd>
 
-<kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-6.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-6.png" width="800"></kbd>
+
 
 
 
