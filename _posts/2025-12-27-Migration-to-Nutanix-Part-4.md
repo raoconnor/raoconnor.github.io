@@ -41,11 +41,11 @@ Select ESX as source and Nutanix cluster as target
 
 Select the Linux VMs (Note none have warning advising that migration is not supported)
 
-<kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-plan-2.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-plan-2.png" width="800"></kbd>
 
 Note: As Rocky Linux 8 is not supported on ESX, move is unable to migrate it
 
-<kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-plan-3.png" width="700"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-plan-3.png" width="300"></kbd>
 
 ### Network
  
@@ -91,6 +91,7 @@ Once data is seeded the option to cutover will appear
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-5.png" width="700"></kbd>
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-migrate-6.png" width="700"></kbd>
+
 
 
 
