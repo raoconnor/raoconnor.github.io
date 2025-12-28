@@ -11,10 +11,11 @@ In this lab I am going to migrate some legacy Linux systems from ESX to AHV, the
 •	Red Hat Enterprise Linux 7.7 (64 bit)\
 •	SUSE Linux Enterprise 12 SP3 (64 bit)\
 •	Rocky 8.10\
-•	Centos 7.0\
+•	Centos 7.0
 
 
-See Nutanix documentation for supported systems\
+See Nutanix documentation for supported systems
+
 https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:top-esxi-vm-migration-c.html
 
 
@@ -114,6 +115,7 @@ Open the console to each instance and test logon, and network connectivity
 ### Conclusion
 
 Older mainstream legacy Linux distributions typical in Enterprises are supported, however free distributions that are EOL such as Centos or Rocky Linux have challenges
+
 
 
 
