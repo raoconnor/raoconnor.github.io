@@ -5,7 +5,7 @@ In [**Part 1**](https://raoconnor.github.io/2025/12/10/Nutanix-Migration-Lab-Par
 Then in [**Part 3**](https://raoconnor.github.io/2025/12/26/Nutanix-Migration-Lab-Part-3.html) I tested migration of Windows 2012 and Windows 2008 R2 from ESX to AHV.
 
 
-In this lab I am going to migrate some older Linux systems from ESX to AHV, these are some of the oldest supported Linux versions for each distribution 
+In this lab I am going to migrate some legacy Linux systems from ESX to AHV, these are some of the oldest supported Linux versions for each distribution 
 
 •	Ubuntu Linux 18 (64 bit)\
 •	Red Hat Enterprise Linux 7.7 (64 bit)\
@@ -114,6 +114,7 @@ Open the console to each instance and test logon, and network connectivity
 ### Conclusion
 
 Older mainstream legacy Linux distributions typical in Enterprises are supported, however free distributions that are EOL such as Centos or Rocky Linux have challenges
+
 
 
 
