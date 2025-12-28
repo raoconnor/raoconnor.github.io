@@ -111,9 +111,10 @@ Once data is seeded the option to cutover will appear
 Open the console to each instance and test logon, and network connectivity 
 
 
-### Conclustion
+### Conclusion
 
-Mainstream legacy Linux distributions typical in Enterprises are supported, older free distributions such as Centos or Rocky Linux have challenges
+Older mainstream legacy Linux distributions typical in Enterprises are supported, however free distributions that are EOL such as Centos or Rocky Linux have challenges
+
 
 
 
