@@ -1,8 +1,8 @@
 # Nutanix Migration Lab - Part 3
 
+In [**Part 1**](https://raoconnor.github.io/2025/12/10/Nutanix-Migration-Lab-Part-1.html) I deployed the Nutanix Move appliance, in [**Part Two**](https://raoconnor.github.io/2025/12/10/Nutanix-Migration-Lab-Part-2.html) I create dmy first migration plan and tested the migration of a Windows 2019 Server from Hyper-V to AHV
 
-In **Part 1** I deployed the Nutanix Move appliance, in **Part Two** I tested a migration of a Windows 2019 Server from ESX to AHV. 
-In this post I will test older versions of Windows: 
+In this post I will test moving older versions of Windows: 
 - Windows 2012
 - Windows 2008 R2 SP1 one instance with VMware tools installed and another Windows 2008 R2 without any Service Pack or VMware tools.
 
@@ -149,6 +149,7 @@ https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:Nut
 
 AVH Compatibility and Interoperability Matrix\
 https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/compatibility
+
 
 
 
