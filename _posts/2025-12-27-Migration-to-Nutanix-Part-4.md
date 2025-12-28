@@ -77,7 +77,7 @@ Centos reports an issue
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/centos-1.png" width="700"></kbd>
 
-It is not possible to update the curl library to fix the problem as there are no longer and active repositories for Centos 7
+It is not possible to update the curl library to fix the problem as there are no longer any active repositories for Centos 7
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/centos-2.png" width="700"></kbd>
 
@@ -115,6 +115,7 @@ Open the console to each instance and test logon, and network connectivity
 ### Conclusion
 
 Older mainstream legacy Linux distributions typical in Enterprises are supported, however free distributions that are EOL such as Centos or Rocky Linux have challenges
+
 
 
 
