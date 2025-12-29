@@ -16,7 +16,7 @@ Note that versions are divided into BIOS and UEFI
 Windows 2008 R2 requires VMware tools, to install the VMware tools Windows 2008 R2 requires SP 1 and KB4474419.
 
 **[WARNING]**
-All versions use BIOS, Nutanix CE has problems booting systems with UEFI, these are issues are only seen on the community edition, licenced or NFR versions do not have the same problem.
+All versions use BIOS, Nutanix CE has problems booting systems with UEFI, these issues are only seen on the community edition, licenced or NFR versions do not have the same problem.
 
 **[WARNING]**
 The standalone free version of ESX (8.0.3) has restrictions on allowing Move migrations.
@@ -148,6 +148,7 @@ Reference -
 [Move 6.1 User Guide](https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:Nutanix-Move-v6_1)
 
 [AVH Compatibility and Interoperability Matrix](https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/compatibility)
+
 
 
 
