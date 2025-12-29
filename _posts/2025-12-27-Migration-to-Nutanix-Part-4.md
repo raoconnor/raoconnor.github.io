@@ -17,8 +17,8 @@ In this lab I am going to migrate some legacy Linux systems from ESX to AHV, the
 See [Nutanix documentation for supported systems](https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:top-esxi-vm-migration-c.html)
 
 
-> [!IMPORTANT]
-> Tests are limted to systems that use BIOS firmware, Nutanix CE has issues with UEFI, licenced or NFR versions of Prism do not have the same limitation.
+**[IMPORTANT]**
+Tests are limted to systems that use BIOS firmware, Nutanix CE has issues with UEFI, licenced or NFR versions of Prism do not have the same limitation.
 
 ### Test Lab
 
@@ -113,6 +113,7 @@ Open the console to each instance and test logon, and network connectivity
 ### Conclusion
 
 Older mainstream legacy Linux distributions typical in Enterprises are supported, however free distributions that are EOL such as Centos or Rocky Linux have challenges
+
 
 
 
