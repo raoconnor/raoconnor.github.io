@@ -123,7 +123,9 @@ In **Source VM Cleanup** the Network card is removed from the Source VM
 Click on the **View Traget VM** to open Prism Element Console
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove12.png" width="700"></kbd>
 
-### From Prism element connect to each server and open device manager 
+### Validation
+
+From Prism element connect to each server and open device manager 
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/winmove13.png" width="700"></kbd>
 
@@ -146,6 +148,7 @@ Reference -
 [Move 6.1 User Guide](https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:Nutanix-Move-v6_1)
 
 [AVH Compatibility and Interoperability Matrix](https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/compatibility)
+
 
 
 
