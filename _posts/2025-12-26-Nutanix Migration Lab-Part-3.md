@@ -8,7 +8,7 @@ In this post I will test moving older versions of Windows:
 
 These are the oldest supported Windows versions if you are using recent versions of Nutanix software
 
-https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:top-esxi-vm-migration-c.html
+[Nutanix Move Supported OS](https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:top-esxi-vm-migration-c.html)
 
 Note that versions are divided into BIOS and UEFI
 
@@ -148,6 +148,7 @@ https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:Nut
 
 AVH Compatibility and Interoperability Matrix\
 https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/compatibility
+
 
 
 
