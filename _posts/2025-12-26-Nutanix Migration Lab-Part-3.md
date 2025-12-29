@@ -10,7 +10,6 @@ These are the oldest supported Windows versions if you are using recent versions
 
 [Nutanix Move Supported OS](https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:top-esxi-vm-migration-c.html)
 
-Note that versions are divided into BIOS and UEFI
 
 **[IMPORTANT]**
 Windows 2008 R2 requires VMware tools, to install the VMware tools Windows 2008 R2 requires SP 1 and KB4474419.
@@ -148,6 +147,7 @@ Reference -
 [Move 6.1 User Guide](https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:Nutanix-Move-v6_1)
 
 [AVH Compatibility and Interoperability Matrix](https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/compatibility)
+
 
 
 
