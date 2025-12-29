@@ -1,12 +1,13 @@
 # Nutanix Migration Lab - Part 3
 
-In [**Part One**](https://raoconnor.github.io/2025/12/10/Nutanix-Migration-Lab-Part-1.html) I deployed the Nutanix Move appliance, in [**Part Two**](https://raoconnor.github.io/2025/12/10/Nutanix-Migration-Lab-Part-2.html) I create dmy first migration plan and tested the migration of a Windows 2019 Server from Hyper-V to AHV
+In [**Part One**](https://raoconnor.github.io/2025/12/10/Nutanix-Migration-Lab-Part-1.html) I deployed the Nutanix Move appliance, in [**Part Two**](https://raoconnor.github.io/2025/12/10/Nutanix-Migration-Lab-Part-2.html) I created my first migration plan and tested the migration of a Windows 2019 Server from Hyper-V to AHV
 
 In this post I will test moving older versions of Windows: 
 - Windows 2012
 - Windows 2008 R2 SP1 one instance with VMware tools installed and another Windows 2008 R2 without any Service Pack or VMware tools.
 
 These are the oldest supported Windows versions if you are using recent versions of Nutanix software
+
 https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:top-esxi-vm-migration-c.html
 
 Note that versions are divided into BIOS and UEFI
@@ -15,7 +16,7 @@ Note that versions are divided into BIOS and UEFI
 Windows 2008 R2 requires VMware tools, to install the VMware tools Windows 2008 R2 requires SP 1 and KB4474419.
 
 **Warning:**
-All versions use BIOS, Nutanix CE has issues with UEFI, these are seen on the community edition, licenced or NFR do not have the same limitation.
+All versions use BIOS, Nutanix CE has problems booting systems with UEFI, these are issues are only seen on the community edition, licenced or NFR versions do not have the same problem.
 
 **Warning:**
 The standalone free version of ESX (8.0.3) has restrictions on allowing Move migrations.
@@ -24,10 +25,8 @@ The standalone free version of ESX (8.0.3) has restrictions on allowing Move mig
 
 Connect to the Move Console 
 
-I previously added source and target environments (ESX and the AHV)
-
-On each enviroment clicking on the three dots will show discovered VMs.
-
+I previously added source and target environments (ESX and the AHV)\
+On each enviroment clicking on the three dots will show discovered VMs.\
 Create a Migration Plan
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-30.png" width="700"></kbd>
@@ -149,6 +148,7 @@ https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:Nut
 
 AVH Compatibility and Interoperability Matrix\
 https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/compatibility
+
 
 
 
