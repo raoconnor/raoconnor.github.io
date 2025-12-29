@@ -143,11 +143,10 @@ Typically, the VM would be checked and prepared in advance of running the migrat
  
 Reference - 
 
-Move 6.1 User Guide\
-https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:Nutanix-Move-v6_1
+[Move 6.1 User Guide](https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v6_1:Nutanix-Move-v6_1)
 
-AVH Compatibility and Interoperability Matrix\
-https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/compatibility
+[AVH Compatibility and Interoperability Matrix](https://portal.nutanix.com/page/compatibility-interoperability-matrix/guestos/compatibility)
+
 
 
 
