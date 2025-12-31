@@ -113,8 +113,9 @@ On the nutanix cluster, check the VM is running, connect to the OS, open devmgr 
 
 
 
-
+---
 #MCExperts, #MCX
+
 
 
 
