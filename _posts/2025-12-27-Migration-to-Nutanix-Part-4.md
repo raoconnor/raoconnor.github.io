@@ -42,7 +42,7 @@ Select the Linux VMs (Note if any have a warning advising that migration is not 
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-plan-2.png" width="800"></kbd>
 
-´´´After moving Rocky Linux 8 to the migration plan the warning below apears, I didn't really process this warning at first and removed the machine from the plan. However while Rocky Linux is not supported on ESX **it is supported by AVH and Move**, I had a similar message in Part 5 with a Windows Server 2025 left it in the plan and had no problems.´´´
+> After moving Rocky Linux 8 to the migration plan the warning below apears, I didn't really process this warning at first and removed the machine from the > plan. However while Rocky Linux is not supported on ESX **it is supported by AVH and Move**, I had a similar message in Part 5 with a Windows Server 2025 > left it in the plan and had no problems.´´´
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/movelab4/linux-plan-3.png" width="300"></kbd>
 
@@ -117,6 +117,7 @@ Older mainstream legacy Linux distributions typical in Enterprises are supported
 ---
 
 #MCExperts, #MCX
+
 
 
 
