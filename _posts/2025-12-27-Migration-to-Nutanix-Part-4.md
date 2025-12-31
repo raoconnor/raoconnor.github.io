@@ -114,8 +114,10 @@ Open the console to each instance and test logon, and network connectivity
 
 Older mainstream legacy Linux distributions typical in Enterprises are supported, however free distributions that are EOL such as Centos or Rocky Linux have challenges
 
+---
 
 #MCExperts, #MCX
+
 
 
 
