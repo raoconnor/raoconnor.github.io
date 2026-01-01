@@ -29,20 +29,24 @@ The standalone free version of ESX has restrictions on allowing Move to authetic
 Hyper-V Gen 2 instances use EFI not legacy BIOS, this can cause some issues
 
 
-> ## Prerequisites Hyper-V
-> 
-> - Guest VMs are Gen 2 with legacy BIOS
-> - Ensure guest VMs have connectivity with Move.
-> - Ensure that the guest VMs have integration services installed and an IP address is present in the Networking section of the Hyper-V manager for automatic preparation of the source VMs.
-> - Disable backups.
-> - Inbound and outbound ports TCP 5986 and 5985 are enabled for (WinRM) feature to work.
-> -	In the Hyper-V host, download move-agent-installer.exe from http://<nutanix-move-ip>/downloads/agents/move-agent-installer.exe .
->   -	Launch the command prompt with Run as Administrator to run the following command from C:\Users\Administrator
->   - `move-agent-installer.exe -o [operation] -ip [move ip] -u [user]`
->   - Replace <nutanix-move-ip> with the IP address of the Move VM.
->
+ ## Prerequisites Hyper-V
+<ul>
+<li>Guest VMs are Gen 2 with legacy BIOS.</li>
+<li>Guest VMs have connectivity with Move.</li>
+<li>Disable backups.</li>
+<li>Guest VMs have integration services installed and an IP address is present in the Networking section of the Hyper-V manager for automatic preparation of the source VMs.</li>
+<li>Inbound and outbound ports **TCP 5986 and 5985** are enabled for (WinRM) feature to work.</li>
+<li>In the Hyper-V host, download move-agent-installer.exe from http://**nutanix-move-ip**/downloads/agents/move-agent-installer.exe.</li>
+ <ul> 
+ <li>Launch the command prompt with Run as Administrator to run the following command from C:\Users\Administrator.</li>
+ <li>`move-agent-installer.exe -o [operation] -ip [move ip] -u [user]`</li>
+ <li>Replace **nutanix-move-ip** with the IP address of the Move VM.
+ </ul>
+ </li>
+</ul>
+ 
+---
   
-***
 
 ## Create and Execute a Migration Plan
 
@@ -116,6 +120,7 @@ On the nutanix cluster, check the VM is running, connect to the OS, open devmgr 
 
 ---
 #MCExperts, #MCX
+
 
 
 
