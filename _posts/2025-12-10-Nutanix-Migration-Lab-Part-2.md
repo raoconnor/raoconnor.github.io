@@ -95,7 +95,7 @@ Finally the plan VM status will change to **Ready to Cutover**
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-44.png" width="700"></kbd>
 
-Open **View Details** and start the Cutover
+Open View Detail and start the **Cutover**
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-45.png" width="700"></kbd>
 
@@ -103,7 +103,7 @@ Wait for Cutover to complete
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-46.png" width="700"></kbd>
 
-Check the source the VM should be powered off and the network card removed
+Check the source the VM should be Powered Off and the network card Not connected
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-47.png" width="700"></kbd>
 
@@ -115,6 +115,7 @@ On the nutanix cluster, check the VM is running, connect to the OS, open devmgr 
 
 ---
 #MCExperts, #MCX
+
 
 
 
