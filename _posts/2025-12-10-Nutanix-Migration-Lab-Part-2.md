@@ -29,6 +29,7 @@ The standalone free version of ESX has restrictions on allowing Move to authetic
 Hyper-V Gen 2 instances use UEFI as default not legacy BIOS, Nutanix CE has issues migrating UEFI
 
 
+
  ## Prerequisites Hyper-V
 <ul>
 <li>Guest VMs are Gen 2 with legacy BIOS.</li>
@@ -43,9 +44,8 @@ Hyper-V Gen 2 instances use UEFI as default not legacy BIOS, Nutanix CE has issu
  <li>Replace **nutanix-move-ip** with the IP address of the Move VM.</ul>
  </li>
 </ul>
- 
----
-/  
+
+ /br
 
 ## Create and Execute a Migration Plan
 
@@ -119,6 +119,7 @@ On the nutanix cluster, check the VM is running, connect to the OS, open devmgr 
 
 ---
 #MCExperts, #MCX
+
 
 
 
