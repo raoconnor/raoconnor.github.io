@@ -73,7 +73,6 @@ Click on create a migration plan and give the plan a name
 
 Run the setup script on the VM
 
-
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-28.png" width="600"></kbd>
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-29.png" width="700"></kbd>
@@ -118,6 +117,7 @@ On the nutanix cluster, check the VM is running, connect to the OS, open devmgr 
 
 ---
 #MCExperts, #MCX
+
 
 
 
