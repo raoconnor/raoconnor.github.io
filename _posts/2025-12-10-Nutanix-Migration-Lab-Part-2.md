@@ -46,7 +46,7 @@ Hyper-V Gen 2 instances use UEFI as default not legacy BIOS, Nutanix CE has issu
 </ul>
  
 ---
-  
+/  
 
 ## Create and Execute a Migration Plan
 
@@ -120,6 +120,7 @@ On the nutanix cluster, check the VM is running, connect to the OS, open devmgr 
 
 ---
 #MCExperts, #MCX
+
 
 
 
