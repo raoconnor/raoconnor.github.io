@@ -24,9 +24,9 @@ On each Enviroment clicking on the three dots will show the Environment Details 
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-31.png" width="700"></kbd>
 
-**Notes:**
-The standalone free version of ESX has restrictions on allowing Move to autheticate to VMs, 
-Hyper-V Gen 2 instances use EFI not legacy BIOS, this can cause some issues
+**Warning:**
+The standalone free version of ESX has restrictions on allowing Move to autheticate to VMs.
+Hyper-V Gen 2 instances use UEFI as default not legacy BIOS, Nutanix CE has issues migrating UEFI
 
 
  ## Prerequisites Hyper-V
@@ -120,6 +120,7 @@ On the nutanix cluster, check the VM is running, connect to the OS, open devmgr 
 
 ---
 #MCExperts, #MCX
+
 
 
 
