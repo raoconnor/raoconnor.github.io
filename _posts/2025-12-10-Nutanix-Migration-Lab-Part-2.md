@@ -75,12 +75,9 @@ Run the setup script on the VM
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-39.png" width="700"></kbd>
 
-<kbd><img src="https://raoconnor.github.io/docs/assets/images/move-40.png" width="700"></kbd>
-
-
 Review the summary and start
 
-
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/move-40.png" width="700"></kbd>
 
 Wait for plan to validate
 
@@ -118,6 +115,7 @@ On the nutanix cluster, check the VM is running, connect to the OS, open devmgr 
 
 ---
 #MCExperts, #MCX
+
 
 
 
