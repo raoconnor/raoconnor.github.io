@@ -25,9 +25,8 @@ On each Enviroment clicking on the three dots will show the Environment Details 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-31.png" width="700"></kbd>
 
 **Notes:**
-**The standalone free version of ESX has restrictions on allowing Move to autheticate to VMs, 
-in later blogs I'll investigate show some workarounds.**
-**Hyper-V Gen 2 instances use EFI not legacy BIOS, this can cause some issues in later blogs I'll investigate show some workarounds.**
+The standalone free version of ESX has restrictions on allowing Move to autheticate to VMs, 
+Hyper-V Gen 2 instances use EFI not legacy BIOS, this can cause some issues
 
 
 > ## Prerequisites Hyper-V
@@ -73,7 +72,7 @@ Click on create a migration plan and give the plan a name
 
 Run the setup script on the VM
 
-<kbd><img src="https://raoconnor.github.io/docs/assets/images/move-28.png" width="600"></kbd>
+<kbd><img src="https://raoconnor.github.io/docs/assets/images/move-28.png" width="700"></kbd>
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-29.png" width="700"></kbd>
 
@@ -117,6 +116,7 @@ On the nutanix cluster, check the VM is running, connect to the OS, open devmgr 
 
 ---
 #MCExperts, #MCX
+
 
 
 
