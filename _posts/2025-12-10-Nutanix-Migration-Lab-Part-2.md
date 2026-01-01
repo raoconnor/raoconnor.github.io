@@ -54,23 +54,23 @@ Click on create a migration plan and give the plan a name
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-34.png" width="700"></kbd>
 
-1) Choose source and destination
+**1.** Choose source and destination
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-35.png" width="700"></kbd>
 
-2) select the instances to move
+**2.** select the instances to move
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-36.png" width="700"></kbd>
 
-3) select the target network
+**3.** select the target network
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-37.png" width="700"></kbd>
 
-4) The preparation mode 
+**4.** The preparation mode 
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-38.png" width="700"></kbd>
 
-4) VM Settings
+**5.** VM Settings
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-39.png" width="700"></kbd>
 
@@ -88,19 +88,19 @@ Wait for plan to validate
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-41.png" width="700"></kbd>
 
-Plan should change to In Progress
+Plan should change to **In Progress**
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-42.png" width="700"></kbd>
 
-In the details the remaining time can be seen
+In **View Details** the remaining time can be seen
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-43.png" width="700"></kbd>
 
-Finally the plan VM status will change to Ready to Cutover
+Finally the plan VM status will change to **Ready to Cutover**
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-44.png" width="700"></kbd>
 
-Open deatils and start the Cutover
+Open **View Details** and start the Cutover
 
 <kbd><img src="https://raoconnor.github.io/docs/assets/images/move-45.png" width="700"></kbd>
 
@@ -120,6 +120,7 @@ On the nutanix cluster, check the VM is running, connect to the OS, open devmgr 
 
 ---
 #MCExperts, #MCX
+
 
 
 
