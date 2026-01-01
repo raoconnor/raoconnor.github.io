@@ -40,7 +40,7 @@ Hyper-V Gen 2 instances use UEFI as default not legacy BIOS, Nutanix CE has issu
 <li>In the Hyper-V host, download move-agent-installer.exe from http://nutanix-move-ip/downloads/agents/move-agent-installer.exe.</li>
  <li>Launch the command prompt with Run as Administrator to run the following command from C:\Users\Administrator.</li>
  <li>move-agent-installer.exe -o [operation] -ip [move ip] -u [user]</li>
- <li>Replace **nutanix-move-ip** with the IP address of the Move VM.</li>
+ <li>Replace nutanix-move-ip with the IP address of the Move VM.</li>
 </ul>
 
 
@@ -117,6 +117,7 @@ On the nutanix cluster, check the VM is running, connect to the OS, open devmgr 
 
 ---
 #MCExperts, #MCX
+
 
 
 
