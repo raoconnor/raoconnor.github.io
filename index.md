@@ -1,4 +1,4 @@
-Tech head, VMUG Leader, vExpert, Nutanix, VMware, AWS, Azure and OCI Solutions Architect. A native Englishman living in Barcelona, I love learning and listening to smart people.
+Tech head, Nutanix MC Expert, VMUG Leader, vExpert, AWS, Azure and OCI Solutions Architect. A native Englishman living in Barcelona, I love learning and listening to smart people.
 
 This blog is dedicated to passing along some thoughts on cloud and infrastructure design, costs and strategy, as well as personal and professional development.
 
