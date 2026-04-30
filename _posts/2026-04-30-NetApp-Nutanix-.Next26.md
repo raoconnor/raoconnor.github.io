@@ -63,18 +63,15 @@ Migration is a central theme of the NetApp–Nutanix alliance.
 
 A key emphasis of the alliance is to ease migration from VMware environments. The NetApp–Nutanix solution plans to leverage **NetApp Shift Toolkit** (which performs **zero-copy VM disk format conversions** via NetApp ONTAP storage) in conjunction with **Nutanix Move** migration software. This combination can convert VMware vSphere VMs to Nutanix AHV format in minutes by directly reusing data on the NetApp array, instead of lengthy data copies.
 
-NetApp Shift utilizes ONTAP’s **snapshot and cloning technology** to rapidly reformat VM disk images from a VMware VMDK to an AHV-compatible format directly on the storage layer, dramatically shortening migration times and minimizing downtime. Together with Nutanix Move—which handles the orchestration of VM relocation and network cutover—this approach allows enterprises to migrate off VMware to a Nutanix + NetApp environment faster and with less risk than traditional methods.
+NetApp Shift utilizes ONTAP’s **snapshot and cloning technology** to rapidly reformat VM disk images from a VMware VMDK to an AHV-compatible format directly on the storage layer, dramatically shortening migration times and minimizing downtime. Together with Nutanix Move which handles the orchestration of VM relocation and network cutover—this approach allows enterprises to migrate off VMware to a Nutanix + NetApp environment faster and with less risk than traditional methods.
 
 ---
 
-## Integrated Data Services & Security
+## Integrated Data Services 
 
-With NetApp storage underpinning Nutanix clusters, customers can tap into **NetApp ONTAP’s robust data services**. These include application-consistent snapshots, efficient replication (such as **SnapMirror®**), and **Autonomous Ransomware Protection (ARP/AI)**, now available to Nutanix-hosted workloads.
-
-The partnership builds on NetApp’s decades of storage innovation, bringing ONTAP enterprise data services directly into Nutanix environments. Capabilities such as **ONTAP synchronous replication** (SnapMirror®) provide the foundation for stretched cluster architectures, enabling data to be mirrored across geographically separate sites to deliver high availability and resilience.
+The partnership builds on NetApp’s decades of storage innovation, customers will be looking to see how Nutanix integrates with **NetApp ONTAP’s robust data services** bringing ONTAP enterprise data services directly into Nutanix environments, with capabilities such as **ONTAP synchronous replication** (SnapMirror®) which provide the foundation for stretched cluster architectures, or application-consistent snapshots, and **Autonomous Ransomware Protection (ARP/AI)**.
 
 ---
-
 
 ## Products Included 
 
