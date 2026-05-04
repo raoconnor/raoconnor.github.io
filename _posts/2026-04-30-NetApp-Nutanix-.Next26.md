@@ -1,5 +1,5 @@
 
-# Nutanix and NetApp at .NEXT 2026: Strategic Alliance
+# Nutanix and NetApp announce Strategic Alliance at.NEXT 2026:
 
 At **Nutanix .NEXT 2026**, Nutanix and NetApp announced a **strategic alliance** that brings **NetApp ONTAP–based enterprise storage** directly to the **Nutanix Cloud Platform (NCP)** running on **Nutanix AHV**. For the first time, Nutanix customers will be able to use **NetApp external storage** as primary storage for Nutanix clusters, combining Nutanix’s cloud operating model with NetApp’s long‑established data management capabilities.
 
