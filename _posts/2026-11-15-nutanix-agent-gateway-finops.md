@@ -1,4 +1,4 @@
-### Nutanix Agent Gateway?
+### From Tokens to GPUs: AI Costs Are Decided Before the Bill Arrives: Why Agent Gateways Matter
 
 If someone in your organization is building AI models, what affects the cost, and how can cost predictability be achieved?”
 
