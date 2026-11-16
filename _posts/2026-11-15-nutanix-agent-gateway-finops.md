@@ -48,11 +48,9 @@ What enterprises do in practice:
 | Who drives it | Data science team | Every developer, app and agent |
 | How to control it | Project budget | Model choice, quotas, routing, right-sizing |
 
-**The takeaway for admins:** inference is the long-term cost line, and it's driven by decisions spread across many teams. That's exactly why you need visibility at the point of use.
+**The takeaway for understanding cost:** inference is the long-term cost line, and it's driven by decisions spread across many teams. To make spend predicable visibility is needed at the point and time of use.
 
-**Where the gateway fits:** the best distillation candidates are the workloads with **high volume, a narrow task and a large model**. You can only find those if you can see usage per team, app and agent. Gateway data turns "should we distill?" from a hunch into a business case: *this agent makes 2 million calls a month to a 70B model for one classification task*.
-
-On-prem, inference cost shows up as **GPU capacity**: how many GPUs a model needs, how well they're used, and whether they sit idle. Keep that in mind; we'll come back to it.
+On-prem, inference cost shows up as **GPU capacity**: how many GPUs a model needs, how well they're used, and whether they sit idle.
 
 ## What problem does an Agent Gateway solve?
 
@@ -69,25 +67,21 @@ If you've run an API gateway, a web proxy or a cloud landing zone, the idea will
 
 ## Putting data in the decision path
 
-This is the point to take away.
-
-Most cost tools are **after the fact**. You get a report, find the overspend and send an email. By then the money is spent and the design decisions are locked in.
+Most cost tools are **after the fact**. You get a report, find the overspend and send an email. By then the money is spent and it may be difficult to influence the developer to rework the solution to be more cost effective.
 
 A gateway moves cost data **into the decision path**:
 
-**Revise**
 - **Developers** see token usage for their own agent while building it, not at month end. "This agent uses 40K tokens per task. Could a smaller model handle step 3?" becomes a normal engineering conversation.
-- **Admins** set quotas and limits before a runaway agent becomes an invoice. An alert at 80% of budget prompts a conversation, and a hard stop at 100% keeps the problem contained.
-- **Platform teams** can route by cost, sending high-volume, low-difficulty work to private models on infrastructure they already own and keeping premium public models for tasks that need them. Usage data also shows which workloads are worth distilling into smaller, cheaper models.
+- **Platform teams** set quotas and limits before a runaway agent becomes a show stopper. An alert at 80% of expected use prompts a conversation, and a hard stop at 100% keeps the problem contained.
 - **Finance and leadership** get showback by team, which is the base for asking the real question: what does this agent cost per useful outcome?
 
-The gateway doesn't make cost decisions for anyone. It makes sure the people deciding have the data when it can still change the outcome.
+The gateway doesn't make cost decisions for anyone. It makes sure the people deciding have the data when they can still change the outcome.
 
-## Running your own models: the Hugging Face story
+## Running your private AI models on Nutanix Infrastructure 
 
-Back to Team B. Their path is very common: someone finds a promising open model on Hugging Face, pulls it down and deploys it on-prem. It looks free because there's no per-token invoice. But someone still pays for the GPUs, the power, the engineers' time, and the risk.
+While pulling down a private model and deploying  on-prem looks free because there's no per-token invoice. Someone still pays for the GPUs, the power, the engineers' time, and the risk.
 
-Nutanix Enterprise AI can connect to Hugging Face and import models directly, but it treats them as **two categories**, and the difference matters for both cost and risk.
+When Nutanix Enterprise AI connect to the Hugging Face repository to import models, but it treats them as **two categories**, and the difference matters for both cost and risk.
 
 ### Category 1: Nutanix-validated models
 
@@ -117,19 +111,9 @@ Get that wrong with a non-validated model and the costs pile up quickly:
 - **Oversized:** expensive GPUs are reserved for a model that needed half of them, and they stay reserved indefinitely.
 - **Trial and error:** every failed attempt ties up GPU capacity that other teams could have used.
 
-This is the same theme again: **data in the decision path**. A validated model gives you the resource requirements *before* you commit GPUs, so the decision is made with data rather than by trial and error.
+A validated model gives you the resource requirements *before* you commit GPUs, so the decision is made with data rather than by trial and error.
 
-### A practical policy
-
-- **Default to validated models** for production workloads.
-- **Allow non-validated models** in a sandbox with a time-boxed GPU allocation, for evaluation and innovation.
-- **Promote a model to production** only after your own testing has documented its resource needs, security review and licensing.
-- **Treat distilled models the same way:** a smaller model from Hugging Face still needs its source, license and resource needs checked.
-- **Route everything through the gateway**, so validated or not, every model's usage is tracked and attributed to an owner.
-
-That gives developers the flexibility they want and gives admins the predictability they need.
-
-## Who needs it?
+## Who needs a gateway?
 
 You probably need one if any of these are true:
 
@@ -160,7 +144,6 @@ The technology is the easy part. The real work is agreeing on **who owns which b
 
 AI agent costs are set by many small decisions made by developers and platform teams every day: which model to use, where it comes from, how much GPU it's given, and how the agent loops. You can't govern what you can't see, and you can't change a decision after it's made. An Agent Gateway, together with validated models that come with known resource requirements, puts usage and cost data where the decisions happen. For infrastructure teams it's a chance to be the people who enable AI safely and affordably, not the people asked to explain the bill.
 
-*Next in this series: public API vs. private inference, and how to work out the real break-even.*
 
 *Views are my own.*
 
