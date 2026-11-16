@@ -39,6 +39,8 @@ What enterprises do in practice:
 
 ![image](https://raoconnor.github.io/docs/assets/images/agent-gw-1.png)
 
+![2024 Review](https://raoconnor.github.io/docs/assets/images/Caps-3.png)
+
 
 | | Training / fine-tuning | Inference |
 |---|---|---|
