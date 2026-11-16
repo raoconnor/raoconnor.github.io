@@ -40,13 +40,6 @@ What enterprises do in practice:
 
 ![import-model](https://raoconnor.github.io/docs/assets/images/agentgw1.png)
 
-| | Training / fine-tuning | Inference |
-|---|---|---|
-| <sub>When</sub> | <sub>Project-based, occasional</sub> | <sub>Continuous, 24/7</sub> |
-| <sub>Cost shape</sub> | <sub>Large, one-off GPU burst</sub> | <sub>Small per request, enormous at scale</sub> |
-| <sub>Who drives it</sub> | <sub>Data science team</sub> | <sub>Every developer, app and agent</sub> |
-| <sub>How to control it</sub> | <sub>Project budget</sub> | <sub>Model choice, quotas, routing, right-sizing</sub> |
-
 **The takeaway for understanding cost:** inference is the long-term cost line, and it's driven by decisions spread across many teams. To make spend predicable visibility is needed at the point and time of use.
 
 On-prem, inference cost shows up as **GPU capacity**: how many GPUs a model needs, how well they're used, and whether they sit idle.
