@@ -149,5 +149,5 @@ AI agent costs are shaped by many small decisions made by developers and platfor
 
 *Views are my own.*
 
-tags: [FinOps, AI, Nutanix, AgenticAI, PlatformEngineering, HuggingFace]
+tags: [FinOps, AI, Nutanix, Tokenomics, AgenticAI, PlatformEngineering, HuggingFace]
 
