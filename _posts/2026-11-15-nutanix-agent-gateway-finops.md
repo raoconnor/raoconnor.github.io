@@ -37,6 +37,7 @@ What enterprises do in practice:
 
 ![Image-1](https://raoconnor.github.io/docs/assets/images/agent-gw-1.png)
 
+
 | | Training / fine-tuning | Inference |
 |---|---|---|
 | When | Project-based, occasional | Continuous, 24/7 |
