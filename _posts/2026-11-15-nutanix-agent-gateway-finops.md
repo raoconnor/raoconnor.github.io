@@ -38,7 +38,12 @@ What enterprises do in practice:
 - **Fine-tuning:** adapting an existing model with your own data. It's a scaled-down version of training: a significant but bounded GPU burst, measured in hours or days, that you run occasionally.
 - **Inference:** using the model, so every question asked, every summary produced and every agent step. This is where your money goes, and it is **a reoccurring cost,** that grows with every new user, every agent and every new use case.
 
-![import-model](https://raoconnor.github.io/docs/assets/images/table-ai.png)
+| | Training / fine-tuning | Inference |
+|---|---|---|
+| When | Project-based, occasional | Continuous, 24/7 |
+| Cost shape | Large, one-off GPU burst | Small per request, enormous at scale> |
+| Who drives it | Data science team | Every developer, app and agent |
+| How to control it | Project budget | Model choice, quotas, routing, right-sizing |
 
 **The takeaway for understanding cost:** inference is the long-term cost line, and it's driven by decisions spread across many teams. To make spend predicable visibility is needed at the point and time of use.
 
