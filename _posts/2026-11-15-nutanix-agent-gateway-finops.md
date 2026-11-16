@@ -35,15 +35,6 @@ What enterprises do in practice:
 - **Fine-tuning:** adapting an existing model with your own data. It's a scaled-down version of training: a significant but bounded GPU burst, measured in hours or days, that you run occasionally.
 - **Inference:** using the model, so every question asked, every summary produced and every agent step. This is where your money goes, and it is **a reoccurring cost,** that grows with every new user, every agent and every new use case.
 
-![Image-1](https://raoconnor.github.io/docs/assets/images/agent-gw-1.png)
-
-![image](https://raoconnor.github.io/docs/assets/images/agentgw1.png)
-
-
-![import-model](https://raoconnor.github.io/docs/assets/images/import-model.png)
-![import-model](https://raoconnor.github.io/docs/assets/images/import-model2.png)
-
-
 
 | | Training / fine-tuning | Inference |
 |---|---|---|
@@ -85,7 +76,13 @@ The gateway doesn't make cost decisions for anyone. It makes sure the people dec
 
 While pulling down a private model and deploying  on-prem looks free because there's no per-token invoice. Someone still pays for the GPUs, the power, the engineers' time, and the risk.
 
-When Nutanix Enterprise AI connect to the Hugging Face repository to import models, but it treats them as **two categories**, and the difference matters for both cost and risk.
+When Nutanix Enterprise AI allows you to connect directly to Hugging Face repository to import models
+
+![import-model](https://raoconnor.github.io/docs/assets/images/import-model.png)
+![import-model](https://raoconnor.github.io/docs/assets/images/import-model2.png)
+
+
+ There are **two categories** of models, and the difference matters for both cost and risk.
 
 ### Category 1: Nutanix-validated models
 
