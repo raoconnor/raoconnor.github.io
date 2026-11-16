@@ -2,6 +2,9 @@
 
 If someone in your organization is building AI models, what affects the cost? and how can cost predictability be achieved?
 
+![import-model](https://raoconnor.github.io/docs/assets/images/nutanix-ai.png)
+
+
 ## How AI models actually cost money
 
 **1. You pay per token.** A token is a small chunk of text, roughly three-quarters of a word. In AI subscriptions you see token cost as use, but in a private model the meter is GPU time rather than an invoice, so this then become a resource usage capacity measurement.
