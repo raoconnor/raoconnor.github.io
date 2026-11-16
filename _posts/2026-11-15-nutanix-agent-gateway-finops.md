@@ -1,16 +1,16 @@
-### What is Nutanix Agent Gateway.
+### What is Nutanix Agent Gateway?
 
-If someone in your organization is building AI models, what affects the cost? and how can cost predictability be achieved?
+If someone in your organization is building AI models, what affects the cost, and how can cost predictability be achieved?”
 
 
 
-## How AI models actually cost money
+## How AI usage actually drives cost
 
-**1. You pay per token.** A token is a small chunk of text, roughly three-quarters of a word. In AI subscriptions you see token cost as use, but in a private model the meter is GPU time rather than an invoice, so this then become a resource usage capacity measurement.
+**1. Usage starts with tokens.** A token is a small chunk of text, roughly three-quarters of a word. With API-based AI services, token usage translates directly into cost. With a private model, there may be no per-token invoice, but those tokens still consume GPU capacity and processing time.
  
 **2. Model choice is a big multiplier.** A large frontier model can cost an order of magnitude or more per token than a small one. Many tasks that are useful in an enterprise, such as classifying a ticket, summarizing a log or pulling fields out of a form, don't need the biggest model. 
 
-**3. Agents multiply everything.** A chatbot makes one call per question. An agent makes many: it plans, calls a tool, reads the result, thinks again and calls another tool. Each step re-sends a growing context. One user request can become 10, 20 or 50 model calls. A retry loop or a badly scoped task can burn through tokens in background tasks.
+**3. Agents multiply everything.** A chatbot makes one call per question. An agent makes many: it plans, calls a tool, reads the result, thinks again and calls another tool. Each step re-sends a growing context. One user request can become 10, 20 or 50 model calls. A retry loop or a badly scoped task can burn through tokens during background tasks.
 
 **4. The importance of the harness.** A model on its own takes text in and sends text out. The **agent harness** is the software wrapped around it that turns it into an agent. It holds the instructions, tells the model which tools it can use,  runs the tool calls, feeds the results back, decides what history to keep in the context, and decides when to stop. 
 
@@ -23,36 +23,36 @@ For cost, the harness is where many of the biggest decisions live, and they're d
   
 Two harnesses using the same model for the same task can differ in cost several times over. That's why tokens per task, measured at the gateway, is such a useful number: it shows the result of all those harness choices.
 
-So cost isn't set by buyig the GPUs or signing an API contract. It's influenced every day by the developer who picks the model, writes the prompt and decides how the agent loops. 
+So cost isn't set buying the GPUs or signing an API contract. It's influenced every day by the developer who picks the model, writes the prompt and decides how the agent loops. 
 
 
 ## Training vs. inference: two very different cost profiles
 
 AI costs fall into two categories, and they behave differently.
 
-**Training** is how a model is built. It means feeding a huge amount of data through a large GPU cluster for weeks or months. It's very expensive, and is avoidable.
+**Training** is how a model is built. It means feeding a huge amount of data through a large GPU cluster for weeks or months. It’s very expensive and, for most enterprises, avoidable.
 
 What enterprises do in practice:
 
-- **Fine-tuning:** adapting an existing model with your own data. It's a scaled-down version of training: a significant but bounded GPU burst, measured in hours or days, that run occasionally.
-- **Inference:** using the model, so every question asked, every summary produced and every agent step. This is where your money goes, and it is **a reoccurring cost,** that grows with every new user, every agent and every new use case.
+- **Fine-tuning:** adapting an existing model with your own data. It's a scaled-down version of training: a significant but bounded GPU burst, measured in hours or days, that runs occasionally.
+- **Inference:** using the model: every question asked, every summary produced, and every agent step.. This is where your money goes, and it is **a recurring cost.**
 
 | | Training / fine-tuning | Inference |
 |---|---|---|
 | When | Project-based, occasional | Continuous, 24/7 |
-| Cost shape | Large, one-off GPU burst | Small per request, enormous at scale |
+| Cost shape | Large, one-off GPU burst | Small per request, potentially enormous at scale |
 | Who drives it | Data science team | Every developer, app and agent |
-| How to control it | Project budget | Model choice, quotas, routing, right-sizing |
+| How to control it | Project budget | Model choice, quotas, routing, and right-sizing |
 
-**The takeaway for understanding cost:** inference is the long-term cost line, and it's driven by decisions spread across many teams. To make spend predicable, visibility is needed at the point and time of use.
+**The takeaway for understanding cost:** inference is the long-term cost line, and it's driven by decisions spread across many teams. To make spend predictable, visibility is needed at the point and time of use.
 
-On-prem, inference cost shows up as **GPU capacity usage**: how many GPUs a model needs, how well they're used, and whether they sit idle.
+On-premises, inference cost shows up primarily as **GPU capacity consumption**: how many GPUs a model requires, how efficiently they are utilized, how much concurrency they support, and how often expensive capacity sits idle
 
 ## What problem does an Agent Gateway solve?
 
 ![import-model](https://raoconnor.github.io/docs/assets/images/nutanix-ai.png)
 
-There are various ways organizations use AI today but we will focus on running a private model on-prem, pulled from Hugging Face's public repository of open models.
+There are various ways organizations use AI today but we will focus on running a private model on-premises, pulled from Hugging Face's public repository of open models.
 
 **An Agent Gateway is a single control point between your agents and apps on one side, and the models and tools they use on the other.** Every request goes through it. Nutanix Agent Gateway is part of Nutanix Enterprise AI and provides:
 
@@ -64,19 +64,19 @@ There are various ways organizations use AI today but we will focus on running a
 
 ## Putting data in the decision path
 
-Most cost tools are **after the fact**. You get a report, find the overspend and try to understand who is responsible what happened. By then the money is spent and to some extent the to opportunity to influence developer choices is lost.
+Most cost tools are **after the fact**. You get a report, find the overspend, and try to understand who is responsible and what happened. By then, the money is spent and, to some extent, the opportunity to influence developer choices has been lost.
 
 A gateway moves cost data **into the decision path**:
 
 - **Developers** see token usage for their own agent while building it, not at month end. "This agent uses 40K tokens per task. Could a smaller model handle step 3?" becomes a normal engineering conversation.
-- **Platform teams** set quotas and limits before a runaway agent becomes a show stopper. An alert at 80% of expected use prompts a conversation, and a hard stop at 100% keeps the problem contained.
-- **Finance and leadership** get showback by team, which is the base for asking the real question: what does this agent cost per useful outcome?
+- **Platform teams** set quotas and limits before a runaway agent becomes a showstopper. An alert at 80% of expected use prompts a conversation, and a hard stop at 100% keeps the problem contained.
+- **Finance and leadership** finance and leadership get showback by team, creating a basis for asking the real question: what does this agent cost per useful outcome?
 
 The gateway doesn't make cost decisions for anyone. It makes sure the people deciding have the data when they can still change the outcome.
 
-## Running your private AI models on Nutanix Infrastructure 
+## Running private AI models on Nutanix infrastructure 
 
-While pulling down a private model and deploying on-prem doesn't have a per-token invoice. GPUs and other resources are consumed, as is the engineers' time, and there is a possible supply chain risk to consider.
+While pulling down a private model and deploying on-premises doesn't have a per-token invoice. GPUs and other resources are consumed, as is the engineers' time, and there is a possible supply chain risk to consider.
 
 Nutanix Enterprise AI allows you to connect directly to Hugging Face repository to import models
 
@@ -105,7 +105,7 @@ But you take on the work Nutanix would otherwise have done:
 
 ### Why this is a cost conversation, not just a technical one
 
-A model's size largely sets the GPU memory it needs. A rough rule of thumb is **parameters × bytes per parameter**. A 7-billion-parameter model at standard 16-bit precision needs about 14 GB of GPU memory for its weights alone. A 70-billion-parameter model needs about 140 GB, which means several GPUs, plus extra headroom for each concurrent user.
+A model’s size is one of the main factors determining how much GPU memory it requires. A rough rule of thumb is **parameters × bytes per parameter**. A 7-billion-parameter model at standard 16-bit precision needs about 14 GB of GPU memory for its weights alone. A 70-billion-parameter model needs about 140 GB for its weights alone, potentially requiring multiple GPUs, with additional memory needed for inference workloads, context and concurrency.
 
 Get that wrong with a non-validated model and the costs pile up quickly:
 
@@ -121,7 +121,7 @@ You probably need one if any of these are true:
 
 - More than one team is building with LLMs or agents
 - You use both public AI APIs and private models
-- Teams are pulling open models from Hugging Face to run on-prem
+- Teams are pulling open models from Hugging Face to run on-premises
 - Agents are, or soon will be, connecting to internal tools and data via MCP
 - Someone has already asked, "Why is our AI bill so high?" and nobody could answer
 - You have security or compliance rules on where data can go and who can reach it
@@ -144,7 +144,7 @@ The technology is the easy part. The real work is agreeing on **who owns which b
 
 ## The bottom line
 
-AI agent costs are set by many small decisions made by developers and platform teams every day: which model to use, where it comes from, how much GPU it's given, and how the agent loops. You can't govern what you can't see, and you can't change a decision after it's made. An Agent Gateway, together with validated models that come with known resource requirements, puts usage and cost data where the decisions happen. For infrastructure teams it's a chance to be the people who enable AI safely and affordably, not the people asked to explain the bill.
+AI agent costs are shaped by many small decisions made by developers and platform teams every day: which model to use, where it comes from, how much GPU capacity it receives, and how the agent loops. You can't govern what you can't see, and you can't change a decision after it's made. An Agent Gateway, together with validated models that come with known resource requirements, puts usage and cost data where the decisions happen. For infrastructure teams it's a chance to be the people who enable AI safely and affordably, not the people asked to explain the bill.
 
 
 *Views are my own.*
