@@ -2,7 +2,6 @@
 
 If someone in your organization is building AI models, what affects the cost? and how can cost predictability be achieved?
 
-![import-model](https://raoconnor.github.io/docs/assets/images/nutanix-ai.png)
 
 
 ## How AI models actually cost money
@@ -31,25 +30,27 @@ So cost isn't set by buyig the GPUs or signing an API contract. It's influenced 
 
 AI costs fall into two categories, and they behave differently.
 
-**Training** is how a model is built. It means feeding a huge amount of data through a large GPU cluster for weeks or months. It's very expensive, and is avoidable
+**Training** is how a model is built. It means feeding a huge amount of data through a large GPU cluster for weeks or months. It's very expensive, and is avoidable.
 
 What enterprises do in practice:
 
-- **Fine-tuning:** adapting an existing model with your own data. It's a scaled-down version of training: a significant but bounded GPU burst, measured in hours or days, that you run occasionally.
+- **Fine-tuning:** adapting an existing model with your own data. It's a scaled-down version of training: a significant but bounded GPU burst, measured in hours or days, that run occasionally.
 - **Inference:** using the model, so every question asked, every summary produced and every agent step. This is where your money goes, and it is **a reoccurring cost,** that grows with every new user, every agent and every new use case.
 
 | | Training / fine-tuning | Inference |
 |---|---|---|
 | When | Project-based, occasional | Continuous, 24/7 |
-| Cost shape | Large, one-off GPU burst | Small per request, enormous at scale> |
+| Cost shape | Large, one-off GPU burst | Small per request, enormous at scale |
 | Who drives it | Data science team | Every developer, app and agent |
 | How to control it | Project budget | Model choice, quotas, routing, right-sizing |
 
-**The takeaway for understanding cost:** inference is the long-term cost line, and it's driven by decisions spread across many teams. To make spend predicable visibility is needed at the point and time of use.
+**The takeaway for understanding cost:** inference is the long-term cost line, and it's driven by decisions spread across many teams. To make spend predicable, visibility is needed at the point and time of use.
 
-On-prem, inference cost shows up as **GPU capacity**: how many GPUs a model needs, how well they're used, and whether they sit idle.
+On-prem, inference cost shows up as **GPU capacity usage**: how many GPUs a model needs, how well they're used, and whether they sit idle.
 
 ## What problem does an Agent Gateway solve?
+
+![import-model](https://raoconnor.github.io/docs/assets/images/nutanix-ai.png)
 
 There are various ways organizations use AI today but we will focus on running a private model on-prem, pulled from Hugging Face's public repository of open models.
 
@@ -60,11 +61,10 @@ There are various ways organizations use AI today but we will focus on running a
 - **Consumption quotas and token-based rate limits**, so budgets are enforced, not just reported
 - **MCP server governance**: access policies and tool-level filtering for which agents can use which tools
 
-If you've run an API gateway, a web proxy or a cloud landing zone, the idea will feel familiar. It's the same pattern applied to AI.
 
 ## Putting data in the decision path
 
-Most cost tools are **after the fact**. You get a report, find the overspend and send an email. By then the money is spent and it may be difficult to influence the developer to rework the solution to be more cost effective.
+Most cost tools are **after the fact**. You get a report, find the overspend and try to understand who is responsible what happened. By then the money is spent and to some extent the to opportunity to influence developer choices is lost.
 
 A gateway moves cost data **into the decision path**:
 
@@ -76,9 +76,9 @@ The gateway doesn't make cost decisions for anyone. It makes sure the people dec
 
 ## Running your private AI models on Nutanix Infrastructure 
 
-While pulling down a private model and deploying  on-prem looks free because there's no per-token invoice. Someone still pays for the GPUs, the power, the engineers' time, and the risk.
+While pulling down a private model and deploying on-prem doesn't have a per-token invoice. GPUs and other resources are consumed, as is the engineers' time, and there is a possible supply chain risk to consider.
 
-When Nutanix Enterprise AI allows you to connect directly to Hugging Face repository to import models
+Nutanix Enterprise AI allows you to connect directly to Hugging Face repository to import models
 
 ![import-model](https://raoconnor.github.io/docs/assets/images/import-model.png)
 ![import-model](https://raoconnor.github.io/docs/assets/images/import-model2.png)
