@@ -38,10 +38,10 @@ What enterprises do in practice:
 
 | | Training / fine-tuning | Inference |
 |---|---|---|
-| When | Project-based, occasional | Continuous, 24/7 |
-| Cost shape | Large, one-off GPU burst | Small per request, enormous at scale> |
-| Who drives it | Data science team | Every developer, app and agent |
-| How to control it | Project budget | Model choice, quotas, routing, right-sizing |
+| <sub>When</sub> | <sub>Project-based, occasional</sub> | <sub>Continuous, 24/7</sub> |
+| <sub>Cost shape</sub> | <sub>Large, one-off GPU burst</sub> | <sub>Small per request, enormous at scale</sub> |
+| <sub>Who drives it</sub> | <sub>Data science team</sub> | <sub>Every developer, app and agent</sub> |
+| <sub>How to control it</sub> | <sub>Project budget</sub> | <sub>Model choice, quotas, routing, right-sizing</sub> |
 
 **The takeaway for understanding cost:** inference is the long-term cost line, and it's driven by decisions spread across many teams. To make spend predicable visibility is needed at the point and time of use.
 
