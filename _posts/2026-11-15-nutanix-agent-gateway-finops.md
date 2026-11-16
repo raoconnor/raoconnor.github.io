@@ -36,8 +36,8 @@ What enterprises do in practice:
 - **Inference:** using the model, so every question asked, every summary produced and every agent step. This is where your money goes, and it is **a reoccurring cost,** that grows with every new user, every agent and every new use case.
 
 ![Image-1](https://raoconnor.github.io/docs/assets/images/agent-gw-1.png)
-docs/assets/images/agent-gw-1.png
-https://raoconnor.github.io/blob/c59ba7055c3c963f30fad1f203e5effc6f11e487/docs/assets/images/agent-gw-1.png
+
+![image]https://raoconnor.github.io/blob/c59ba7055c3c963f30fad1f203e5effc6f11e487/docs/assets/images/agent-gw-1.png
 
 
 | | Training / fine-tuning | Inference |
