@@ -39,7 +39,7 @@ What enterprises do in practice:
 | | Training / fine-tuning | Inference |
 |---|---|---|
 | When | Project-based, occasional | Continuous, 24/7 </sub> |
-| Cost shape | Large, one-off GPU burst | Small per request, enormous at scale </sub> |
+| Cost shape | Large, one-off GPU burst | Small per request, enormous at scale</sub> |
 | Who drives it | Data science team | Every developer, app and agent </sub> |
 | How to control it | Project budget | Model choice, quotas, routing, right-sizing </sub>|
 
