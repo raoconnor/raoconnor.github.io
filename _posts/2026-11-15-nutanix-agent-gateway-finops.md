@@ -1,25 +1,16 @@
----
-layout: post
-title: "AI agents don't have a budget problem. They have a visibility problem."
-description: "What a Nutanix Agent Gateway is, and why you need it."
+### What is Nutanix Agent Gateway.
 
-tags: [FinOps, AI, Nutanix, AgenticAI, PlatformEngineering, HuggingFace]
----
+If someone in your organization is building AI models, what affects the cost? and how can cost predictability be achieved?
 
-*What is Nutanix Agent Gateway.*
+## How AI models actually cost money
 
-If someone in your organization is building AI models, can you ignore the cost?.
-
-## First: how AI models actually cost money
-
-
-**1. You pay per token.** A token is a small chunk of text, roughly three-quarters of a word. In AI subscriptions you see token cost as use, by in a private model the meter is GPU time rather than an invoice, however the logic is the same.
+**1. You pay per token.** A token is a small chunk of text, roughly three-quarters of a word. In AI subscriptions you see token cost as use, but in a private model the meter is GPU time rather than an invoice, so this then become a resource usage capacity measurement.
 
 **2. Model choice is a big multiplier.** A large frontier model can cost an order of magnitude or more per token than a small one. Many tasks that are useful in an enterprise, such as classifying a ticket, summarizing a log or pulling fields out of a form, don't need the biggest model. 
 
-**3. Agents multiply everything.** A chatbot makes one call per question. An agent makes many: it plans, calls a tool, reads the result, thinks again and calls another tool. Each step re-sends a growing context. One user request can become 10, 20 or 50 model calls. A retry loop or a badly scoped task can burn through tokens overnight while nobody is watching.
+**3. Agents multiply everything.** A chatbot makes one call per question. An agent makes many: it plans, calls a tool, reads the result, thinks again and calls another tool. Each step re-sends a growing context. One user request can become 10, 20 or 50 model calls. A retry loop or a badly scoped task can burn through tokens in background tasks.
 
-**4. Developer decisions matter.** Loops can be controlled, or harnessed, A model on its own just takes text in and sends text out. The **agent harness** is the software wrapped around it that turns it into an agent. It holds the instructions, tells the model which tools it can use, actually runs the tool calls, feeds the results back, decides what history to keep in the context, and decides when to stop. 
+**4. The importance of the harness.** A model on its own takes text in and sends text out. The **agent harness** is the software wrapped around it that turns it into an agent. It holds the instructions, tells the model which tools it can use,  runs the tool calls, feeds the results back, decides what history to keep in the context, and decides when to stop. 
 
 For cost, the harness is where many of the biggest decisions live, and they're developer decisions:
 
@@ -30,7 +21,7 @@ For cost, the harness is where many of the biggest decisions live, and they're d
   
 Two harnesses using the same model for the same task can differ in cost several times over. That's why tokens per task, measured at the gateway, is such a useful number: it shows the result of all those harness choices.
 
-So cost isn't set when you buy the GPUs or sign the API contract. It's set every day by the developer who picks the model, writes the prompt and decides how the agent loops. That's the gap.
+So cost isn't set by buyig the GPUs or signing an API contract. It's influenced every day by the developer who picks the model, writes the prompt and decides how the agent loops. 
 
 
 ## Training vs. inference: two very different cost profiles
@@ -42,7 +33,7 @@ AI costs fall into two categories, and they behave differently.
 What enterprises do in practice:
 
 - **Fine-tuning:** adapting an existing model with your own data. It's a scaled-down version of training: a significant but bounded GPU burst, measured in hours or days, that you run occasionally.
-- **Inference:** using the model, so every question asked, every summary produced and every agent step. This is where your money goes, and it **never stops**. It grows with every user, every agent and every new use case.
+- **Inference:** using the model, so every question asked, every summary produced and every agent step. This is where your money goes, and it is **a reoccurring cost,** that grows with every new user, every agent and every new use case.
 
 | | Training / fine-tuning | Inference |
 |---|---|---|
@@ -166,4 +157,6 @@ AI agent costs are set by many small decisions made by developers and platform t
 *Next in this series: public API vs. private inference, and how to work out the real break-even.*
 
 *Views are my own.*
+
+tags: [FinOps, AI, Nutanix, AgenticAI, PlatformEngineering, HuggingFace]
 
