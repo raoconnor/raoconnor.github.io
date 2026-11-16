@@ -81,7 +81,7 @@ While pulling down a private model and deploying on-prem doesn't have a per-toke
 Nutanix Enterprise AI allows you to connect directly to Hugging Face repository to import models
 
 ![import-model](https://raoconnor.github.io/docs/assets/images/import-model.png)
-![import-model](https://raoconnor.github.io/docs/assets/images/import-model2.png)
+![import-model](https://raoconnor.github.io/docs/assets/images/import-model3.png)
 
 
  There are **two categories** of models, and the difference matters for both cost and risk.
