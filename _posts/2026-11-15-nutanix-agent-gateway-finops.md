@@ -38,6 +38,7 @@ What enterprises do in practice:
 - **Fine-tuning:** adapting an existing model with your own data. It's a scaled-down version of training: a significant but bounded GPU burst, measured in hours or days, that you run occasionally.
 - **Inference:** using the model, so every question asked, every summary produced and every agent step. This is where your money goes, and it is **a reoccurring cost,** that grows with every new user, every agent and every new use case.
 
+![import-model](https://raoconnor.github.io/docs/assets/images/agentgw1.png)
 
 | | Training / fine-tuning | Inference |
 |---|---|---|
