@@ -40,6 +40,10 @@ What enterprises do in practice:
 ![image](https://raoconnor.github.io/docs/assets/images/agentgw1.png)
 
 
+![import-model](https://raoconnor.github.io/docs/assets/images/import-model.png)
+![import-model](https://raoconnor.github.io/docs/assets/images/import-model2.png)
+
+
 
 | | Training / fine-tuning | Inference |
 |---|---|---|
