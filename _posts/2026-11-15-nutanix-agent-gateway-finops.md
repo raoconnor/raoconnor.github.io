@@ -1,4 +1,4 @@
-### What is Nutanix Agent Gateway?
+### Nutanix Agent Gateway?
 
 If someone in your organization is building AI models, what affects the cost, and how can cost predictability be achieved?”
 
