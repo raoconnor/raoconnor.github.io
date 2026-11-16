@@ -8,7 +8,7 @@ If someone in your organization is building AI models, what affects the cost? an
 ## How AI models actually cost money
 
 **1. You pay per token.** A token is a small chunk of text, roughly three-quarters of a word. In AI subscriptions you see token cost as use, but in a private model the meter is GPU time rather than an invoice, so this then become a resource usage capacity measurement.
-
+ 
 **2. Model choice is a big multiplier.** A large frontier model can cost an order of magnitude or more per token than a small one. Many tasks that are useful in an enterprise, such as classifying a ticket, summarizing a log or pulling fields out of a form, don't need the biggest model. 
 
 **3. Agents multiply everything.** A chatbot makes one call per question. An agent makes many: it plans, calls a tool, reads the result, thinks again and calls another tool. Each step re-sends a growing context. One user request can become 10, 20 or 50 model calls. A retry loop or a badly scoped task can burn through tokens in background tasks.
