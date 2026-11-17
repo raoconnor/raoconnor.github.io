@@ -79,6 +79,8 @@ Private inference changes the terms. You hold open-weight model files, so a vers
 
 ## Where Nutanix Enterprise AI fits
 
+![import-model](https://raoconnor.github.io/docs/assets/images/nutanix-ai.png)
+
 NAI is a private model-as-a-service layer. It runs open-weight models from NVIDIA and Hugging Face on your own GPU (or CPU) clusters and serves them as secured API endpoints that developers call much as they would a public API. It runs on the Nutanix Kubernetes Platform, on Nutanix infrastructure or on public-cloud Kubernetes.
 
 | Pressure | What NAI on a private cluster gives you |
