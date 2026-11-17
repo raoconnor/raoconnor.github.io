@@ -2,6 +2,8 @@
 
 *17 November 2026 · 8 min read*
 
+![import-model](https://raoconnor.github.io/docs/assets/images/mapeu.png)
+
 ## Why this matters now
 
 For most European organisations, the strongest reason to run AI on private infrastructure isn't cost. It's control: over where data goes, which laws reach it, how fast it answers and what it costs next year.
