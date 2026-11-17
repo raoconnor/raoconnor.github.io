@@ -127,6 +127,10 @@ It's the same pattern infrastructure teams already use for reserved and on-deman
 
 *Next post: the inputs you need to build a business case for a private GPU cluster, and how utilisation drives cost per million tokens.*
 
+Views are my own.
+
+tags: [AI, Nutanix, Tokenomics, AgenticAI, AI]
+
 ## Sources
 
 - [EU-US Data Privacy Framework: how stable is the new framework? (FAST LTA)](https://www.fast-lta.de/en/blog/eu-us-data-privacy-framework-wie-stabil-ist-der-neue-rahmen)
