@@ -116,7 +116,7 @@ The case for private inference is strongest where sensitive data, regulation and
 
 A useful test for any use case: would you be comfortable explaining to a regulator, or a customer, exactly where its prompts went? 
 
-## The honest answer: hybrid, by data class
+## The case for hybrid AI: sovereignty where it matters, cloud where it makes sense
 
 Private inference comes with real trade-offs. GPUs require significant upfront investment, cloud-native AI workloads may need additional development to run on-premises, and the necessary infrastructure and AI skills are still scarce, and an underutilized GPU cluster still carries most of the same capital and operating costs as a busy one.
 
