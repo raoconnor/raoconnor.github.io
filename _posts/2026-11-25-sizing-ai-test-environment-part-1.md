@@ -3,9 +3,11 @@ Nov 18, 2026 · Russ OConnor
 
 *Estimated reading time: 11 minutes*
 
-## Design before deciding
+
 
 ![import-model](https://raoconnor.github.io/docs/assets/images/gpu.png)
+
+## Design before deciding
 
 If you already have a significant investment in virtualization and good reasons to avoid public cloud lock-in, running AI on-premises may be worth the effort.
 
