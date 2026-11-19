@@ -73,7 +73,7 @@ Five questions are enough to start:
 
 I'm not advocating going it alone: it's vital to bring in the right people to validate your choices.
 
-## Choosing the GPU: a GPU 101
+## Choosing the GPU
 
 For AI, the most important thing about a GPU is how much memory it has and how fast it can read that memory. This section explains the terms you will see on every spec sheet, so you can read one and know what matters.
 
