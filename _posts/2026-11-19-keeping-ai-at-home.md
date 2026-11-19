@@ -50,7 +50,8 @@ None of this legally requires on-premises hosting. But each obligation is easier
 
 The delay is runway, not relief. Teams that build their governance now won't be queuing for conformity assessments with everyone else in late 2027.
 
-> **Note** Hyperscalers will continue to develop controls that allow EU customers to meet increasingly stringent compliance requirements. However, the potential for data exposure remains a compliance and sovereignty risk. For highly sensitive environments, there is still something uniquely powerful about having the ability, quite literally, to disconnect the external network and physically isolate the environment.
+> **Note**
+> Hyperscalers will continue to develop controls that allow EU customers to meet increasingly stringent compliance requirements. However, the potential for data exposure remains a compliance and sovereignty risk. For highly sensitive environments, there is still something uniquely powerful about having the ability, quite literally, to disconnect the external network and physically isolate the environment.
 
 ## Latency: consistency matters more than raw speed
 
@@ -61,7 +62,8 @@ The latency case for private inference is about predictability and proximity, no
 - **Sites with weak links.** Labs, factories, hospitals and branches can keep running AI locally when the WAN is slow or down.
 - **Tuning you own.** Nutanix Enterprise AI (NAI) 2.6 added KV-cache-aware routing (tech preview), which sends a request to the GPU that already holds its context. That cuts time to first token for multi-turn chats and long documents.
 
-> **Be honest about the trade-offs.** A frontier model running on a hyperscaler’s latest GPU infrastructure may deliver higher raw token throughput than a modest on-premises deployment. The private-inference advantage is therefore not necessarily peak speed, but predictable latency, data proximity and control. There is also an economic trade-off: privately owned GPUs need sufficient utilization to justify their cost. If they spend much of their time idle, consumption-based cloud APIs can be considerably more cost-effective.
+> **Be honest about the trade-offs.**
+> A frontier model running on a hyperscaler’s latest GPU infrastructure may deliver higher raw token throughput than a modest on-premises deployment. The private-inference advantage is therefore not necessarily peak speed, but predictable latency, data proximity and control. There is also an economic trade-off: privately owned GPUs need sufficient utilization to justify their cost. If they spend much of their time idle, consumption-based cloud APIs can be considerably more cost-effective.
 
 ## Price and model changes you don't control
 
@@ -81,7 +83,8 @@ When a model is retired, all of that gets revalidated, on the vendor's deadline.
 
 Private inference changes the terms. You hold open-weight model files, so a version runs until *you* retire it. Nutanix Enterprise AI (NAI) is licensed by GPU memory (or vCPU) capacity, not by tokens, so heavier use doesn't change the licence bill. And you can test a new model alongside the old one before switching.
 
-> **Important note:** API prices have mostly fallen over time. Private infrastructure protects you from increases, but it can also lock you out of decreases. 
+> **Important note:**
+> API prices have mostly fallen over time. Private infrastructure protects you from increases, but it can also lock you out of decreases. 
 
 ## Where Nutanix Enterprise AI fits
 
@@ -100,7 +103,8 @@ NAI is a private model-as-a-service layer. It runs open-weight models from NVIDI
 
 The AI Gateway matters because it doesn't force an all-or-nothing choice. It gives one API in front of both private models and external providers, with the same authentication and visibility. Sensitive workloads stay private; others can use a public model, through the same front door.
 
-**Caveats:** First, sovereignty depends on the whole stack, not one product: where the hardware sits, who operates it, and what telemetry or support access is enabled. Check those settings for strict environments. Second, private inference means open-weight models. For some tasks, frontier closed models are still ahead.
+> **Caveats:**
+> First, sovereignty depends on the whole stack, not one product: where the hardware sits, who operates it, and what telemetry or support access is enabled. Check those settings for strict environments. Second, private inference means open-weight models. For some tasks, frontier closed models are still ahead.
 
 ## Use cases and industries
 
