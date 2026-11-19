@@ -11,7 +11,7 @@ In 2026 all four of these moved at once.
 
 This post looks at each pressure in turn, then at how a private GPU cluster running Nutanix Enterprise AI (NAI) answers it. 
 
-> **Important Caveat.**
+> **Caveat:**
 > A PoC built around a hyperscaler’s native agent framework, knowledge base, and guardrail services cannot necessarily be lifted and shifted on-premises. These dependencies would need to be assessed and, where necessary, replaced or re-engineered, adding development, integration, and testing effort.
 
 ## GDPR: the transfer question never quite goes away
@@ -50,7 +50,7 @@ None of this legally requires on-premises hosting. But each obligation is easier
 
 The delay is runway, not relief. Teams that build their governance now won't be queuing for conformity assessments with everyone else in late 2027.
 
-> **Note**
+> **Note:**
 > Hyperscalers will continue to develop controls that allow EU customers to meet increasingly stringent compliance requirements. However, the potential for data exposure remains a compliance and sovereignty risk. For highly sensitive environments, there is still something uniquely powerful about having the ability, quite literally, to disconnect the external network and physically isolate the environment.
 
 ## Latency: consistency matters more than raw speed
@@ -83,7 +83,7 @@ When a model is retired, all of that gets revalidated, on the vendor's deadline.
 
 Private inference changes the terms. You hold open-weight model files, so a version runs until *you* retire it. Nutanix Enterprise AI (NAI) is licensed by GPU memory (or vCPU) capacity, not by tokens, so heavier use doesn't change the licence bill. And you can test a new model alongside the old one before switching.
 
-> **Important note:**
+> **Note:**
 > API prices have mostly fallen over time. Private infrastructure protects you from increases, but it can also lock you out of decreases. 
 
 ## Where Nutanix Enterprise AI fits
