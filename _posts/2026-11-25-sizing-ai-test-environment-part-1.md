@@ -1,4 +1,4 @@
-# Sizing an AI Test Environment – Part 1: Choose the Hardware
+# From Virtualization to AI, Part 1: Adding a GPU Node to Your Nutanix Cluster
 Nov 18, 2026 · Russ OConnor
 
 *Estimated reading time: 11 minutes*
