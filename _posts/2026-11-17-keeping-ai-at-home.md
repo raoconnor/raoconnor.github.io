@@ -6,11 +6,12 @@
 
 ## Why this matters now
 
-For most European organisations, the strongest reason to run AI on private infrastructure isn't cost. It's control: over where data goes, which laws reach it, how fast it answers and what it costs next year.
+For some organisations, the strongest reason to run AI on private infrastructure isn't cost. It's control: over where data goes, which laws reach it, how fast it answers and what it costs next year.
+I’m not taking this lightly. A PoC built around a hyperscaler’s native agent framework, knowledge base, and guardrail services cannot necessarily be lifted and shifted on-premises. These dependencies would need to be assessed and, where necessary, replaced or re-engineered, adding development, integration, and testing effort
 
-In 2026 all four moved at once. The legal basis for EU–US data transfers is under strain again. The EU AI Act's high-risk rules have a firm new date. And API vendors have shown they can change price or retire a model on their own timetable.
+In 2026 all four of the reasons to move on premises moved at once.
 
-This post looks at each pressure in turn, then at how a private GPU cluster running Nutanix Enterprise AI (NAI) answers it. The cost maths will come in a following post.
+This post looks at each pressure in turn, then at how a private GPU cluster running Nutanix Enterprise AI (NAI) answers it. 
 
 ## GDPR: the transfer question never quite goes away
 
@@ -24,7 +25,7 @@ While the DPF is still in force today, and the European Commission still support
 
 There's a second, separate issue: the US CLOUD Act. It lets US authorities compel a US provider to hand over data, wherever the servers are. An EU region from a US hyperscaler or AI vendor doesn't remove that exposure. The DPF doesn't address it either.
 
-**What this means for AI:** Cloud AI can introduce cross-border transfer and jurisdictional considerations when personal data is processed externally. EEA-hosted inference on infrastructure under your control removes the external inference transfer path, simplifying data-sovereignty and GDPR compliance.
+**What this means for AI:** Cloud AI can introduce cross-border transfer and jurisdictional considerations when personal data is processed externally. EEA-hosted inference on infrastructure under your control removes the external inference transfer path, simplifying data-sovereignty and GDPR compliance. 
 
 ## The EU AI Act: delayed, not removed
 
@@ -48,16 +49,18 @@ None of this legally requires on-premises hosting. But each obligation is easier
 
 The delay is runway, not relief. Teams that build their governance now won't be queuing for conformity assessments with everyone else in late 2027.
 
+> Hyperscalers will continue to develop controls that allow EU customers to meet increasingly stringent compliance requirements. However, the potential for data exposure remains a compliance and sovereignty risk. For highly sensitive environments, there is still something uniquely powerful about having the ability, quite literally, to disconnect the external network and physically isolate the environment.
+
 ## Latency: consistency matters more than raw speed
 
 The latency case for private inference is about predictability and proximity, not beating a hyperscaler's hardware.
 
 - **Distance to the data.** A retrieval-augmented (RAG) app pulls documents from internal systems, sends them to the model and waits. When the model sits next to the data, those round trips stay inside the data centre.
-- **No shared queue.** A public API serves thousands of customers. Rate limits, busy periods and incidents are outside your control. On your own cluster, you decide what gets priority.
+- **No shared queue.** A public API runs on shared provider infrastructure, where rate limits, service load and provider-side incidents can introduce latency outside your direct control.
 - **Sites with weak links.** Labs, factories, hospitals and branches can keep running AI locally when the WAN is slow or down.
 - **Tuning you own.** Nutanix Enterprise AI (NAI) 2.6 added KV-cache-aware routing (tech preview), which sends a request to the GPU that already holds its context. That cuts time to first token for multi-turn chats and long documents.
 
-Be honest about the trade-off: a frontier model on a vendor's latest GPUs can generate tokens faster than a modest on-prem node. Private wins on consistency and data proximity, not always on peak speed.
+> Be honest about the trade-offs. A frontier model running on a hyperscaler’s latest GPU infrastructure may deliver higher raw token throughput than a modest on-premises deployment. The private-inference advantage is therefore not necessarily peak speed, but predictable latency, data proximity and control. There is also an economic trade-off: privately owned GPUs need sufficient utilization to justify their cost. If they spend much of their time idle, consumption-based cloud APIs can be considerably more cost-effective.
 
 ## Price and model changes you don't control
 
@@ -77,7 +80,7 @@ When a model is retired, all of that gets revalidated, on the vendor's deadline.
 
 Private inference changes the terms. You hold open-weight model files, so a version runs until *you* retire it. Nutanix Enterprise AI (NAI) is licensed by GPU memory (or vCPU) capacity, not by tokens, so heavier use doesn't change the licence bill. And you can test a new model alongside the old one before switching.
 
-**Important note:** API prices have mostly fallen over time. Private infrastructure protects you from increases, but it can also lock you out of decreases. That's the cost question for a following post.
+> **Important note:** API prices have mostly fallen over time. Private infrastructure protects you from increases, but it can also lock you out of decreases. 
 
 ## Where Nutanix Enterprise AI fits
 
@@ -111,11 +114,11 @@ The case for private inference is strongest where sensitive data, regulation and
 | Manufacturing | Maintenance assistants on the plant floor, technical documentation search | Edge sites, weak WAN links, design IP |
 | Legal and professional services | Searching privileged documents, drafting from precedent | Client confidentiality |
 
-A useful test for any use case: would you be comfortable explaining to a regulator, or a customer, exactly where its prompts went? If not, it's a candidate for private inference.
+A useful test for any use case: would you be comfortable explaining to a regulator, or a customer, exactly where its prompts went? 
 
 ## The honest answer: hybrid, by data class
 
-Private inference isn't free and it isn't always the right call. GPUs are expensive, the skills are scarce, and an idle cluster costs the same as a busy one.
+Private inference comes with real trade-offs. GPUs require significant upfront investment, cloud-native AI workloads may need additional development to run on-premises, and the necessary infrastructure and AI skills are still scarce, and an underutilized GPU cluster still carries most of the same capital and operating costs as a busy one.
 
 The practical model is to route by data and by workload:
 
@@ -125,7 +128,6 @@ The practical model is to route by data and by workload:
 
 It's the same pattern infrastructure teams already use for reserved and on-demand cloud capacity. The difference is that the deciding factor is the data first, and cost second.
 
-*Next post: the inputs you need to build a business case for a private GPU cluster, and how utilisation drives cost per million tokens.*
 
 Views are my own.
 
