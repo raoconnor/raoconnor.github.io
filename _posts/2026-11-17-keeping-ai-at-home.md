@@ -60,7 +60,7 @@ The latency case for private inference is about predictability and proximity, no
 - **Sites with weak links.** Labs, factories, hospitals and branches can keep running AI locally when the WAN is slow or down.
 - **Tuning you own.** Nutanix Enterprise AI (NAI) 2.6 added KV-cache-aware routing (tech preview), which sends a request to the GPU that already holds its context. That cuts time to first token for multi-turn chats and long documents.
 
-> Be honest about the trade-offs. A frontier model running on a hyperscaler’s latest GPU infrastructure may deliver higher raw token throughput than a modest on-premises deployment. The private-inference advantage is therefore not necessarily peak speed, but predictable latency, data proximity and control. There is also an economic trade-off: privately owned GPUs need sufficient utilization to justify their cost. If they spend much of their time idle, consumption-based cloud APIs can be considerably more cost-effective.
+> **Be honest about the trade-offs.** A frontier model running on a hyperscaler’s latest GPU infrastructure may deliver higher raw token throughput than a modest on-premises deployment. The private-inference advantage is therefore not necessarily peak speed, but predictable latency, data proximity and control. There is also an economic trade-off: privately owned GPUs need sufficient utilization to justify their cost. If they spend much of their time idle, consumption-based cloud APIs can be considerably more cost-effective.
 
 ## Price and model changes you don't control
 
