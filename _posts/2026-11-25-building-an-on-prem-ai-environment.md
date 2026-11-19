@@ -1,4 +1,4 @@
-# From Virtualization to AI, Part 1: Adding a GPU Node to Your Nutanix Cluster
+# Building an On-Prem AI Environment: Adding a GPU Node to Your Nutanix Cluster
 Nov 18, 2026 · Russ OConnor
 
 *Estimated reading time: 11 minutes*
