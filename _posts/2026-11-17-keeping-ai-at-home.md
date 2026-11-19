@@ -11,7 +11,7 @@ In 2026 all four of these moved at once.
 
 This post looks at each pressure in turn, then at how a private GPU cluster running Nutanix Enterprise AI (NAI) answers it. 
 
-> Important Caveat. A PoC built around a hyperscaler’s native agent framework, knowledge base, and guardrail services cannot necessarily be lifted and shifted on-premises. These dependencies would need to be assessed and, where necessary, replaced or re-engineered, adding development, integration, and testing effort
+> **Important Caveat.** A PoC built around a hyperscaler’s native agent framework, knowledge base, and guardrail services cannot necessarily be lifted and shifted on-premises. These dependencies would need to be assessed and, where necessary, replaced or re-engineered, adding development, integration, and testing effort
 
 ## GDPR: the transfer question never quite goes away
 
