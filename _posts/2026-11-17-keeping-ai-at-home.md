@@ -49,7 +49,7 @@ None of this legally requires on-premises hosting. But each obligation is easier
 
 The delay is runway, not relief. Teams that build their governance now won't be queuing for conformity assessments with everyone else in late 2027.
 
-> Hyperscalers will continue to develop controls that allow EU customers to meet increasingly stringent compliance requirements. However, the potential for data exposure remains a compliance and sovereignty risk. For highly sensitive environments, there is still something uniquely powerful about having the ability, quite literally, to disconnect the external network and physically isolate the environment.
+> **Note** Hyperscalers will continue to develop controls that allow EU customers to meet increasingly stringent compliance requirements. However, the potential for data exposure remains a compliance and sovereignty risk. For highly sensitive environments, there is still something uniquely powerful about having the ability, quite literally, to disconnect the external network and physically isolate the environment.
 
 ## Latency: consistency matters more than raw speed
 
