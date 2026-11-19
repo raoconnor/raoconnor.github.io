@@ -123,7 +123,7 @@ Private inference comes with real trade-offs. GPUs require significant upfront i
 The practical model is to route by data and by workload:
 
 1. **Sensitive or regulated data** (personal, health, financial, IP): private models on your own cluster.
-2. **Steady, high-volume workloads:** private, where the volume keeps the GPUs busy.
+2. **Steady, high-volume workloads:** keep them public where significant cloud-native development already exists; consider private where GPU infrastructure is available and predictable demand can justify the dedicated capacity.
 3. **Bursty, experimental or frontier-model tasks with non-sensitive data:** public API, through the same gateway.
 
 It's the same pattern infrastructure teams already use for reserved and on-demand cloud capacity. The difference is that the deciding factor is the data first, and cost second.
