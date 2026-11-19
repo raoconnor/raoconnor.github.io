@@ -1,10 +1,11 @@
 # Sizing an AI Test Environment – Part 1: Choose the Hardware
+Nov 18, 2026 · Russ OConnor
 
 *Estimated reading time: 11 minutes*
 
-Nov 18, 2026 · Russell OConnor
-
 ## Design before deciding
+
+![import-model](https://raoconnor.github.io/docs/assets/images/gpu.png)
 
 If you already have a significant investment in virtualization and good reasons to avoid public cloud lock-in, running AI on-premises may be worth the effort.
 
